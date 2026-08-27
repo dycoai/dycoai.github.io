@@ -1,5 +1,5 @@
 +++
-title = "Understanding Agentic AI: Agent Member"
+title = "Integrating Human Skills and Agentic Skills in an Evolving Workplace"
 date = 2026-08-26
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Agentic AI"]
