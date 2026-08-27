@@ -1,7 +1,7 @@
 # baseURL = "https://example.com/"
 baseURL = "https://dycoai.github.io/"
 # languageCode = "en-us"
-title = "AI & Me"
+title = "DyCoAI Lab"
 theme = "hugo-PaperMod"
 
 [pagination]
@@ -34,6 +34,11 @@ theme = "hugo-PaperMod"
 
 [menu]
   [[menu.main]]
+    identifier = "ai-and-jobs"
+    name = "AI and Jobs"
+    url = "/tags/ai-and-jobs/"
+    weight = 20
+  [[menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
@@ -43,11 +48,11 @@ theme = "hugo-PaperMod"
     name = "Tags"
     url = "/tags/"
     weight = 20
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 30
+# [[menu.main]]
+#   identifier = "about"
+#   name = "About"
+#   url = "/about/"
+#   weight = 30
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
