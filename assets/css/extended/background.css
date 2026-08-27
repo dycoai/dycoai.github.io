@@ -1,0 +1,8 @@
+/* Whiter page background.
+   PaperMod tints list pages with --code-bg (#f5f5f5). Soften to a near-white.
+   Dark mode overrides this via [data-theme="dark"] .list, which keeps dark
+   pages unchanged. */
+body,
+.list {
+    background: #fafafa;
+}
