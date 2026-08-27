@@ -3,7 +3,7 @@ title = "Integrating Human Skills and Agentic Skills in an Evolving Workplace"
 date = 2026-08-26
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Agentic AI"]
-author = ["DyCoAI AI and Jobs"]
+author = ["DyCoAI"]
 +++
 
 The increasing use of **Agentic AI** in workplaces does not simply create a fixed division in which some activities belong permanently to humans while others are permanently assigned to AI agents. A more appropriate way to understand this development is as a continuously evolving combination of **human skills** and **agentic skills**. Human skills include the knowledge, judgment, experience, communication abilities, creativity, domain understanding, interpersonal capabilities, and practical competencies that people apply to their work. Agentic skills refer to reusable AI-supported capabilities through which an AI agent can perform particular tasks or subtasks, such as retrieving information, analyzing documents, generating content, writing or reviewing code, comparing alternatives, evaluating outputs, coordinating workflows, or interacting with available tools. These two categories can overlap substantially. A task that initially requires extensive human participation may later become increasingly supported by agentic skills, while tasks performed largely by AI agents may still require human judgment when objectives, constraints, risks, or circumstances change. The important question is therefore not simply whether a particular task should be performed by a human or an AI agent, but how human and agentic capabilities can be combined appropriately for the particular task, environment, and point in time.
