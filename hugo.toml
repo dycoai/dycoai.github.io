@@ -20,8 +20,8 @@ theme = "hugo-PaperMod"
   # disableThemeToggle = true
 
 [params.homeInfoParams]
-Title = "Dynamical · Collaborative · Agentic"
-# Content = "Welcome! This site covers academic reading, academic writing, agent skills and math."
+# Title = "Dynamical · Collaborative · Agentic"
+Content = "Dynamical · Collaborative · Agentic"
 
   # [[params.socialIcons]]
   #   name = "github"
