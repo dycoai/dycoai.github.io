@@ -1,7 +1,8 @@
 # baseURL = "https://example.com/"
 baseURL = "https://dycoai.github.io/"
 # languageCode = "en-us"
-title = "DyCoAI Research"
+# title = "DyCoAI Research"
+title = "DyCoAI | Dynamical · Collaborative · Agentic"
 theme = "hugo-PaperMod"
 
 [pagination]
