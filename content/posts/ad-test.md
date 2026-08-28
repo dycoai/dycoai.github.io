@@ -17,12 +17,11 @@ author = ["DyCoAI"]
 
 https://www.thecvtemplates.co.uk/
 
-{{< ad link="https://www.thecvtemplates.co.uk/" image="https://www.thecvtemplates.co.uk/wp-content/uploads/2025/07/www.thecvtemplates.co_.uk-CV-Templates-for-MS-Word-ANDREW-1.jpg" />}}
-
 
 {{< ad link="https://advertiser.com" >}}Check out our spring sale — 50% off!{{< /ad >}}
 
 
-
-
+{{< ad link="https://www.thecvtemplates.co.uk/"
+        image="https://www.thecvtemplates.co.uk/wp-content/uploads/2025/07/www.thecvtemplates.co_.uk-CV-Templates-for-MS-Word-ANDREW-1.jpg"
+        scale="40" />}}
 
