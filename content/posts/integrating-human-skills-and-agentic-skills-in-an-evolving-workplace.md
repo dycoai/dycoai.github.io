@@ -8,14 +8,9 @@ author = ["DyCoAI"]
 
 The increasing use of **Agentic AI** in workplaces does not simply create a fixed division in which some activities belong permanently to humans while others are permanently assigned to AI agents. A more appropriate way to understand this development is as a continuously evolving combination of **human skills** and **agentic skills**. Human skills include the knowledge, judgment, experience, communication abilities, creativity, domain understanding, interpersonal capabilities, and practical competencies that people apply to their work. Agentic skills refer to reusable AI-supported capabilities through which an AI agent can perform particular tasks or subtasks, such as retrieving information, analyzing documents, generating content, writing or reviewing code, comparing alternatives, evaluating outputs, coordinating workflows, or interacting with available tools. These two categories can overlap substantially. A task that initially requires extensive human participation may later become increasingly supported by agentic skills, while tasks performed largely by AI agents may still require human judgment when objectives, constraints, risks, or circumstances change. The important question is therefore not simply whether a particular task should be performed by a human or an AI agent, but how human and agentic capabilities can be combined appropriately for the particular task, environment, and point in time.
 
-
 <a href="https://www.thecvtemplates.co.uk/" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Resume%20Templates-000000?style=flat-square" alt="Resume Templates">
 </a>
-
-<p align="center">
-  <img src="assets/benchmark-agentic.svg" width="860" alt="Each arm as a percent of the no-skill baseline across LOC, tokens, cost and time (Haiku 4.5). ponytail is lowest on every metric (LOC 46%, tokens 78%, cost 80%, time 73%); caveman rises above 100% on tokens, cost and time; yagni-oneliner LOC 67%. Safety, separate adversarial tier: baseline, caveman and ponytail 100%, yagni-oneliner 95%.">
-</p>
 
 | vs no-skill baseline | LOC | tokens | cost | time | safe |
 |---|--:|--:|--:|--:|--:|
