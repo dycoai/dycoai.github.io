@@ -1,0 +1,20 @@
+{{- $link := .Get "link" | default "" }}
+{{- $image := .Get "image" | default "" }}
+{{- $alt := .Get "alt" | default "Advertisement" }}
+{{- $target := .Get "target" | default "_blank" }}
+{{- $rel := .Get "rel" | default "nofollow sponsored" }}
+{{- $class := .Get "class" | default "" }}
+{{- $text := .Get "text" | default (.Inner | plainify) }}
+<div class="ad-banner {{ $class }}">
+  {{- if $image }}
+    <a href="{{ $link }}" target="{{ $target }}" rel="{{ $rel }}">
+      <img src="{{ $image }}" alt="{{ $alt }}" loading="lazy">
+    </a>
+  {{- else if $text }}
+    <a href="{{ $link }}" target="{{ $target }}" rel="{{ $rel }}" class="ad-banner-text">
+      {{ $text | safeHTML }}
+    </a>
+  {{- else if $link }}
+    <a href="{{ $link }}" target="{{ $target }}" rel="{{ $rel }}">Advertisement</a>
+  {{- end }}
+</div>
