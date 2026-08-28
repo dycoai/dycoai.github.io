@@ -19,9 +19,9 @@ theme = "hugo-PaperMod"
   ShowRelatedPosts = true 
   # disableThemeToggle = true
 
-[params.homeInfoParams]
+# [params.homeInfoParams]
 # Title = "Dynamical · Collaborative · Agentic"
-Content = "Dynamical · Collaborative · Agentic"
+# Content = "Dynamical · Collaborative · Agentic"
 
   # [[params.socialIcons]]
   #   name = "github"
