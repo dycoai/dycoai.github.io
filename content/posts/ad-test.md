@@ -23,7 +23,7 @@ https://www.thecvtemplates.co.uk/
 
 {{< ad link="https://www.thecvtemplates.co.uk/"
         image="https://www.thecvtemplates.co.uk/wp-content/uploads/2025/07/www.thecvtemplates.co_.uk-CV-Templates-for-MS-Word-ANDREW-1.jpg"
-        scale="40" />}}
+        scale="10" />}}
 
 <!-- Image + text, proportional shrink -->
 {{< adblock link="https://www.thecvtemplates.co.uk/"
