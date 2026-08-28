@@ -8,16 +8,6 @@ author = ["DyCoAI"]
 
 The increasing use of **Agentic AI** in workplaces does not simply create a fixed division in which some activities belong permanently to humans while others are permanently assigned to AI agents. A more appropriate way to understand this development is as a continuously evolving combination of **human skills** and **agentic skills**. Human skills include the knowledge, judgment, experience, communication abilities, creativity, domain understanding, interpersonal capabilities, and practical competencies that people apply to their work. Agentic skills refer to reusable AI-supported capabilities through which an AI agent can perform particular tasks or subtasks, such as retrieving information, analyzing documents, generating content, writing or reviewing code, comparing alternatives, evaluating outputs, coordinating workflows, or interacting with available tools. These two categories can overlap substantially. A task that initially requires extensive human participation may later become increasingly supported by agentic skills, while tasks performed largely by AI agents may still require human judgment when objectives, constraints, risks, or circumstances change. The important question is therefore not simply whether a particular task should be performed by a human or an AI agent, but how human and agentic capabilities can be combined appropriately for the particular task, environment, and point in time.
 
-<a href="https://www.thecvtemplates.co.uk/" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Resume%20Templates-000000?style=flat-square" alt="Resume Templates">
-</a>
-
-| vs no-skill baseline | LOC | tokens | cost | time | safe |
-|---|--:|--:|--:|--:|--:|
-| **ponytail** | **-54%** | **-22%** | **-20%** | **-27%** | **100%** |
-| caveman (terse-prose control) | -20% | +7% | +3% | +2% | 100% |
-| "YAGNI + one-liners" prompt | -33% | -14% | -21% | -30% | 95% |
-
 ## The Boundary Between Human and Agentic Skills Is Continuously Changing
 
 The boundary between human skills and agentic skills should be regarded as **dynamic rather than fixed**. It can change as AI models improve, new agentic skills become available, workplace requirements evolve, organizational policies change, new information becomes available, and the state of an ongoing task develops. The appropriate division of work may even change during the execution of a single task. An agent may initially collect and organize information, after which a human evaluates uncertain evidence and determines the direction of the work; the agent may then continue by generating alternatives, implementing the selected approach, or evaluating intermediate results. If those results reveal unexpected problems, missing information, conflicting requirements, or new opportunities, responsibilities may shift again. Consequently, the integration of human and agentic skills is better understood as an adaptive allocation of capabilities in response to the **changing environment, current task state, intermediate execution results, available resources, and evolving contextual information**.
