@@ -2,7 +2,7 @@
 title = "Working with Agentic AI: Sales Engineer"
 date = 2026-08-28
 math = true
-tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI"]
+tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Sales Engineer"]
 author = ["DyCoAI"]
 +++
 
