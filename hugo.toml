@@ -10,6 +10,9 @@ theme = "hugo-PaperMod"
 
 [params]
   math = true
+
+  [params.label]
+    icon = "/logo/logo-01.png"
   ShowShareButtons = true
   ShowReadingTime = true 
   ShowToc = true 
