@@ -14,8 +14,6 @@ The increasing use of **Agentic AI** in workplaces does not simply create a fixe
 </a>
 
 
-[![Resume Templates](https://img.shields.io/badge/Resume%20Templates-000000?style=flat-square)](https://www.thecvtemplates.co.uk/)
-
 
 ## The Boundary Between Human and Agentic Skills Is Continuously Changing
 
