@@ -13,7 +13,15 @@ The increasing use of **Agentic AI** in workplaces does not simply create a fixe
   <img src="https://img.shields.io/badge/Resume%20Templates-000000?style=flat-square" alt="Resume Templates">
 </a>
 
+<p align="center">
+  <img src="assets/benchmark-agentic.svg" width="860" alt="Each arm as a percent of the no-skill baseline across LOC, tokens, cost and time (Haiku 4.5). ponytail is lowest on every metric (LOC 46%, tokens 78%, cost 80%, time 73%); caveman rises above 100% on tokens, cost and time; yagni-oneliner LOC 67%. Safety, separate adversarial tier: baseline, caveman and ponytail 100%, yagni-oneliner 95%.">
+</p>
 
+| vs no-skill baseline | LOC | tokens | cost | time | safe |
+|---|--:|--:|--:|--:|--:|
+| **ponytail** | **-54%** | **-22%** | **-20%** | **-27%** | **100%** |
+| caveman (terse-prose control) | -20% | +7% | +3% | +2% | 100% |
+| "YAGNI + one-liners" prompt | -33% | -14% | -21% | -30% | 95% |
 
 ## The Boundary Between Human and Agentic Skills Is Continuously Changing
 
