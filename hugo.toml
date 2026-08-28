@@ -2,7 +2,7 @@
 baseURL = "https://dycoai.github.io/"
 # languageCode = "en-us"
 # title = "DyCoAI Research"
-title = "DyCoAI | Dynamical · Collaborative · Agentic"
+title = "DyCoAI"
 theme = "hugo-PaperMod"
 
 [pagination]
@@ -19,9 +19,9 @@ theme = "hugo-PaperMod"
   ShowRelatedPosts = true 
   # disableThemeToggle = true
 
-    # [params.homeInfoParams]
-    # Title = "In AI We Believe"
-    # Content = "Welcome! This site covers academic reading, academic writing, agent skills and math."
+[params.homeInfoParams]
+Title = "Dynamical · Collaborative · Agentic"
+# Content = "Welcome! This site covers academic reading, academic writing, agent skills and math."
 
   # [[params.socialIcons]]
   #   name = "github"
