@@ -44,11 +44,11 @@ theme = "hugo-PaperMod"
     name = "Working with AI"
     url = "/tags/ai-and-jobs/"
     weight = 10
-#   [[menu.main]]
-#   identifier = "posts"
-#   name = "Posts"
-#   url = "/posts/"
-#   weight = 30
+   [[menu.main]]
+   identifier = "posts"
+   name = "Posts"
+   url = "/posts/"
+   weight = 30
   [[menu.main]]
     identifier = "search"
     name = "Search"
