@@ -10,7 +10,7 @@
 }
 
 .md-content table th {
-    background-color: rgb(233, 233, 233); /* light grey in light mode */
+    background-color: rgb(242, 242, 242); /* light grey in light mode */
 }
 
 .dark .md-content table th {
