@@ -14,7 +14,7 @@ Responding to situational questions refers to the process of understanding, prep
 
 These surrounding circumstances can be represented by
 
-$$\mathbf{C}=[o,r,e,k,a],$$
+$$\mathbf{C}=[o,r,e,k,a]$$
 
 where $\mathbf{C}$ (**interaction context**) is composed of $o$ (**objectives and concerns**), $r$ (**requirements and expectations**), $e$ (**working environment and constraints**), $k$ (**currently available knowledge and evidence**), and $a$ (**audience characteristics and expectations**). For example, the same question may require different responses when the participant has a different objective, when additional evidence becomes available, when an important constraint is introduced, or when the response is being given to an audience with different knowledge or expectations. Responding effectively therefore requires the professional to interpret $q$ in relation to $\mathbf{C}$, identify relevant information, recognize what remains uncertain or unknown, determine an appropriate level of detail, and prepare a response suitable for the **developing situation**.
 
@@ -76,17 +76,11 @@ After skill–subtask matching has been performed across the meaningful subtasks
 
 The selection of $\mathbf{H}$ and $\mathbf{S}$ for the overall task should also be distinguished from the **dynamic integration of their individual skills during task execution**. A skill is included in $\mathbf{H}$ or $\mathbf{S}$ because it has been selected for contributing to the execution of one or more meaningful subtasks and thereby to the overall task; this does not mean that every selected skill must contribute equally or continuously in every particular instance of the task. As a situational question develops, the requirements of particular subtasks may change, different selected skills may become more or less important, multiple human and agentic skills may contribute jointly, and their involvement and relative contributions may change according to the interaction context, available information, intermediate results, uncertainty, participant feedback, and other developing circumstances. The overall relationship can therefore be understood as
 
-
-
-
-
-
 ```latex
 Pseudo-Algorithm: Recommended Task-Relevant Skill Identification and Dynamic Integration
 
 Input:
     Skills space S = S_H ∪ S_A
-    Skills space $S = S_H S_A$
     Professional task T
 
 Output:
@@ -158,6 +152,7 @@ The agentic skills represented by $\mathbf{S}$ provide capabilities for processi
 | **Evidence Checking**         | Examining whether a proposed statement or conclusion is adequately supported by available evidence. | Helps distinguish supported information from uncertain, conflicting, or insufficiently verified information before it becomes part of $R$. It can combine with information retrieval and reasoning, while professional judgment can determine whether the resulting level of support is adequate for the importance, sensitivity, and potential consequences of the response. |
 | **Information-Gap Detection** | Identifying information that is missing, unclear, inconsistent, or insufficient for answering the question reliably. | Helps determine when additional information is required before an appropriate response can be prepared. It can work with contextual analysis, reasoning, and evidence checking to identify specific information gaps, while situational awareness, interpersonal interpretation, and communication can support decisions about whether and how to request clarification or conduct further investigation. |
 | **Response Generation**       | Producing candidate explanations, answers, questions, or other response formulations from the available information. | Can prepare possible forms of $R$, including direct answers, clarifying questions, qualified explanations, summaries, or alternative formulations for different audiences and situations. It can use outputs from contextual analysis, information retrieval, reasoning, comparison, evidence checking, and information-gap detection, while communication, domain expertise, and professional judgment can evaluate, revise, select, or reject generated responses before or during their use. |
+
 
 
 
