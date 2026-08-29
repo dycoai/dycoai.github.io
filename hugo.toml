@@ -38,12 +38,12 @@ theme = "hugo-PaperMod"
     identifier = "resume-templates"
     name = "Resume Templates"
     url = "/tags/resume-templates"
-    weight = 10
+    weight = 20
   [[menu.main]]
     identifier = "ai-and-jobs"
-    name = "AI and Jobs"
+    name = "Working with AI"
     url = "/tags/ai-and-jobs/"
-    weight = 20
+    weight = 10
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
