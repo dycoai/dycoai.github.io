@@ -35,25 +35,30 @@ theme = "hugo-PaperMod"
 
 [menu]
   [[menu.main]]
+    identifier = "resume-templates"
+    name = "Resume Templates"
+    url = "/tags/resume-templates"
+    weight = 10
+  [[menu.main]]
     identifier = "ai-and-jobs"
     name = "AI and Jobs"
     url = "/tags/ai-and-jobs/"
-    weight = 10
+    weight = 20
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
-    weight = 20
+    weight = 30
   [[menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
-    weight = 30
+    weight = 40
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 40
+    weight = 50
 # [[menu.main]]
 #   identifier = "about"
 #   name = "About"
