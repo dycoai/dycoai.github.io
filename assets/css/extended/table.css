@@ -1,0 +1,10 @@
+/* Darker table borders for post content (overrides theme --border) */
+.md-content table th,
+.md-content table:not(.highlighttable, .highlight table, .gist .highlight) td {
+    border-color: rgb(160, 160, 160);
+}
+
+.dark .md-content table th,
+.dark .md-content table:not(.highlighttable, .highlight table, .gist .highlight) td {
+    border-color: rgb(150, 150, 150);
+}
