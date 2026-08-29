@@ -2,9 +2,11 @@
 title = "Human-Agentic Tasks: Responding to Situational Questions"
 date = 2026-08-29
 math = true
-tags = ["AI and Jobs", "Human Skills", "Human-Agentic Tasks", "Agentic AI"]
+tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Human-Agentic Task", "Workplace Task", "Responding to Situational Questions"]
 author = ["DyCoAI"]
 +++
+
+# 1. Responding to Situational Questions with Human and Agentic Skills Integration
 
 **Responding to situational questions** refers to the process of understanding, preparing for, and answering questions that arise from the immediate circumstances of a workplace interaction rather than from a completely predictable or predefined discussion. A situational question can be represented by the scalar variable $q$ (**situational question**). Such a question may arise during a meeting, presentation, workshop, consultation, demonstration, collaborative activity, or other professional interaction. It may occur because another participant introduces a previously unknown requirement, describes an unexpected constraint, challenges an explanation, asks how particular information or capabilities apply to a specific situation, or requests clarification that was not anticipated beforehand. The appropriate response therefore depends not only on the question itself but also on the circumstances in which the question is asked.
 
@@ -36,7 +38,12 @@ For this reason, $\mathbf{H}$ and $\mathbf{S}$ should be understood as **dynamic
 
 The interaction context $\mathbf{C}$ can also change while the question is being handled. A participant may provide additional information, retrieved evidence may reveal an important constraint, an initial interpretation may prove incomplete, or an intermediate response may produce another question. These developments can change which components of $\mathbf{H}$ and $\mathbf{S}$ are most useful. Human and agentic skills can consequently be selected, combined, and rebalanced repeatedly in response to new information, intermediate results, participant feedback, unresolved uncertainty, response urgency, and potential consequences. Responding to situational questions can therefore be understood as an evolving **human–agentic task** in which the professional and applicable agentic skills contribute dynamically throughout comprehension, preparation, and response, with their respective roles adapting to the developing workplace situation rather than remaining fixed in advance.
 
-#### Applicable Human Skills
+
+# 2. Recommended Task-Relevant Skills
+
+[content generation instructions: an detailed, less-technical, expository and objective interpretations, stating that for each professional task, a certain number of task-relevant human skills and agentic skills should be identified, verified and then selected from the skills network for form a subset skills pool (or other titles), with a logical flow demonstrating the theoretical structure.]
+
+## 2.1. Recommended Task-Relevant Human Skills
 
 The human skills represented by $\mathbf{H}$ contribute different forms of professional understanding, judgment, and communication to responding to situational questions. These skills can operate individually, but their practical value often comes from their dynamic integration with other human skills and with relevant agentic skills as the question and interaction develop.
 
@@ -48,7 +55,7 @@ The human skills represented by $\mathbf{H}$ contribute different forms of profe
 | **Domain Expertise**             | Applying professional knowledge and experience relevant to the subject being discussed. | Helps the professional interpret specialized questions, evaluate whether retrieved information is practically appropriate, recognize unusual conditions, and identify consequences that may not be explicit. It can combine with professional judgment and agentic information retrieval, reasoning, comparison, and evidence checking to develop responses that are both well-supported and relevant to the professional context. |
 | **Communication**                | Expressing information in a form that is understandable, appropriate, and responsive to the audience and situation. | Helps transform the available understanding and evidence into $R$, adjusting terminology, detail, explanation, qualification, and emphasis to the audience. It can integrate interpersonal interpretation and professional judgment with agentic response generation and contextual analysis, allowing candidate responses to be refined before or during communication. |
 
-#### Applicable Agentic Skills
+## 2.2. Recommended Task-Relevant Agentic Skills
 
 The agentic skills represented by $\mathbf{S}$ provide capabilities for processing context, retrieving and examining information, identifying relationships and uncertainties, and supporting response preparation. Their application is not independent of human involvement: particular agentic skills can be selected, redirected, combined, or discontinued according to professional interpretation, intermediate results, and changes in the interaction context.
 
