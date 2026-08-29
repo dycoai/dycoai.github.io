@@ -40,6 +40,11 @@ theme = "hugo-PaperMod"
     url = "/tags/ai-and-jobs/"
     weight = 10
   [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
