@@ -37,7 +37,7 @@ theme = "hugo-PaperMod"
   [[menu.main]]
     identifier = "resume-templates"
     name = "Resume Templates"
-    url = "/tags/resume-templates"
+    url = "/resume-templates/"
     weight = 20
   [[menu.main]]
     identifier = "ai-and-jobs"
