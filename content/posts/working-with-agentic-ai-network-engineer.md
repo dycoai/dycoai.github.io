@@ -1,6 +1,6 @@
 +++
 title = "Working with Agentic AI: Network Engineer"
-date = 2026-08-30
+date = 2026-08-29
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Network Engineer"]
 author = ["DyCoAI"]
