@@ -17,21 +17,21 @@ ResumeTemplates.nl website.
 
 ### Modern professional resume
 
-[![Professional modern resume template](www.resumetemplates.nl-MS-Word-Resume-Template-Curriculum-Vitae-Professional-Resume-Modern-Resume-Creative-Resume-Simple-Resume-Editable-Resume-Job-Winning-Resume-RTNL-CV-Template-37-1.jpg)](https://www.resumetemplates.nl/)
+[![Professional modern resume template](template-modern.jpg)](https://www.resumetemplates.nl/)
 
 A clean, modern layout that puts your experience front and center — a solid default for most
 white-collar applications.
 
 ### Creative resume
 
-[![Creative resume template](www.resumetemplates.nl-MS-Word-Resume-Template-Curriculum-Vitae-Professional-Resume-Modern-Resume-Creative-Resume-Simple-Resume-Editable-Resume-Job-Winning-Resume-RTNL-CV-Template-39-1.jpg)](https://www.resumetemplates.nl/)
+[![Creative resume template](template-creative.jpg)](https://www.resumetemplates.nl/)
 
 A creative take with more visual structure, suited to design, marketing, and
 media-facing roles.
 
 ### Simple, classic CV
 
-[![Simple classic CV template](www.resumetemplates.nl-MS-Word-Resume-Template-Curriculum-Vitae-Professional-Resume-Modern-Resume-Creative-Resume-Simple-Resume-Editable-Resume-Job-Winning-Resume-RTNL-CV-Template-43-1.jpg)](https://www.resumetemplates.nl/)
+[![Simple classic CV template](template-simple.jpg)](https://www.resumetemplates.nl/)
 
 A simple, classic CV format for conservative industries where a traditional look works best.
 
