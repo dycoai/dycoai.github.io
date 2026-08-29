@@ -54,11 +54,11 @@ theme = "hugo-PaperMod"
     name = "Search"
     url = "/search/"
     weight = 40
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 50
+#     [[menu.main]]
+#       identifier = "tags"
+#       name = "Tags"
+#       url = "/tags/"
+#       weight = 50
 # [[menu.main]]
 #   identifier = "about"
 #   name = "About"
