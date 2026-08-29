@@ -1,11 +1,10 @@
 +++
-title = "Integrating Human Skills and Agentic Skills in an Evolving Workplace"
+title = "Human-Agentic Tasks: Responding to Situational Questions"
 date = 2026-08-29
 math = true
 tags = ["AI and Jobs", "Human Skills", "Human-Agentic Tasks", "Agentic AI"]
 author = ["DyCoAI"]
 +++
-
 
 **Responding to situational questions** refers to the process of understanding, preparing for, and answering questions that arise from the immediate circumstances of a workplace interaction rather than from a completely predictable or predefined discussion. A situational question can be represented by the scalar variable $q$ (**situational question**). Such a question may arise during a meeting, presentation, workshop, consultation, demonstration, collaborative activity, or other professional interaction. It may occur because another participant introduces a previously unknown requirement, describes an unexpected constraint, challenges an explanation, asks how particular information or capabilities apply to a specific situation, or requests clarification that was not anticipated beforehand. The appropriate response therefore depends not only on the question itself but also on the circumstances in which the question is asked.
 
