@@ -16,7 +16,7 @@
 {{- $row := index $rows (sub (int $num) 1) -}}
 {{- $bundle := site.GetPage "/resume-templates/modern-professional-resume" -}}
 <div class="template-row">
-  <h3 class="template-row-label">{{ $row.label }}</h3>
+  <h4 class="template-row-label">{{ $row.label }}</h4>
   <div class="image-gallery">
     {{- range $row.images -}}
     {{- $src := .file -}}
