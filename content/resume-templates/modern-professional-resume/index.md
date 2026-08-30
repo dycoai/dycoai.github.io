@@ -21,9 +21,9 @@ Below are the resume template designs available from ResumeTemplates.nl, grouped
 ### Resume Templates Bundle for Microsoft Word
 
 {{< gallery >}}
-  {{< gallery-item image="ms-word-resume-template-bundle-1.jpg" caption="Bundle Template 1" link="https://www.resumetemplates.nl/" >}}
-  {{< gallery-item image="ms-word-resume-template-bundle-2.jpg" caption="Bundle Template 2" link="https://www.resumetemplates.nl/" >}}
-  {{< gallery-item image="ms-word-resume-template-bundle-3.jpg" caption="Bundle Template 3" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-template-bundle-1.jpg" caption="Bundle 1" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-template-bundle-2.jpg" caption="Bundle 2" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-template-bundle-3.jpg" caption="Bundle 3" link="https://www.resumetemplates.nl/" >}}
 {{< /gallery >}}
 
 **Resume Templates Bundle for Microsoft Word** — complete template sets that combine matching resume and cover-letter designs, giving your whole application a consistent, professional look.
@@ -51,9 +51,9 @@ Below are the resume template designs available from ResumeTemplates.nl, grouped
 ### Resume Templates Bundle for Apple Pages
 
 {{< gallery >}}
-  {{< gallery-item image="apple-pages-resume-template-bundle-01.jpg" caption="Bundle Template 1" link="https://www.resumetemplates.nl/" >}}
-  {{< gallery-item image="apple-pages-resume-template-bundle-02.jpg" caption="Bundle Template 2" link="https://www.resumetemplates.nl/" >}}
-  {{< gallery-item image="apple-pages-resume-template-bundle-03.jpg" caption="Bundle Template 3" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="apple-pages-resume-template-bundle-01.jpg" caption="Bundle 1" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="apple-pages-resume-template-bundle-02.jpg" caption="Bundle 2" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="apple-pages-resume-template-bundle-03.jpg" caption="Bundle 3" link="https://www.resumetemplates.nl/" >}}
 {{< /gallery >}}
 
 **Resume Templates Bundle for Apple Pages** — complete template sets for Apple Pages that combine matching resume and cover-letter designs, giving your whole application a consistent, professional look.
