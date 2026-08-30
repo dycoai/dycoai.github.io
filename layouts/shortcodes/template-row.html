@@ -1,19 +1,22 @@
 {{- $link := .Get "link" | default "https://www.resumetemplates.nl/" -}}
 {{- $num := .Get "num" -}}
 {{- $rows := (index site.Data "template-rows").rows -}}
-{{- $count := len $rows -}}
+
+{{- $nums := slice -}}
+{{- range $rows -}}{{- $nums = $nums | append .num -}}{{- end -}}
 
 {{- if not $num -}}
-<div class="template-row-warning">template-row shortcode: missing "num" parameter. Valid range: 1-{{ $count }}.</div>
-{{- warnf "template-row shortcode on page %s: missing \"num\" parameter (valid range 1-%d)" .Page.Path $count -}}
-{{- else if lt (int $num) 1 -}}
-<div class="template-row-warning">template-row shortcode: num="{{ $num }}" is below 1. Valid range: 1-{{ $count }}.</div>
-{{- warnf "template-row shortcode on page %s: num=%q below 1 (valid range 1-%d)" .Page.Path $num $count -}}
-{{- else if gt (int $num) $count -}}
-<div class="template-row-warning">template-row shortcode: num="{{ $num }}" is out of range. Valid range: 1-{{ $count }}. Add a new row to data/template-rows.yaml to extend the range.</div>
-{{- warnf "template-row shortcode on page %s: num=%q exceeds defined rows (valid range 1-%d)" .Page.Path $num $count -}}
+<div class="template-row-warning">template-row shortcode: missing "num" parameter. Defined rows: {{ printf "%v" $nums }}.</div>
+{{- warnf "template-row shortcode on page %s: missing \"num\" parameter (defined rows: %v)" .Page.Path $nums -}}
+{{- else if not (in $nums (int $num)) -}}
+<div class="template-row-warning">template-row shortcode: num="{{ $num }}" is not defined in data/template-rows.yaml. Defined rows: {{ printf "%v" $nums }}. Add a row with num: {{ $num }} to define it.</div>
+{{- warnf "template-row shortcode on page %s: num=%q not defined in template-rows.yaml (defined rows: %v)" .Page.Path $num $nums -}}
 {{- else -}}
-{{- $row := index $rows (sub (int $num) 1) -}}
+{{- $matches := where $rows "num" (int $num) -}}
+{{- if gt (len $matches) 1 -}}
+{{- warnf "template-rows.yaml: duplicate num=%d definitions (%d rows); using the first" (int $num) (len $matches) -}}
+{{- end -}}
+{{- $row := index $matches 0 -}}
 {{- $bundle := site.GetPage "/resume-templates/modern-professional-resume" -}}
 <div class="template-row">
   <h4 class="template-row-label">{{ $row.label }}</h4>

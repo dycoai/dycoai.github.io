@@ -1,5 +1,6 @@
 rows:
-  - label: "Resume Templates Bundle for Microsoft Word"
+  - num: 1
+    label: "Resume Templates Bundle for Microsoft Word"
     images:
       - file: "ms-word-resume-template-bundle-1.jpg"
         caption: "Bundle Template 1"
@@ -10,7 +11,8 @@ rows:
       - file: "ms-word-resume-template-bundle-3.jpg"
         caption: "Bundle Template 3"
         link: "https://www.resumetemplates.nl/"
-  - label: "Resume Templates with Photo for Microsoft Word"
+  - num: 2
+    label: "Resume Templates with Photo for Microsoft Word"
     images:
       - file: "ms-word-resume-template-with-photo-01.jpg"
         caption: "With Photo — Template 1"
@@ -21,7 +23,8 @@ rows:
       - file: "ms-word-resume-template-with-photo-03.jpg"
         caption: "With Photo — Template 3"
         link: "https://www.resumetemplates.nl/"
-  - label: "Resume Templates without Photo for Microsoft Word"
+  - num: 3
+    label: "Resume Templates without Photo for Microsoft Word"
     images:
       - file: "ms-word-resume-template-without-photo-01.jpg"
         caption: "Without Photo — Template 1"
@@ -32,7 +35,8 @@ rows:
       - file: "ms-word-resume-template-without-photo-03.jpg"
         caption: "Without Photo — Template 3"
         link: "https://www.resumetemplates.nl/"
-  - label: "Resume Templates Bundle for Apple Pages"
+  - num: 4
+    label: "Resume Templates Bundle for Apple Pages"
     images:
       - file: "apple-pages-resume-template-bundle-01.jpg"
         caption: "Bundle Template 1"
@@ -43,7 +47,8 @@ rows:
       - file: "apple-pages-resume-template-bundle-03.jpg"
         caption: "Bundle Template 3"
         link: "https://www.resumetemplates.nl/product/3-in-1-resume-template-bundle-for-mac-pages-curriculum-vitae-simple-resume-template-design-professional-resume-job-winning-resume-1-2-3-page-resume-instant-download/"
-  - label: "Resume Templates with Photo for Apple Pages"
+  - num: 5
+    label: "Resume Templates with Photo for Apple Pages"
     images:
       - file: "apple-pages-resume-template-with-photo-01.jpg"
         caption: "With Photo — Template 1"
@@ -54,7 +59,8 @@ rows:
       - file: "apple-pages-resume-template-with-photo-03.jpg"
         caption: "With Photo — Template 3"
         link: "https://www.resumetemplates.nl/"
-  - label: "Resume Templates without Photo for Apple Pages"
+  - num: 6
+    label: "Resume Templates without Photo for Apple Pages"
     images:
       - file: "apple-pages-resume-template-without-photo-01.jpg"
         caption: "Without Photo — Template 1"
