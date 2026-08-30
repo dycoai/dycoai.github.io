@@ -22,9 +22,11 @@ Below are the resume template designs available from ResumeTemplates.nl, grouped
 
 {{< gallery >}}
   {{< gallery-item image="ms-word-resume-templates-bundle-1.jpg" caption="Bundle Template 1" link="https://www.resumetemplates.nl/" >}}
-  {{< gallery-item image="ms-word-resume-templates-bundle-2.jpg" caption="Bundle Template 2" link="https://www.resumetemplates.nl/" >}}
-  {{< gallery-item image="ms-word-resume-templates-bundle-3.jpg" caption="Bundle Template 3" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-template-bundle-2.jpg" caption="Bundle Template 2" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-template-bundle-3.jpg" caption="Bundle Template 3" link="https://www.resumetemplates.nl/" >}}
 {{< /gallery >}}
+
+**Resume Template Bundles** — complete template sets that combine matching resume and cover-letter designs, giving your whole application a consistent, professional look.
 
 ### Templates With Photo
 
@@ -34,6 +36,8 @@ Below are the resume template designs available from ResumeTemplates.nl, grouped
   {{< gallery-item image="ms-word-resume-template-with-photo-03.jpg" caption="With Photo — Template 3" link="https://www.resumetemplates.nl/" >}}
 {{< /gallery >}}
 
+**Templates With Photo** — designs that include a photo area, suited to industries and regions where a personal photo on a resume is customary and expected.
+
 ### Templates Without Photo
 
 {{< gallery >}}
@@ -41,6 +45,8 @@ Below are the resume template designs available from ResumeTemplates.nl, grouped
   {{< gallery-item image="ms-word-resume-template-without-photo-02.jpg" caption="Without Photo — Template 2" link="https://www.resumetemplates.nl/" >}}
   {{< gallery-item image="ms-word-resume-template-without-photo-03.jpg" caption="Without Photo — Template 3" link="https://www.resumetemplates.nl/" >}}
 {{< /gallery >}}
+
+**Templates Without Photo** — clean, photo-free designs that keep the focus on your experience and skills, ideal for conservative industries and markets where photos are discouraged.
 
 ---
 
