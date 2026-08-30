@@ -1,7 +1,7 @@
----
+```yaml
 title: "Resume Templates"
-description: "A curated introduction to professionally designed resume templates for job seekers."
----
-A curated collection of articles introducing professionally designed, editable resume
-templates from [ResumeTemplates.nl](https://www.resumetemplates.nl/) — modern, creative, and
-classic CV layouts built to help job seekers stand out.
+description: "Explore professionally designed resume templates for different job-search and application needs."
+```
+
+This series introduces professionally designed, editable resume templates from different designers and providers, examining their designs, formats, structures, and practical application contexts. The articles provide job seekers with useful references for selecting, preparing, and refining resume documents that effectively present their experience, capabilities, achievements, and potential.
+
