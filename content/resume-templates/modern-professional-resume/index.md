@@ -21,9 +21,9 @@ Below are the resume template designs available from ResumeTemplates.nl, grouped
 ### Resume Templates Bundle for Microsoft Word
 
 {{< gallery >}}
-  {{< gallery-item image="ms-word-resume-template-bundle-1.jpg" caption="Bundle 1" link="https://www.resumetemplates.nl/" >}}
-  {{< gallery-item image="ms-word-resume-template-bundle-2.jpg" caption="Bundle 2" link="https://www.resumetemplates.nl/" >}}
-  {{< gallery-item image="ms-word-resume-template-bundle-3.jpg" caption="Bundle 3" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-template-bundle-1.jpg" caption="Bundle 1" link="https://www.resumetemplates.nl/product/ms-word-europass-cv-templates-curriculum-vitae-presenting-skills-qualifications-languages-certificates-diplomas-american-resume-templates-cover-letter-eu-cv-bundle-2/" >}}
+  {{< gallery-item image="ms-word-resume-template-bundle-2.jpg" caption="Bundle 2" link="https://www.resumetemplates.nl/product/ms-word-europass-cv-templates-curriculum-vitae-presenting-skills-qualifications-languages-certificates-diplomas-american-resume-templates-cover-letter-eu-cv-bundle-3/" >}}
+  {{< gallery-item image="ms-word-resume-template-bundle-3.jpg" caption="Bundle 3" link="https://www.resumetemplates.nl/product/ms-word-europass-cv-templates-curriculum-vitae-presenting-skills-qualifications-languages-certificates-diplomas-american-resume-templates-cover-letter-eu-cv-bundle-14/" >}}
 {{< /gallery >}}
 
 **Resume Templates Bundle for Microsoft Word** — complete template sets that combine matching resume and cover-letter designs, giving your whole application a consistent, professional look.
