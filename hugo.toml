@@ -45,9 +45,9 @@ theme = "hugo-PaperMod"
     url = "/occupation-map/"
     weight = 25
   [[menu.main]]
-    identifier = "ai-and-jobs"
+    identifier = "working-with-agentic-ai"
     name = "Working with AI"
-    url = "/tags/ai-and-jobs/"
+    url = "/tags/working-with-agentic-ai/"
     weight = 10
 # [[menu.main]]
 #   identifier = "posts"
