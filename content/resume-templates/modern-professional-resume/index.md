@@ -12,7 +12,7 @@ CV templates — editable, modern, and built to be job-winning out of the box.
 
 ## The templates
 
-Below are three examples from their collection. Click any image to view the template on the
+Below are two examples from their collection. Click any image to view the template on the
 ResumeTemplates.nl website.
 
 ### Modern professional resume
@@ -42,3 +42,4 @@ A simple, classic CV format for conservative industries where a traditional look
 - **Consistent, professional typography** — no manual fiddling with margins and fonts.
 
 Browse the full collection at [www.resumetemplates.nl](https://www.resumetemplates.nl/).
+
