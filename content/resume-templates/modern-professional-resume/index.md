@@ -98,12 +98,5 @@ As artificial intelligence continues to reshape occupations and workplace tasks,
 
 Browse the full collection of professionally designed and continuously optimized resume templates at [www.resumetemplates.nl](https://www.resumetemplates.nl/).
 
----
 
-## Why start from a template?
 
-- **Editable in MS Word** — no special software required.
-- **Recruiter-friendly structure** — clear sections for skills, experience, and education.
-- **Consistent, professional typography** — no manual fiddling with margins and fonts.
-
-Browse the full collection at [www.resumetemplates.nl](https://www.resumetemplates.nl/).
