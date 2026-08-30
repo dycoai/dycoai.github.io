@@ -16,12 +16,13 @@
 {{- $row := index $rows (sub (int $num) 1) -}}
 {{- $bundle := site.GetPage "/resume-templates/modern-professional-resume" -}}
 <div class="template-row">
-  <h4 class="template-row-label">{{ $row.label }}</h4>
+  <h3 class="template-row-label">{{ $row.label }}</h3>
   <div class="image-gallery">
     {{- range $row.images -}}
     {{- $src := .file -}}
+    {{- $ilink := .link | default $link -}}
     {{- with $bundle -}}{{- with .Resources.GetMatch $src -}}{{- $src = .RelPermalink -}}{{- end -}}{{- end -}}
-    <a class="gallery-item" href="{{ $link }}" target="_blank" rel="noopener">
+    <a class="gallery-item" href="{{ $ilink }}" target="_blank" rel="noopener">
       <figure>
         <img src="{{ $src }}" alt="{{ .caption }}">
         <figcaption>{{ .caption }}</figcaption>

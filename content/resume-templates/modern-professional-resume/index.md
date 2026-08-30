@@ -14,63 +14,27 @@ Professional backgrounds, career stages, application requirements, and presentat
 
 Below are the available resume template designs, grouped into three categories for Microsoft Word and Apple Pages. Each row presents one category; click any image to view the corresponding template on the ResumeTemplates.nl website.
 
-### Resume Templates Bundle for Microsoft Word
-
-{{< gallery >}}
-{{< gallery-item image="ms-word-resume-template-bundle-1.jpg" caption="Bundle 1" link="https://www.resumetemplates.nl/product/ms-word-europass-cv-templates-curriculum-vitae-presenting-skills-qualifications-languages-certificates-diplomas-american-resume-templates-cover-letter-eu-cv-bundle-2/" >}}
-{{< gallery-item image="ms-word-resume-template-bundle-2.jpg" caption="Bundle 2" link="https://www.resumetemplates.nl/product/ms-word-europass-cv-templates-curriculum-vitae-presenting-skills-qualifications-languages-certificates-diplomas-american-resume-templates-cover-letter-eu-cv-bundle-3/" >}}
-{{< gallery-item image="ms-word-resume-template-bundle-3.jpg" caption="Bundle 3" link="https://www.resumetemplates.nl/product/ms-word-europass-cv-templates-curriculum-vitae-presenting-skills-qualifications-languages-certificates-diplomas-american-resume-templates-cover-letter-eu-cv-bundle-14/" >}}
-{{< /gallery >}}
+{{< template-row num="1" >}}
 
 **Resume Templates Bundle for Microsoft Word** — coordinated template sets that combine resume and cover-letter designs for a consistent application presentation.
 
-### Resume Templates with Photo for Microsoft Word
-
-{{< gallery >}}
-{{< gallery-item image="ms-word-resume-template-with-photo-01.jpg" caption="With Photo — Template 1" link="https://www.resumetemplates.nl/product/ms-word-europass-cv-templates-curriculum-vitae-presenting-skills-qualifications-languages-certificates-diplomas-american-resume-templates-cover-letter-eu-cv-template-32/" >}}
-{{< gallery-item image="ms-word-resume-template-with-photo-02.jpg" caption="With Photo — Template 2" link="https://www.resumetemplates.nl/product/ms-word-europass-cv-templates-curriculum-vitae-presenting-skills-qualifications-languages-certificates-diplomas-american-resume-templates-cover-letter-eu-cv-template-31/" >}}
-{{< gallery-item image="ms-word-resume-template-with-photo-03.jpg" caption="With Photo — Template 3" link="https://www.resumetemplates.nl/product/ms-word-europass-cv-templates-curriculum-vitae-presenting-skills-qualifications-languages-certificates-diplomas-american-resume-templates-cover-letter-eu-cv-template-47/" >}}
-{{< /gallery >}}
+{{< template-row num="2" >}}
 
 **Resume Templates with Photo for Microsoft Word** — designs that include a dedicated photo area for application contexts in which a personal photo is customary or appropriate.
 
-### Resume Templates without Photo for Microsoft Word
-
-{{< gallery >}}
-{{< gallery-item image="ms-word-resume-template-without-photo-01.jpg" caption="Without Photo — Template 1" link="https://www.resumetemplates.nl/" >}}
-{{< gallery-item image="ms-word-resume-template-without-photo-02.jpg" caption="Without Photo — Template 2" link="https://www.resumetemplates.nl/" >}}
-{{< gallery-item image="ms-word-resume-template-without-photo-03.jpg" caption="Without Photo — Template 3" link="https://www.resumetemplates.nl/" >}}
-{{< /gallery >}}
+{{< template-row num="3" >}}
 
 **Resume Templates without Photo for Microsoft Word** — photo-free designs that keep the presentation focused on professional experience, skills, education, achievements, and other relevant qualifications.
 
-### Resume Templates Bundle for Apple Pages
-
-{{< gallery >}}
-{{< gallery-item image="apple-pages-resume-template-bundle-01.jpg" caption="Bundle 1" link="https://www.resumetemplates.nl/" >}}
-{{< gallery-item image="apple-pages-resume-template-bundle-02.jpg" caption="Bundle 2" link="https://www.resumetemplates.nl/" >}}
-{{< gallery-item image="apple-pages-resume-template-bundle-03.jpg" caption="Bundle 3" link="https://www.resumetemplates.nl/" >}}
-{{< /gallery >}}
+{{< template-row num="4" >}}
 
 **Resume Templates Bundle for Apple Pages** — coordinated template sets for Apple Pages that combine resume and cover-letter designs for a consistent application presentation.
 
-### Resume Templates with Photo for Apple Pages
-
-{{< gallery >}}
-{{< gallery-item image="apple-pages-resume-template-with-photo-01.jpg" caption="With Photo — Template 1" link="https://www.resumetemplates.nl/" >}}
-{{< gallery-item image="apple-pages-resume-template-with-photo-02.jpg" caption="With Photo — Template 2" link="https://www.resumetemplates.nl/" >}}
-{{< gallery-item image="apple-pages-resume-template-with-photo-03.jpg" caption="With Photo — Template 3" link="https://www.resumetemplates.nl/" >}}
-{{< /gallery >}}
+{{< template-row num="5" >}}
 
 **Resume Templates with Photo for Apple Pages** — designs that include a dedicated photo area for application contexts in which a personal photo is customary or appropriate.
 
-### Resume Templates without Photo for Apple Pages
-
-{{< gallery >}}
-{{< gallery-item image="apple-pages-resume-template-without-photo-01.jpg" caption="Without Photo — Template 1" link="https://www.resumetemplates.nl/" >}}
-{{< gallery-item image="apple-pages-resume-template-without-photo-02.jpg" caption="Without Photo — Template 2" link="https://www.resumetemplates.nl/" >}}
-{{< gallery-item image="apple-pages-resume-template-without-photo-03.jpg" caption="Without Photo — Template 3" link="https://www.resumetemplates.nl/" >}}
-{{< /gallery >}}
+{{< template-row num="6" >}}
 
 **Resume Templates without Photo for Apple Pages** — photo-free designs that keep the presentation focused on professional experience, skills, education, achievements, and other relevant qualifications.
 
