@@ -1,0 +1,27 @@
+/* Occupation Map page styling: large, bold, underlined A/B/C letter headings */
+.occupation-map .occupation-letter {
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 1.4em;
+    margin-bottom: 0.6em;
+}
+
+.occupation-map .occupation-entry {
+    margin-bottom: 1.2em;
+}
+
+.occupation-map .occupation-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.occupation-map .occupation-alt {
+    margin: 0.15em 0;
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+.occupation-map .occupation-desc {
+    margin: 0.15em 0 0;
+}

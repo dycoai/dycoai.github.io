@@ -1,0 +1,24 @@
+{{- $occ := where (where site.RegularPages "Section" "posts") ".Params.occupationTitle" "!=" nil -}}
+{{- $sorted := sort $occ ".Params.occupationTitle" "asc" -}}
+{{- $letter := "" -}}
+<div class="occupation-map">
+{{- range $sorted -}}
+  {{- $t := .Params.occupationTitle -}}
+  {{- $l := upper (substr $t 0 1) -}}
+  {{- if ne $l $letter -}}
+    {{- $letter = $l -}}
+    <h2 class="occupation-letter">{{ $l }}</h2>
+  {{- end -}}
+  <div class="occupation-entry">
+    <a class="occupation-title" href="{{ .RelPermalink }}">{{ $t }}</a>
+    {{- with .Params.alternativeTitles }}
+    <p class="occupation-alt"><em>Also known as:</em> {{ delimit . ", " }}</p>
+    {{- end }}
+    {{- with .Params.shortDescription }}
+    <p class="occupation-desc">{{ . }}</p>
+    {{- end }}
+  </div>
+{{- else -}}
+<p>No occupation articles published yet.</p>
+{{- end -}}
+</div>

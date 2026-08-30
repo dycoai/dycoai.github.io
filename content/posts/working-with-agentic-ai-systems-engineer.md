@@ -1,6 +1,9 @@
 +++
 title = "Working with Agentic AI: Systems Engineer"
 date = 2026-08-29
+occupationTitle = "Systems Engineer"
+alternativeTitles = ["Solutions Engineer", "Systems Integration Engineer", "Infrastructure Systems Engineer"]
+shortDescription = "Integrates hardware, software, and processes into coherent systems that meet requirements across their lifecycle."
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Systems Engineer"]
 author = ["DyCoAI"]

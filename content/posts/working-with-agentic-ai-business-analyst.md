@@ -1,6 +1,9 @@
 +++
 title = "Working with Agentic AI: Business Analyst"
 date = 2026-08-29
+occupationTitle = "Business Analyst"
+alternativeTitles = ["Systems Analyst", "Requirements Analyst", "Business Systems Analyst"]
+shortDescription = "Translates business needs, processes, and stakeholder requirements into actionable solutions and coordinated organizational change."
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "business analyst"]
 author = ["DyCoAI"]
