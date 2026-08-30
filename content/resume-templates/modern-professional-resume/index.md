@@ -16,9 +16,9 @@ A professionally prepared resume provides a structured way to organise and commu
 
 Different professional backgrounds, career stages, and application contexts can benefit from different approaches to organising and presenting information. ResumeTemplates.nl therefore provides resume templates with different visual and structural designs, allowing job seekers to select an approach that better fits their professional information and presentation preferences.
 
-Below are the resume template designs available from ResumeTemplates.nl, grouped into three categories. Each row shows one category; click any image to view it on the ResumeTemplates.nl website.
+Below are the resume template designs available from ResumeTemplates.nl, grouped into three categories for Microsoft Word and Apple Pages. Each row shows one category; click any image to view it on the ResumeTemplates.nl website.
 
-### Resume Template Bundles
+### Resume Templates Bundle for Microsoft Word
 
 {{< gallery >}}
   {{< gallery-item image="ms-word-resume-template-bundle-1.jpg" caption="Bundle Template 1" link="https://www.resumetemplates.nl/" >}}
@@ -26,9 +26,9 @@ Below are the resume template designs available from ResumeTemplates.nl, grouped
   {{< gallery-item image="ms-word-resume-template-bundle-3.jpg" caption="Bundle Template 3" link="https://www.resumetemplates.nl/" >}}
 {{< /gallery >}}
 
-**Resume Template Bundles** — complete template sets that combine matching resume and cover-letter designs, giving your whole application a consistent, professional look.
+**Resume Templates Bundle for Microsoft Word** — complete template sets that combine matching resume and cover-letter designs, giving your whole application a consistent, professional look.
 
-### Templates With Photo
+### Resume Templates with Photo for Microsoft Word
 
 {{< gallery >}}
   {{< gallery-item image="ms-word-resume-template-with-photo-01.jpg" caption="With Photo — Template 1" link="https://www.resumetemplates.nl/" >}}
@@ -36,9 +36,9 @@ Below are the resume template designs available from ResumeTemplates.nl, grouped
   {{< gallery-item image="ms-word-resume-template-with-photo-03.jpg" caption="With Photo — Template 3" link="https://www.resumetemplates.nl/" >}}
 {{< /gallery >}}
 
-**Templates With Photo** — designs that include a photo area, suited to industries and regions where a personal photo on a resume is customary and expected.
+**Resume Templates with Photo for Microsoft Word** — designs that include a photo area, suited to industries and regions where a personal photo on a resume is customary and expected.
 
-### Templates Without Photo
+### Resume Templates without Photo for Microsoft Word
 
 {{< gallery >}}
   {{< gallery-item image="ms-word-resume-template-without-photo-01.jpg" caption="Without Photo — Template 1" link="https://www.resumetemplates.nl/" >}}
@@ -46,7 +46,37 @@ Below are the resume template designs available from ResumeTemplates.nl, grouped
   {{< gallery-item image="ms-word-resume-template-without-photo-03.jpg" caption="Without Photo — Template 3" link="https://www.resumetemplates.nl/" >}}
 {{< /gallery >}}
 
-**Templates Without Photo** — clean, photo-free designs that keep the focus on your experience and skills, ideal for conservative industries and markets where photos are discouraged.
+**Templates Without Photo for Microsoft Word** — clean, photo-free designs that keep the focus on your experience and skills, ideal for conservative industries and markets where photos are discouraged.
+
+### Resume Templates Bundle for Apple Pages
+
+{{< gallery >}}
+  {{< gallery-item image="apple-pages-resume-template-bundle-01.jpg" caption="Bundle Template 1" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="apple-pages-resume-template-bundle-02.jpg" caption="Bundle Template 2" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="apple-pages-resume-template-bundle-03.jpg" caption="Bundle Template 3" link="https://www.resumetemplates.nl/" >}}
+{{< /gallery >}}
+
+**Resume Templates Bundle for Apple Pages** — complete template sets for Apple Pages that combine matching resume and cover-letter designs, giving your whole application a consistent, professional look.
+
+### Resume Templates with Photo for Apple Pages
+
+{{< gallery >}}
+  {{< gallery-item image="apple-pages-resume-template-with-photo-01.jpg" caption="With Photo — Template 1" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="apple-pages-resume-template-with-photo-02.jpg" caption="With Photo — Template 2" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="apple-pages-resume-template-with-photo-03.jpg" caption="With Photo — Template 3" link="https://www.resumetemplates.nl/" >}}
+{{< /gallery >}}
+
+**Resume Templates with Photo for Apple Pages** — Apple Pages designs that include a photo area, suited to industries and regions where a personal photo on a resume is customary and expected.
+
+### Resume Templates without Photo for Apple Pages
+
+{{< gallery >}}
+  {{< gallery-item image="apple-pages-resume-template-without-photo-01.jpg" caption="Without Photo — Template 1" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="apple-pages-resume-template-without-photo-02.jpg" caption="Without Photo — Template 2" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="apple-pages-resume-template-without-photo-03.jpg" caption="Without Photo — Template 3" link="https://www.resumetemplates.nl/" >}}
+{{< /gallery >}}
+
+**Resume Templates without Photo for Apple Pages** — clean, photo-free Apple Pages designs that keep the focus on your experience and skills, ideal for conservative industries and markets where photos are discouraged.
 
 ---
 
