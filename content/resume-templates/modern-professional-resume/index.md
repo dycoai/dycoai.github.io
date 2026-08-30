@@ -16,19 +16,31 @@ A professionally prepared resume provides a structured way to organise and commu
 
 Different professional backgrounds, career stages, and application contexts can benefit from different approaches to organising and presenting information. ResumeTemplates.nl therefore provides resume templates with different visual and structural designs, allowing job seekers to select an approach that better fits their professional information and presentation preferences.
 
-Below are three examples of resume template designs available from ResumeTemplates.nl. Each demonstrates a different approach to structuring and presenting professional information.
+Below are the resume template designs available from ResumeTemplates.nl, grouped into three categories. Each row shows one category; click any image to view it on the ResumeTemplates.nl website.
+
+### Resume Template Bundles
 
 {{< gallery >}}
-  {{< gallery-item image="template-modern.jpg" caption="Modern professional resume" link="https://www.resumetemplates.nl/" >}}
-  {{< gallery-item image="template-creative.jpg" caption="Creative resume" link="https://www.resumetemplates.nl/" >}}
-  {{< gallery-item image="template-simple.jpg" caption="Simple, classic CV" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-templates-bundle-1.jpg" caption="Bundle Template 1" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-templates-bundle-2.jpg" caption="Bundle Template 2" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-templates-bundle-3.jpg" caption="Bundle Template 3" link="https://www.resumetemplates.nl/" >}}
 {{< /gallery >}}
 
-**Modern Professional Resume Templates** — a clean, modern layout that puts your experience front and center — a solid default for most white-collar applications.
+### Templates With Photo
 
-**Creative Resume Templates** — a creative take with more visual structure, suited to design, marketing, and media-facing roles.
+{{< gallery >}}
+  {{< gallery-item image="ms-word-resume-template-with-photo-01.jpg" caption="With Photo — Template 1" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-template-with-photo-02.jpg" caption="With Photo — Template 2" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-template-with-photo-03.jpg" caption="With Photo — Template 3" link="https://www.resumetemplates.nl/" >}}
+{{< /gallery >}}
 
-**Simple and Classic Resume Templates** — a simple, classic CV format for conservative industries where a traditional look works best.
+### Templates Without Photo
+
+{{< gallery >}}
+  {{< gallery-item image="ms-word-resume-template-without-photo-01.jpg" caption="Without Photo — Template 1" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-template-without-photo-02.jpg" caption="Without Photo — Template 2" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-template-without-photo-03.jpg" caption="Without Photo — Template 3" link="https://www.resumetemplates.nl/" >}}
+{{< /gallery >}}
 
 ---
 
