@@ -18,25 +18,17 @@ Different professional backgrounds, career stages, and application contexts can 
 
 Below are three examples of resume template designs available from ResumeTemplates.nl. Each demonstrates a different approach to structuring and presenting professional information.
 
-### Modern Professional Resume Templates
+{{< gallery >}}
+  {{< gallery-item image="template-modern.jpg" caption="Modern professional resume" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="template-creative.jpg" caption="Creative resume" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="template-simple.jpg" caption="Simple, classic CV" link="https://www.resumetemplates.nl/" >}}
+{{< /gallery >}}
 
-[![Professional modern resume template](template-modern.jpg)](https://www.resumetemplates.nl/)
+**Modern Professional Resume Templates** — a clean, modern layout that puts your experience front and center — a solid default for most white-collar applications.
 
-A clean, modern layout that puts your experience front and center — a solid default for most
-white-collar applications.
+**Creative Resume Templates** — a creative take with more visual structure, suited to design, marketing, and media-facing roles.
 
-### Creative Resume Templates
-
-[![Creative resume template](template-creative.jpg)](https://www.resumetemplates.nl/)
-
-A creative take with more visual structure, suited to design, marketing, and
-media-facing roles.
-
-### Simple and Classic Resume Templates
-
-[![Simple classic CV template](template-simple.jpg)](https://www.resumetemplates.nl/)
-
-A simple, classic CV format for conservative industries where a traditional look works best.
+**Simple and Classic Resume Templates** — a simple, classic CV format for conservative industries where a traditional look works best.
 
 ---
 
