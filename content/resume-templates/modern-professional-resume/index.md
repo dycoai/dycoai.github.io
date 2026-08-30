@@ -94,3 +94,4 @@ As occupations and workplace tasks continue to evolve alongside artificial intel
 
 Browse the full collection of professionally designed and continuously optimized resume templates at [www.resumetemplates.nl](https://www.resumetemplates.nl/).
 
+

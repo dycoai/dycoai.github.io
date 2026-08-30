@@ -1,0 +1,30 @@
+{{- $link := .Get "link" | default "https://www.resumetemplates.nl/" -}}
+{{- $num := .Get "num" -}}
+{{- $rows := (index site.Data "template-rows").rows -}}
+{{- $count := len $rows -}}
+
+{{- if not $num -}}
+<div class="template-row-warning">template-row shortcode: missing "num" parameter. Valid range: 1-{{ $count }}.</div>
+{{- warnf "template-row shortcode on page %s: missing \"num\" parameter (valid range 1-%d)" .Page.Path $count -}}
+{{- else if lt (int $num) 1 -}}
+<div class="template-row-warning">template-row shortcode: num="{{ $num }}" is below 1. Valid range: 1-{{ $count }}.</div>
+{{- warnf "template-row shortcode on page %s: num=%q below 1 (valid range 1-%d)" .Page.Path $num $count -}}
+{{- else if gt (int $num) $count -}}
+<div class="template-row-warning">template-row shortcode: num="{{ $num }}" is out of range. Valid range: 1-{{ $count }}. Add a new row to data/template-rows.yaml to extend the range.</div>
+{{- warnf "template-row shortcode on page %s: num=%q exceeds defined rows (valid range 1-%d)" .Page.Path $num $count -}}
+{{- else -}}
+{{- $row := index $rows (sub (int $num) 1) -}}
+<div class="template-row">
+  <h4 class="template-row-label">{{ $row.label }}</h4>
+  <div class="image-gallery">
+    {{- range $row.images -}}
+    <a class="gallery-item" href="{{ $link }}" target="_blank" rel="noopener">
+      <figure>
+        <img src="{{ .file }}" alt="{{ .caption }}">
+        <figcaption>{{ .caption }}</figcaption>
+      </figure>
+    </a>
+    {{- end -}}
+  </div>
+</div>
+{{- end -}}
