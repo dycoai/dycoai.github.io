@@ -21,7 +21,7 @@ Below are the resume template designs available from ResumeTemplates.nl, grouped
 ### Resume Template Bundles
 
 {{< gallery >}}
-  {{< gallery-item image="ms-word-resume-templates-bundle-1.jpg" caption="Bundle Template 1" link="https://www.resumetemplates.nl/" >}}
+  {{< gallery-item image="ms-word-resume-template-bundle-1.jpg" caption="Bundle Template 1" link="https://www.resumetemplates.nl/" >}}
   {{< gallery-item image="ms-word-resume-template-bundle-2.jpg" caption="Bundle Template 2" link="https://www.resumetemplates.nl/" >}}
   {{< gallery-item image="ms-word-resume-template-bundle-3.jpg" caption="Bundle Template 3" link="https://www.resumetemplates.nl/" >}}
 {{< /gallery >}}
