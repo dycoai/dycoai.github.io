@@ -1,0 +1,4 @@
+/* Bold header menu items */
+.menu a {
+    font-weight: 600;
+}
