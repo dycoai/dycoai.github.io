@@ -4,7 +4,7 @@ title: "Resume Templates for Job Seekers"
 date: 2026-08-29
 draft: false
 description: "An introduction to professionally designed, editable resume templates from ResumeTemplates.nl for preparing and refining job applications."
-​---------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 **Artificial intelligence** is rapidly changing how work is performed and how professional capabilities are applied and evolved. As **human skills** and **agentic skills** become increasingly integrated across workplace tasks, job seekers need not only to continuously develop relevant capabilities but also to **clearly demonstrate their experience, achievements, adaptability, and potential to prospective employers**. A **professionally designed and continuously optimized resume template** provides a practical structure for presenting this information effectively while **reducing the time and effort** required for document formatting. [ResumeTemplates.nl](https://www.resumetemplates.nl/) supports this process with professionally designed, editable resume templates that allow job seekers to focus more directly on communicating what they know, what they have accomplished, what they can do, and how they can contribute.
 
