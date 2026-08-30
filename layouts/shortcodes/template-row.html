@@ -14,13 +14,16 @@
 {{- warnf "template-row shortcode on page %s: num=%q exceeds defined rows (valid range 1-%d)" .Page.Path $num $count -}}
 {{- else -}}
 {{- $row := index $rows (sub (int $num) 1) -}}
+{{- $bundle := site.GetPage "/resume-templates/modern-professional-resume" -}}
 <div class="template-row">
   <h4 class="template-row-label">{{ $row.label }}</h4>
   <div class="image-gallery">
     {{- range $row.images -}}
+    {{- $src := .file -}}
+    {{- with $bundle -}}{{- with .Resources.GetMatch $src -}}{{- $src = .RelPermalink -}}{{- end -}}{{- end -}}
     <a class="gallery-item" href="{{ $link }}" target="_blank" rel="noopener">
       <figure>
-        <img src="{{ .file }}" alt="{{ .caption }}">
+        <img src="{{ $src }}" alt="{{ .caption }}">
         <figcaption>{{ .caption }}</figcaption>
       </figure>
     </a>
