@@ -10,15 +10,22 @@
     margin: 0 0 1.2em;
 }
 
-/* Alphabet quick-jump box: light-grey background, letters wrapping into lines */
+/* Alphabet quick-jump box: light-grey background, two lines of 13 letters each */
 .occupation-alphabet {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.25em 0.4em;
+    flex-direction: column;
+    gap: 0.3em;
     background: #e9e9ec;
     border-radius: 6px;
     padding: 0.7em 1em;
     margin: 0 0 1.5em;
+}
+
+.occupation-alphabet-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.25em 0.4em;
 }
 
 .occupation-alphabet-letter {
