@@ -7,7 +7,7 @@
   {{- $l := upper (substr $t 0 1) -}}
   {{- if ne $l $letter -}}
     {{- $letter = $l -}}
-    <h2 class="occupation-letter">{{ $l }}</h2>
+    <h2 class="occupation-letter" id="{{ $l }}">{{ $l }}</h2>
   {{- end -}}
   <div class="occupation-entry">
     <a class="occupation-title" href="{{ .RelPermalink }}">{{ $t }}</a>
