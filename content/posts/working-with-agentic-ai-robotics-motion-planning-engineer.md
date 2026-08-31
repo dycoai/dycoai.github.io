@@ -1,6 +1,9 @@
 +++  
 title = "Working with Agentic AI: Robotics Motion Planning Engineer"  
 date = 2026-08-31  
+occupationTitle = "Robotics Motion Planning Engineer"  
+alternativeTitles = ["Motion Planning Engineer", "Robotics Planning Engineer", "Autonomous Robotics Engineer"]  
+shortDescription = "Designs, develops, integrates, evaluates, and improves algorithms and software that enable robots to plan and execute feasible, efficient, and safe motion."  
 math = true  
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Robotics Motion Planning Engineer"]  
 author = ["DyCoAI"]  

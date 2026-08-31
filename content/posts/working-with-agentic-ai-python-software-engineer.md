@@ -1,6 +1,9 @@
 +++  
 title = "Working with Agentic AI: Python Software Engineer"  
 date = 2026-08-31  
+occupationTitle = "Python Software Engineer"  
+alternativeTitles = ["Python Developer", "Backend Python Engineer", "Python Application Engineer"]  
+shortDescription = "Designs, develops, tests, integrates, deploys, maintains, and improves software systems and applications primarily using Python."  
 math = true  
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Python Software Engineer"]  
 author = ["DyCoAI"]  
