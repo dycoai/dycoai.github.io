@@ -5,14 +5,15 @@
 @font-face {
     font-family: 'Readex Pro';
     font-style: normal;
-    font-weight: 500 700;
+    font-weight: 400 700;
     font-display: swap;
     src: url('/fonts/readex-pro/ReadexPro-Variable.woff2') format('woff2');
 }
 
-/* Apply Readex Pro to H1 (page/post titles) and H2/H3 content headings.
-   Only font-family is overridden here; sizes, margins and line-heights are
-   left to the theme so no other styling changes. */
+/* Apply Readex Pro to H1 (page/post titles) and H2/H3 content headings at
+   Regular weight (400, no bold). Only font-family and font-weight are set
+   here; sizes, margins and line-heights are left to the theme so nothing
+   else changes. */
 .post-title,
 .page-header h1,
 .md-content h1,
@@ -22,4 +23,5 @@
 .first-entry .entry-header h2,
 .entry-header h2 {
     font-family: 'Readex Pro', Georgia, 'Times New Roman', serif;
+    font-weight: 400;
 }
