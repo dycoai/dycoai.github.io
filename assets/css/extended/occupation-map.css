@@ -7,7 +7,35 @@
     color: var(--primary);
     border-radius: 6px;
     padding: 0.5em 1em;
+    margin: 0 0 1.2em;
+}
+
+/* Alphabet quick-jump box: light-grey background, letters wrapping into lines */
+.occupation-alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em 0.4em;
+    background: #e9e9ec;
+    border-radius: 6px;
+    padding: 0.7em 1em;
     margin: 0 0 1.5em;
+}
+
+.occupation-alphabet-letter {
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0.05em 0.1em;
+    text-decoration: none;
+}
+
+.occupation-alphabet-letter.active {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.occupation-alphabet-letter.inactive {
+    color: #a7a7a7;
+    font-weight: 400;
 }
 
 .occupation-map .occupation-letter {

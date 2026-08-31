@@ -1,7 +1,22 @@
 {{- $occ := where (where site.RegularPages "Section" "posts") ".Params.occupationTitle" "!=" nil -}}
 {{- $sorted := sort $occ ".Params.occupationTitle" "asc" -}}
 {{- $letter := "" -}}
+{{- $published := slice -}}
+{{- range $sorted -}}
+  {{- $published = $published | append (upper (substr .Params.occupationTitle 0 1)) -}}
+{{- end -}}
 <div class="occupation-count"><strong>{{ len $occ }} Occupations Covered</strong></div>
+<div class="occupation-alphabet">
+{{- range $alphabet := (seq 0 25) -}}
+  {{- $l := printf "%c" (add 97 $alphabet) -}}
+  {{- $L := upper $l -}}
+  {{- if in $published $L -}}
+    <a class="occupation-alphabet-letter active" href="#{{ $L }}">{{ $L }}</a>
+  {{- else -}}
+    <span class="occupation-alphabet-letter inactive">{{ $L }}</span>
+  {{- end -}}
+{{- end -}}
+</div>
 <div class="occupation-map">
 {{- range $sorted -}}
   {{- $t := .Params.occupationTitle -}}
