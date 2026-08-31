@@ -43,7 +43,7 @@ A useful representation of this process is:
 
 Machine learning development is already strongly iterative, which makes this **dynamic allocation of capabilities** particularly relevant. Human and agentic skills can be selected, combined, and reassigned as data, experiments, evaluation results, and production evidence change. Agentic AI consequently expands the analytical, computational, coding, and execution capabilities available to the machine learning engineer while human expertise continues to provide contextual interpretation, technical direction, validation, and accountability.
 
-{{< template-row num="4" >}}
+{{< template-row >}}
 
 ## 1.5. Machine Learning Engineering Responsibilities
 

@@ -43,7 +43,7 @@ A useful representation of this process is:
 
 Software development is inherently iterative, which makes this **dynamic allocation of capabilities** particularly applicable. Human and agentic skills can be selected, combined, evaluated, and reassigned as requirements, implementations, test results, runtime behavior, and operational conditions evolve.
 
-{{< template-row num="4" >}}
+{{< template-row >}}
 
 ## 1.5. Python Software Engineering Responsibilities
 

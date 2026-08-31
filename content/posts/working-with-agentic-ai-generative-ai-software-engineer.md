@@ -43,7 +43,7 @@ A useful representation of this process is:
 
 Generative AI development is inherently iterative, and the availability of agentic engineering capabilities makes the allocation of work similarly **dynamic rather than fixed**. Human and agentic skills can be selected, combined, evaluated, and reassigned as application requirements, experimental evidence, model behavior, and production conditions change.
 
-{{< template-row num="4" >}}
+{{< template-row >}}
 
 ## 1.5. Generative AI Software Engineering Responsibilities
 

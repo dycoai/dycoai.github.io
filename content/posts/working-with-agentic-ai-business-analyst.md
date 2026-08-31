@@ -43,7 +43,7 @@ A useful way to understand this structure is:
 
 The purpose of integrating agentic skills is therefore not to eliminate traditional professional skills. It is to expand the set of capabilities available for performing work and to enable the professional to determine, continuously and contextually, how human and agentic capabilities can be combined most effectively.
 
-{{< template-row num="4" >}}
+{{< template-row >}}
 
 ## 1.5. business analysis Responsibilities
 

@@ -43,7 +43,7 @@ A useful representation of this process is:
 
 Motion planning development is naturally iterative, making this **dynamic allocation of capabilities** particularly relevant. Human and agentic skills can be selected, combined, evaluated, and reassigned as planning results, simulated behavior, physical execution, environmental conditions, and hardware constraints change.
 
-{{< template-row num="4" >}}
+{{< template-row >}}
 
 ## 1.5. Robotics Motion Planning Engineering Responsibilities
 

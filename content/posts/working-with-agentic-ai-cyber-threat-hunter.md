@@ -41,7 +41,7 @@ A useful way to understand this structure is:
 
 The purpose of integrating agentic skills is therefore not to remove professional investigative responsibility. It is to expand the analytical capabilities available to the cyber threat hunter and enable work to be allocated according to the evolving requirements of each hunt.
 
-{{< template-row num="4" >}}
+{{< template-row >}}
 
 ## 1.5. Cyber Threat Hunting Responsibilities
 

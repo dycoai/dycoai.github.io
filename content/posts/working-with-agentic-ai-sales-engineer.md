@@ -31,7 +31,7 @@ Within sales engineering, these capabilities can be applied to activities such a
 
 The important distinction is therefore not that a particular cognitive activity inherently belongs to either the human or AI. Both may be capable of performing overlapping activities. The practical question is **which available human or agentic skill, or combination of skills, should perform a particular task or subtask under the current conditions**.
 
-{{< template-row num="1" >}}
+{{< template-row >}}
 
 ## 1.4. Dynamic Allocation of Tasks and Subtasks
 

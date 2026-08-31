@@ -29,7 +29,7 @@ A **Systems Engineer** works across the technical and organizational boundaries 
 
 The important distinction in Systems Engineering is therefore not that requirements analysis, modeling, technical reasoning, risk analysis, verification, or other cognitive activities inherently belong either to the Systems Engineer or to AI. Both human and agentic capabilities may contribute to many of these activities, but their suitability can differ substantially according to the engineering situation. An agentic skill may efficiently analyze thousands of requirements for possible inconsistencies or traceability gaps, while a Systems Engineer may need to determine whether a flagged relationship is technically meaningful; AI may generate and compare architectural alternatives, while the engineer evaluates whether their assumptions and system-level trade-offs are acceptable; and AI may analyze integration or verification evidence, while consequential conclusions remain dependent on professional interpretation and engineering authority. The practical question is therefore **which available human or agentic skill, or combination of skills, should perform a particular Systems Engineering task or subtask under the current system, lifecycle, technical, and organizational conditions**.
 
-{{< template-row num="5" >}}
+{{< template-row >}}
 
 ## 1.4. Dynamic Allocation of Tasks and Subtasks
 
