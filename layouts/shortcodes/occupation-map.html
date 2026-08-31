@@ -1,7 +1,7 @@
 {{- $occ := where (where site.RegularPages "Section" "posts") ".Params.occupationTitle" "!=" nil -}}
 {{- $sorted := sort $occ ".Params.occupationTitle" "asc" -}}
 {{- $letter := "" -}}
-<p class="occupation-count"><strong>{{ len $occ }} Occupations Covered</strong></p>
+<div class="occupation-count"><strong>{{ len $occ }} Occupations Covered</strong></div>
 <div class="occupation-map">
 {{- range $sorted -}}
   {{- $t := .Params.occupationTitle -}}

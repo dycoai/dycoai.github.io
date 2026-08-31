@@ -1,4 +1,15 @@
 /* Occupation Map page styling: large, bold, underlined A/B/C letter headings */
+
+/* Occupations-covered count in a visible light-grey box */
+.occupation-count {
+    display: inline-block;
+    background: #e9e9ec;
+    color: var(--primary);
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    margin: 0 0 1.5em;
+}
+
 .occupation-map .occupation-letter {
     font-size: 2rem;
     font-weight: 700;
