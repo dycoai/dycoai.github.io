@@ -1,5 +1,6 @@
-/* Self-hosted Roboto (SIL OFL) for the main content of posts and pages.
-   Georgia is the fallback if Roboto fails to load or render. */
+/* Self-hosted Roboto (SIL OFL) for the main content body of posts and pages.
+   Georgia is the fallback if Roboto fails to load or render.
+   Only the markdown body text is affected; titles and headings keep the theme default. */
 
 @font-face {
     font-family: 'Roboto';
@@ -9,18 +10,6 @@
     src: url('/fonts/roboto/Roboto-Variable.ttf') format('truetype');
 }
 
-/* Apply Roboto to the main content only; headings are excluded below. */
 .post-content {
     font-family: 'Roboto', Georgia, 'Times New Roman', serif;
-}
-
-/* Keep headings on the theme's default (body) font, not Roboto. */
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-        Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
