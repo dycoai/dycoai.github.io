@@ -29,8 +29,6 @@ A **cyber threat hunter** proactively searches systems, networks, endpoints, clo
 
 The relationship between human skills and agentic skills in cyber threat hunting should therefore be understood as a **dynamic and collaborative division of work between the cyber threat hunter and Agentic AI across different professional responsibilities**. The cyber threat hunter contributes human skills such as adversarial thinking, investigative judgment, hypothesis formation, contextual interpretation, technical intuition, uncertainty evaluation, and risk judgment when performing responsibilities including hunt planning, behavioral analysis, anomaly investigation, adversary tracking, compromise assessment, evidence evaluation, and escalation. Agentic AI contributes agentic skills such as high-volume telemetry processing, information retrieval, query generation, event correlation, pattern comparison, anomaly identification, intelligence retrieval, evidence organization, and iterative analytical support across many of the same responsibilities. The relative contribution of each can change continuously according to the hunt hypothesis, available telemetry, environmental conditions, adversary behavior, strength of evidence, investigative progress, and potential consequences of the findings. A hunt may therefore involve human-generated hypotheses followed by agentic analysis, agent-generated investigative leads followed by human validation, or repeated exchanges in which findings from one side reshape the next analytical action of the other. The practical objective is not to assign complete hunts permanently to either the human analyst or Agentic AI, but to **dynamically combine and coordinate the human skills of the cyber threat hunter with the agentic skills of Agentic AI according to the changing requirements of each responsibility, task, and subtask**.
 
-{{< template-row num="4" >}}
-
 ## 1.4. Dynamic Allocation of Tasks and Subtasks
 
 A responsibility such as hypothesis-driven hunting, telemetry analysis, behavioral investigation, or compromise assessment consists of multiple tasks and subtasks rather than one indivisible activity. These subtasks can require different combinations of information retrieval, query development, data analysis, event correlation, adversarial reasoning, contextual interpretation, evidence evaluation, and decision-making. Human and agentic participation can therefore vary within the same threat-hunting responsibility.
@@ -42,6 +40,8 @@ A useful way to understand this structure is:
 **Occupation → Responsibility → Task → Subtask → Human and/or Agentic Skills → Evaluation → Possible Reallocation**
 
 The purpose of integrating agentic skills is therefore not to remove professional investigative responsibility. It is to expand the analytical capabilities available to the cyber threat hunter and enable work to be allocated according to the evolving requirements of each hunt.
+
+{{< template-row num="4" >}}
 
 ## 1.5. Cyber Threat Hunting Responsibilities
 

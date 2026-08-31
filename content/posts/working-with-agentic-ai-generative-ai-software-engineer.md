@@ -29,8 +29,6 @@ At the same time, **agentic skills** can participate extensively in the engineer
 
 Generative AI software engineering can therefore involve a particularly close **integration of human skills and agentic skills across responsibilities, tasks, and subtasks**. An engineer might define an application's intended behavior and architectural constraints while Agentic AI develops a candidate implementation and evaluation suite. Test results may reveal a retrieval problem that requires human reinterpretation of the system design, after which an agent modifies the pipeline and performs another evaluation cycle. In another workflow, agentic analysis may identify an unexpected interaction among prompts, context, tools, and application logic that changes what needs to be investigated. Human and agentic contributions can consequently shift as requirements, evidence, system behavior, and operational conditions develop.
 
-{{< template-row num="4" >}}
-
 ## 1.4. Dynamic Allocation of Tasks and Subtasks
 
 Generative AI software engineering responsibilities contain tasks and subtasks with markedly different capability requirements. Allocation should therefore begin with **what a particular subtask requires**, rather than with a fixed assumption that software design is human work while implementation or automation is agentic work. Building a generative AI application, for example, may involve defining the use case, selecting models, designing application architecture, preparing knowledge sources, constructing retrieval, developing prompts, implementing orchestration, integrating tools and APIs, generating application code, creating evaluation datasets, testing outputs, analyzing failures, deploying services, monitoring production behavior, and improving the system. Each subtask may call for a different combination of contextual interpretation, coding, experimentation, information processing, tool use, evaluation, and engineering judgment.
@@ -44,6 +42,8 @@ A useful representation of this process is:
 **Responsibility → Task → Subtask → Capability Requirements → Human and/or Agentic Skills → Execution → Evaluation → Possible Reallocation**
 
 Generative AI development is inherently iterative, and the availability of agentic engineering capabilities makes the allocation of work similarly **dynamic rather than fixed**. Human and agentic skills can be selected, combined, evaluated, and reassigned as application requirements, experimental evidence, model behavior, and production conditions change.
+
+{{< template-row num="4" >}}
 
 ## 1.5. Generative AI Software Engineering Responsibilities
 

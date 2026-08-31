@@ -31,8 +31,6 @@ Within business analysis, these capabilities can be applied to activities such a
 
 The important distinction is therefore not that a particular cognitive activity inherently belongs to either the human or AI. Both may be capable of performing overlapping activities. The practical question is **which available human or agentic skill, or combination of skills, should perform a particular task or subtask under the current conditions**.
 
-{{< template-row num="4" >}}
-
 ## 1.4. Dynamic Allocation of Tasks and Subtasks
 
 A professional responsibility such as requirements elicitation, process analysis, solution evaluation, or stakeholder management is usually composed of multiple tasks and subtasks rather than being a single indivisible activity. These subtasks may require different combinations of comprehension, information retrieval, business analysis, technical analysis, judgment, communication, generation, evaluation, decision-making, and execution. The participation of human skills and agentic skills can therefore vary substantially within the same responsibility.
@@ -44,6 +42,8 @@ A useful way to understand this structure is:
 **Occupation → Responsibility → Task → Subtask → Human and/or Agentic Skills → Evaluation → Possible Reallocation**
 
 The purpose of integrating agentic skills is therefore not to eliminate traditional professional skills. It is to expand the set of capabilities available for performing work and to enable the professional to determine, continuously and contextually, how human and agentic capabilities can be combined most effectively.
+
+{{< template-row num="4" >}}
 
 ## 1.5. business analysis Responsibilities
 

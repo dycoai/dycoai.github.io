@@ -29,8 +29,6 @@ For many implementation and analysis activities, **agentic skills** can contribu
 
 Rather than assigning entire software responsibilities permanently to either the engineer or Agentic AI, **human skills and agentic skills can be dynamically combined across responsibilities, tasks, and subtasks**. An engineer might establish an architectural boundary and define expected behavior while Agentic AI develops an implementation and corresponding tests. A failing integration test may reveal an assumption that requires human reconsideration of the interface design before the agent modifies the code. In another workflow, agentic analysis of logs and source code may identify several plausible causes of a production failure, allowing the engineer to determine which hypothesis best fits the operating context. Human and agentic contributions can consequently shift repeatedly as requirements, code, tests, execution results, and production conditions provide new information.
 
-{{< template-row num="4" >}}
-
 ## 1.4. Dynamic Allocation of Tasks and Subtasks
 
 Python software engineering responsibilities consist of tasks and subtasks whose capability requirements differ substantially. Allocation should therefore begin with **what the work requires**, rather than with a predetermined distinction between programming that belongs to the engineer and programming that can be performed by Agentic AI. Developing a backend service, for example, may involve clarifying requirements, defining interfaces, selecting architectural patterns, designing data structures, implementing application logic, integrating databases or external services, creating tests, reviewing dependencies, configuring deployment, monitoring runtime behavior, diagnosing failures, and revising the system. Some of these subtasks emphasize contextual reasoning or architectural judgment; others involve systematic coding, comparison, transformation, testing, or information retrieval.
@@ -44,6 +42,8 @@ A useful representation of this process is:
 **Responsibility → Task → Subtask → Capability Requirements → Human and/or Agentic Skills → Execution → Evaluation → Possible Reallocation**
 
 Software development is inherently iterative, which makes this **dynamic allocation of capabilities** particularly applicable. Human and agentic skills can be selected, combined, evaluated, and reassigned as requirements, implementations, test results, runtime behavior, and operational conditions evolve.
+
+{{< template-row num="4" >}}
 
 ## 1.5. Python Software Engineering Responsibilities
 
