@@ -13,3 +13,14 @@
 .post-content {
     font-family: 'Roboto', Georgia, 'Times New Roman', serif;
 }
+
+/* In-content headings keep the site's default Georgia (they inherit from
+   .post-content otherwise, picking up Roboto). */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    font-family: Georgia, 'Times New Roman', serif;
+}
