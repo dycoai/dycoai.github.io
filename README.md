@@ -1,6 +1,3 @@
-# AI & Me
+# DyCoAI - Working with Agentic AI and Occupation Map
 
-Personal site built with [Hugo](https://gohugo.io/) and the
-[hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
-
-Live site: <https://dycoai.github.io/>
+Live site: <https://www.dycoai.com>

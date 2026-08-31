@@ -2,7 +2,7 @@
 baseURL = "https://dycoai.github.io/"
 # languageCode = "en-us"
 # title = "DyCoAI Research"
-title = "DyCoAI | AI and Me"
+title = "DyCoAI Research"
 theme = "hugo-PaperMod"
 
 [pagination]
