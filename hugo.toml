@@ -42,7 +42,7 @@ theme = "hugo-PaperMod"
   [[menu.main]]
     identifier = "articles"
     name = "Articles"
-    url = "/articles"
+    url = "/articles/"
     weight = 30 
   [[menu.main]]
     identifier = "occupation-map"
