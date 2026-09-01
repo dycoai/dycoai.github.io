@@ -46,7 +46,7 @@ theme = "hugo-PaperMod"
     weight = 25
   [[menu.main]]
     identifier = "working-with-agentic-ai"
-    name = "Working with Agentic AI"
+    name = "Agentic Jobs"
     url = "/tags/working-with-agentic-ai/"
     weight = 10
 # [[menu.main]]
