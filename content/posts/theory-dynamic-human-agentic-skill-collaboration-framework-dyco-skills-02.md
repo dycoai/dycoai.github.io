@@ -45,13 +45,13 @@ The core power of this framework lies in the fact that assigning a skill configu
 This dynamic nature means that doing the work is only part of the process. After a subtask $S_k$ is executed using configuration $\Gamma_k$, the result must undergo **evaluation**, denoted as $E(\text{output})$. Evaluation is the act of checking whether the output is accurate, complete, safe, and suitable for the goal. This checking can be done by a human reviewing the work, by an AI system running validation tests, or by following standard workplace procedures. Crucially, evaluation itself can be a collaborative act where AI flags potential issues and humans apply **contextual judgment** to interpret them. If the evaluation $E(\text{output})$ shows the work is satisfactory, the workflow moves forward to the next subtask.
 
 $$
-\text{If } E(\text{output}_k) \geq \theta_{\text{accept}} \Rightarrow \text{Proceed to } S_{k+1}
+\text{If } E(\text{output}\_k) \geq \theta_{\text{accept}} \Rightarrow \text{Proceed to } S\_{k+1}
 $$
 
 If the evaluation shows the work is flawed, incomplete, or unsuitable, the process enters a stage called **reallocation**. Reallocation means adjusting the plan dynamically. This adjustment could involve repeating the subtask $S_k$, giving the AI clearer instructions, adding missing information, breaking the subtask into even smaller pieces, or shifting the balance of work from agentic skills back to human skills (or vice versa). For example, if an AI-generated analysis lacks nuance, the professional might reallocate that specific portion to human judgment while keeping the rest of the task automated. This creates a continuous cycle for every piece of work: identify the subtask $S_k$, determine its requirements $C(S_k)$, choose the configuration $\Gamma_k$, execute collaboratively, evaluate the result $E(\text{output})$, and then either continue forward or reallocate and try again. This cycle forms the active, operational layer of the framework and is the primary mechanism for achieving enhanced efficiency and innovation.
 
 $$
-\text{If } E(\text{output}_k) < \theta_{\text{accept}} \Rightarrow \Gamma_k' = \text{Reallocate}(\Gamma_k, \text{feedback})
+\text{If } E(\text{output}\_k) < \theta_{\text{accept}} \Rightarrow \Gamma_k' = \text{Reallocate}(\Gamma_k, \text{feedback})
 $$
 
 ## 1.4. Constraints, Accountability, and Integrated Professional Capability
