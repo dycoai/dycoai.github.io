@@ -1,4 +1,10 @@
-
++++
+title = "Dynamic Human–Agentic Skill Collaboration Framework"
+date = 2026-09-01
+math = true
+tags = ["Human Skills" , "Agentic Skills", "Human Agentic Skills Integration Framework", "Human Agentic Skills Collaboration Framework"]
+author = ["DyCoAI"]
++++
 
 ## 1.1. The Structure of Professional Work and AI-Enhanced Execution
 
