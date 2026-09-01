@@ -5,6 +5,7 @@ occupationTitle = "Generative AI Software Engineer"
 alternativeTitles = ["Generative AI Engineer", "LLM Engineer", "AI Application Engineer"]  
 shortDescription = "Designs, develops, integrates, and maintains software systems and applications that use generative AI models and related AI technologies."  
 math = true  
+weight = 1  
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Generative AI Software Engineer"]  
 author = ["DyCoAI"]  
 +++
