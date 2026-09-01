@@ -67,7 +67,7 @@ $$
 Because workers now have access to AI tools, the definition of "professional capability" has expanded. A worker's ability to get things done no longer depends solely on their personal human skills $h \in \mathcal{H}$. Instead, a modern professional operates as an integrated system. Their total **professional capability**, denoted as $P_{\text{total}}$, equals their own human skills, plus the available agentic skills, plus their ability to coordinate the two dynamically. This coordinating ability—knowing how to break down tasks $T_j$ into subtasks $S_k$, match requirements $C(S_k)$ to skills, evaluate results, and adjust configurations $\Gamma_k$—is becoming one of the most important skills a professional can possess. As AI tools become more advanced, the worker's role shifts increasingly toward managing and directing this broader system of capabilities to achieve greater innovation and flexibility.
 
 $$
-P_{\text{total}} = \mathcal{H}_{\text{personal}} + \mathcal{A}_{\text{available}} + \text{Coordination}(\mathcal{H}, \mathcal{A})
+P_{\text{total}} = \mathcal{H}\_{\text{personal}} + \mathcal{A}\_{\text{available}} + \text{Coordination}(\mathcal{H}, \mathcal{A})
 $$
 
 ## 1.5. The Evolving Boundary of Work and Core Framework Logic
