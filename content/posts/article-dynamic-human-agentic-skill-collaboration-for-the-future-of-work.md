@@ -3,7 +3,7 @@
 title = "Dynamic Human–Agentic Skill Collaboration for the Future of Work"
 date = 2026-09-01
 math = true
-tags = ["Human Skills" , "Agentic Skills", "Human Agentic Skills Integration Framework", "Human Agentic Skills Collaboration Framework"]
+tags = ["Human Skills" , "Agentic Skills", "Human Agentic Skills Integration Framework", "Human Agentic Skills Collaboration Framework", "Articles"]
 author = ["DyCoAI"]
 +++
 

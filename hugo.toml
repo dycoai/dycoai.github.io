@@ -38,12 +38,17 @@ theme = "hugo-PaperMod"
     identifier = "resume-templates"
     name = "Resume Templates"
     url = "/resume-templates/"
-    weight = 20
+    weight = 40
+  [[menu.main]]
+    identifier = "articles"
+    name = "Articles"
+    url = "/articles"
+    weight = 30 
   [[menu.main]]
     identifier = "occupation-map"
     name = "Occupation Map"
     url = "/occupation-map/"
-    weight = 25
+    weight = 20
   [[menu.main]]
     identifier = "working-with-agentic-ai"
     name = "Agentic Jobs"
