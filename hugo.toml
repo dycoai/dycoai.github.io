@@ -40,11 +40,6 @@ theme = "hugo-PaperMod"
     url = "/resume-templates/"
     weight = 40
   [[menu.main]]
-    identifier = "articles"
-    name = "Articles"
-    url = "/articles/"
-    weight = 30 
-  [[menu.main]]
     identifier = "occupation-map"
     name = "Occupation Map"
     url = "/occupation-map/"
