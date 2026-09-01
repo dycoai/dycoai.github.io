@@ -44,7 +44,7 @@ Finally, this framework recognizes that the boundary between human-executed work
 
 Therefore, the framework does not sort jobs into permanent lists of "things humans do" and "things AI do." Instead, it describes an ongoing, adaptable process that extends conventional workplace execution into the AI-enhanced era. The core logic remains constant: occupations consist of responsibilities; responsibilities are fulfilled through tasks; tasks are broken down into subtasks; and these units of work are executed using human skills, agentic skills, or a dynamic combination of both. The selection, blending, evaluation, and adjustment of these skills form a continuous cycle, always guided by the changing requirements and conditions of the work itself. By treating skill allocation as a dynamic, collaborative process rather than a static assignment, this framework empowers workplace professionals to leverage AI for greater efficiency, innovation, and flexibility while maintaining necessary human oversight and accountability.
 
-## Relevant Concept Definitions and Interpretations
+## 1.6. Relevant Concept Definitions and Interpretations
 
 **Agentic Skill**
 
