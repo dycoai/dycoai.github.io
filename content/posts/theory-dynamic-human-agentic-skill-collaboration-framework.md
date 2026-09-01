@@ -46,85 +46,85 @@ Therefore, the framework does not sort jobs into permanent lists of "things huma
 
 ## 1.6. Relevant Concept Definitions and Interpretations
 
-Agentic Skill
+**Agentic Skill**
 
 An agentic skill is a specific, reusable ability that an artificial intelligence system can apply to perform a defined unit of work. Unlike general computing power, an agentic skill is directed toward a functional outcome, such as analyzing a document, retrieving specific information, generating structured content, or coordinating a sequence of digital actions. It represents a discrete capacity for task execution that exists independently of any single human operator, allowing the AI system to act as a functional participant in a workflow rather than merely a passive tool.
 
 For an agentic skill to be valid within this framework, it must be reliably executable by an AI system under authorized conditions and must produce outputs that can be evaluated against objective standards. The skill must also be sufficiently defined so that its functional purpose can be mapped to specific capability requirements of a subtask. Furthermore, the deployment of the agentic skill must occur within a context where organizational policies, technical constraints, and safety protocols permit autonomous or semi-autonomous operation, ensuring that the skill’s application remains appropriate and accountable.
 
-Agentic Skills Space
+**Agentic Skills Space**
 
 The agentic skills space is the comprehensive set of all currently available and accessible AI-driven capabilities relevant to a specific occupational domain or work environment. It functions as a catalog of potential contributions that AI systems can make, encompassing everything from simple data processing to complex multi-step reasoning and tool use. This space is not static; it expands and contracts as new AI models are released, as existing tools are updated, and as organizational access to these technologies changes, representing the total supply of machine-based execution capacity available at any given moment.
 
 For the agentic skills space to be operationally meaningful, the capabilities contained within it must be technically functional, organizationally permitted, and semantically describable so they can be matched to human work. The boundaries of this space are conditioned by infrastructure, licensing, security policies, and the current state of AI development. Additionally, for a capability to remain within the active agentic skills space, it must maintain sufficient reliability and relevance; obsolete or deprecated functions fall outside the effective boundary even if they technically still exist in legacy systems.
 
-Capabilities
+**Capabilities**
 
 Capabilities refer to the broad potential to achieve a desired outcome or perform a function, encompassing both the inherent abilities of agents and the functional demands of work. In this framework, capability is treated as a neutral attribute that can reside in humans, in AI systems, or in the coordinated interaction between them. It serves as the common currency for describing what is needed to complete work and what is available to complete it, bridging the gap between abstract requirements and concrete execution resources without presupposing which source will fulfill the need.
 
 For capabilities to serve as a valid basis for allocation decisions, they must be defined in terms of functional outcomes rather than biological or mechanical origins. A capability holds contextually only when it can be observed, measured, or evaluated against a standard of performance relevant to the task. Furthermore, the attribution of a capability requires evidence of reliability; a theoretical ability that cannot be consistently demonstrated under actual working conditions does not count as an effective capability for the purposes of skill configuration and task execution.
 
-Capability Requirements
+**Capability Requirements**
 
 Capability requirements are the specific functional demands that a subtask imposes on whoever or whatever executes it. They describe what must be accomplished—such as interpreting ambiguous text, maintaining physical precision, synthesizing conflicting data, or exercising professional judgment—independent of whether a human or an AI performs the action. These requirements act as the objective criteria for selecting skills, ensuring that the choice of execution method is driven by the nature of the work itself rather than by assumptions about human or machine roles.
 
 For capability requirements to effectively guide skill selection, they must be explicitly identified and articulated before allocation occurs. The requirements must be granular enough to distinguish between different types of skills and stable enough to support evaluation, yet flexible enough to accommodate changing conditions during execution. Crucially, capability requirements hold only when they are grounded in the actual objectives and constraints of the subtask; vague or assumed requirements cannot reliably inform the matching process and may lead to inappropriate skill configurations.
 
-Human Skills
+**Human Skills**
 
 Human skills are the cognitive, physical, interpersonal, and experiential capacities that people bring to professional work. These include domain expertise, ethical judgment, creative problem-solving, contextual understanding, emotional intelligence, and embodied practical knowledge. Human skills are characterized by their adaptability to novel situations, their grounding in lived experience and social context, and their integration with personal accountability and professional authority, making them distinct from but often complementary to agentic skills.
 
 For human skills to be effectively integrated into this framework, they must be recognizable as functional contributions to task execution rather than treated as undifferentiated background traits. They hold contextually when the work demands qualities that are currently beyond the reliable reach of AI, such as navigating unstructured social dynamics, making value-laden decisions under uncertainty, or applying tacit knowledge gained through years of practice. Additionally, the application of human skills requires conditions that allow for adequate time, cognitive load management, and organizational support for professional judgment.
 
-Human Skills Space
+**Human Skills Space**
 
 The human skills space is the aggregate of all human capacities available within a given workforce, team, or occupational context. It includes not only formal qualifications and documented competencies but also the informal, experiential, and relational abilities that individuals possess. This space represents the total reservoir of human execution capacity that can be drawn upon to meet capability requirements, and like its agentic counterpart, it is dynamic, evolving as professionals learn, retire, specialize, or adapt to new collaborative workflows involving AI.
 
 For the human skills space to be operationally relevant, the skills within it must be accessible and deployable within the current organizational structure. This means accounting for availability, workload, expertise levels, and willingness to engage in human–AI collaboration. The space is conditioned by factors such as training, experience distribution, team composition, and institutional culture. A human skill only counts toward the effective human skills space if it can be practically mobilized for the task at hand; latent or unavailable skills, regardless of their theoretical existence, do not contribute to active skill configuration.
 
-Occupation
+**Occupation**
 
 An occupation is a recognized category of professional work defined by a coherent set of responsibilities, standards, and societal or organizational expectations. It serves as the highest-level container in the framework’s structural hierarchy, grouping together related duties that collectively fulfill a specific role in society or an organization. Occupations provide the context within which responsibilities are defined, tasks are organized, and skills are valued, anchoring the entire framework in real-world professional practice rather than abstract labor categories.
 
 For an occupation to function as a valid structural unit in this framework, it must have identifiable boundaries and a stable core of responsibilities, even as specific tasks evolve. The occupation must be associated with established norms, accountability structures, and expected outcomes that give meaning to subordinate tasks and subtasks. Furthermore, the occupational context must be sufficiently defined to determine which capability requirements are legitimate and which skill configurations are appropriate; without this contextual grounding, the decomposition of work loses its connection to professional reality.
 
-Responsibilities
+**Responsibilities**
 
 Responsibilities are the major domains of duty or expected outcomes associated with an occupation. They represent the primary ways in which an occupation fulfills its purpose, such as “ensuring patient safety” in healthcare or “maintaining financial integrity” in accounting. Responsibilities are broader than individual tasks and serve as the organizing principles that link high-level occupational goals to concrete units of work. They provide the rationale for why tasks exist and guide the prioritization of effort across the work structure.
 
 For responsibilities to be effective anchors in the framework, they must be clearly tied to the occupation’s core purpose and stable over reasonable time horizons, even as methods of fulfillment change. Each responsibility must be decomposable into actionable tasks and subtasks, and it must carry associated accountability and success criteria. Responsibilities hold contextually only when they reflect genuine organizational or societal expectations; nominal or outdated responsibilities that no longer drive actual work cannot serve as valid structural elements for skill allocation.
 
-Semantically Compare Human Skills Against Agentic Skills
+**Semantically Compare Human Skills Against Agentic Skills**
 
 To semantically compare human skills against agentic skills means to evaluate whether capabilities from different sources serve the same functional purpose in completing a subtask, regardless of their underlying mechanisms. This comparison focuses on what the skill achieves—such as “summarizing a legal contract” or “detecting anomalies in sensor data”—rather than how it achieves it. Semantic comparison enables the identification of functional equivalence, partial overlap, or unique specialization, forming the basis for intelligent skill matching and configuration.
 
 For semantic comparison to be valid, both human and agentic skills must be described in terms of observable functional outcomes rather than internal processes or origins. The comparison holds only when there is sufficient clarity about the capability requirements of the subtask and the performance characteristics of each skill source. Additionally, semantic comparability requires a shared frame of reference; if human and agentic skills operate in entirely incompatible domains or produce incommensurable outputs, meaningful comparison is not possible. Contextual factors such as reliability, speed, and appropriateness must also be considered alongside functional equivalence.
 
-Skills
+**Skills**
 
 Skills are the specific, actionable capacities used to execute subtasks and fulfill capability requirements. They are the operational units of execution that bridge the gap between abstract capabilities and concrete work outcomes. Skills can originate from humans, from AI systems, or from their combination, and they are selected based on their fit with the demands of the subtask rather than their source. In this framework, skills are treated as modular and combinable elements that can be dynamically allocated, evaluated, and reallocated as work progresses.
 
 For skills to function effectively within the framework, they must be identifiable, describable, and evaluable in relation to specific subtasks. A skill holds contextually only when it can be reliably deployed under current working conditions and when its contribution can be assessed against the capability requirements it is intended to satisfy. Skills must also be compatible with the broader skill configuration and organizational constraints; a technically valid skill that violates policy, exceeds resource limits, or conflicts with accountability structures cannot be considered an available option for execution.
 
-Skills Configuration
+**Skills Configuration**
 
 A skills configuration is the specific arrangement of human and agentic skills selected to execute a particular subtask or set of subtasks at a given point in time. It defines who or what performs which part of the work, how contributions are coordinated, and how outputs are integrated. Configurations exist along a continuum from fully human-dominant to fully agentic-dominant, with numerous combined arrangements in between, and they are inherently dynamic, capable of being adjusted in response to evaluation feedback, changing conditions, or new information.
 
 For a skills configuration to be valid, it must align with the capability requirements of the subtask, respect organizational and ethical constraints, and leverage the comparative strengths of available human and agentic skills. The configuration holds only when it is feasible given current resources, expertise, and system reliability. Additionally, a valid configuration must include mechanisms for evaluation and reallocation; a static assignment that cannot adapt to emerging issues or intermediate results fails to meet the framework’s requirement for dynamic collaboration and responsive execution.
 
-Skills Space
+**Skills Space**
 
 The skills space is the unified domain comprising all available human and agentic skills relevant to a given occupational or work context. It integrates the human skills space and the agentic skills space into a single conceptual field where capabilities can be compared, matched, and combined. The skills space represents the total palette of execution options available for meeting capability requirements, and its structure reflects the degree of overlap, complementarity, and divergence between human and machine capacities at any given time.
 
 For the skills space to be operationally useful, it must be bounded by the actual capabilities accessible within the current work environment, including organizational permissions, technical infrastructure, and workforce availability. The space holds contextually only when its contents are sufficiently described and evaluated to support meaningful semantic comparison and skill matching. Furthermore, the skills space must be treated as dynamic; it evolves as new skills emerge, old ones become obsolete, and the relationship between human and agentic capabilities shifts in response to technological and organizational change.
 
-Subtasks
+**Subtasks**
 
 Subtasks are the smallest meaningful units of work into which a task can be decomposed for the purpose of skill allocation and execution. Each subtask represents a discrete step or component that contributes to the completion of a larger task and has its own set of capability requirements. Subtasks are the primary level at which dynamic collaboration occurs, as they are granular enough to allow precise matching of human and agentic skills while remaining connected to the broader task objective and occupational responsibility.
 
 For subtasks to be valid units of analysis, they must be sufficiently bounded to have identifiable inputs, outputs, and evaluation criteria. A subtask holds contextually only when its decomposition adds value to the allocation process; overly fine-grained fragments that lack independent meaning or excessive overhead do not qualify. Additionally, subtasks must be defined in terms of functional outcomes rather than predetermined execution methods, preserving flexibility in skill configuration and enabling adaptive reallocation based on intermediate results and changing conditions.
 
-Tasks
+**Tasks**
 
 Tasks are coherent units of professional work directed toward achieving a specific outcome within a broader responsibility. They represent the middle layer of the work hierarchy, linking high-level responsibilities to executable subtasks. Tasks vary in complexity, duration, and frequency, and they serve as the natural scope for planning, coordination, and evaluation. While some simple tasks may consist of a single subtask, most require decomposition to enable effective dynamic allocation of human and agentic skills across their constituent parts.
 
