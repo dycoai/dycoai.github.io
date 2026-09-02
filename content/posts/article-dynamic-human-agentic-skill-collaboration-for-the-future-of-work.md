@@ -21,19 +21,19 @@ The two layers serve different but complementary functions. The work decompositi
 
 ## 1.2. Work decomposition as the foundation for dynamic integration
 
-The work decomposition layer is more than a way to describe a job. In DHASIF, it provides the foundation for deciding how human and agentic skills should be allocated.
+The work decomposition layer is more than a way to describe a job. In DyCo Skills, it provides the foundation for deciding how human and agentic skills should be allocated.
 
-Traditional job analysis often describes work in terms of relatively stable occupations, responsibilities, and tasks. DHASIF retains this familiar structure but uses it in a more dynamic way. Breaking a task into subtasks can reveal different capability requirements within the same task. This makes it possible to use different combinations of human and agentic skills for different parts of the work rather than treating the entire task as a single unit.
+Traditional job analysis often describes work in terms of relatively stable occupations, responsibilities, and tasks. DyCo Skills retains this familiar structure but uses it in a more dynamic way. Breaking a task into subtasks can reveal different capability requirements within the same task. This makes it possible to use different combinations of human and agentic skills for different parts of the work rather than treating the entire task as a single unit.
 
 For example, one task might involve collecting information, interpreting unusual cases, and preparing a final report. These activities may require different capabilities. Information collection may be well suited to agentic skills, while unusual cases may require greater human judgment. Report preparation may involve a combination of both. Decomposition makes these differences visible and allows skills to be allocated accordingly.
 
-Work structures can also change over time. Responsibilities may evolve as technologies, regulations, customer expectations, and professional standards change. Tasks may appear, disappear, merge, or divide into new tasks. Their frequency, complexity, and capability requirements may also change. Because DHASIF is based on a decomposable structure rather than a fixed list of tasks, the framework can accommodate these changes without requiring its basic logic to be redesigned.
+Work structures can also change over time. Responsibilities may evolve as technologies, regulations, customer expectations, and professional standards change. Tasks may appear, disappear, merge, or divide into new tasks. Their frequency, complexity, and capability requirements may also change. Because DyCo Skills is based on a decomposable structure rather than a fixed list of tasks, the framework can accommodate these changes without requiring its basic logic to be redesigned.
 
 The appropriate level of decomposition is not fixed. Some tasks are simple or sufficiently uniform to be treated as single units. Others need to be divided into several subtasks because different parts require meaningfully different capabilities.
 
 A practical rule is to decompose a task further when doing so reveals important differences in capability requirements or creates useful opportunities for different skill configurations. Over-decomposition can create unnecessary coordination and complexity, while under-decomposition can hide useful opportunities for human–agentic collaboration.
 
-DHASIF therefore does not replace conventional occupational structures. Instead, it uses them as a flexible foundation for matching work requirements with available human and agentic skills. The occupation–responsibility–task–subtask hierarchy remains familiar, but it becomes a dynamic structure that can support different skill configurations as work conditions, requirements, and technologies change.
+DyCo Skills therefore does not replace conventional occupational structures. Instead, it uses them as a flexible foundation for matching work requirements with available human and agentic skills. The occupation–responsibility–task–subtask hierarchy remains familiar, but it becomes a dynamic structure that can support different skill configurations as work conditions, requirements, and technologies change.
 
 ## 1.3. Skills space, capability mapping, and configuration selection
 
@@ -41,7 +41,7 @@ Once a task or subtask has been identified, the next question is how it should b
 
 Capability requirements describe what the work requires. For example, a unit of work may require rapid information processing, physical coordination, creative thinking, careful judgment, communication ability, or knowledge of a particular law. Identifying these requirements before selecting skills helps avoid assuming in advance that either a human or an AI agent should perform the work.
 
-The abilities available to meet these requirements are called skills. In DHASIF, these skills come from two main sources: human skills and agentic skills.
+The abilities available to meet these requirements are called skills. In DyCo Skills, these skills come from two main sources: human skills and agentic skills.
 
 Human skills are abilities provided by people. They include abilities such as reasoning, communication, empathy, physical coordination, professional judgment, experience, and creative problem-solving.
 
@@ -73,7 +73,7 @@ The skill configuration is therefore the result of capability mapping and contex
 
 ## 1.4. Dynamic collaboration in execution, evaluation, and reallocation
 
-Skill allocation is not necessarily a one-time decision. In DHASIF, allocation is dynamic, meaning that the roles and contributions of human and agentic skills can change as work progresses.
+Skill allocation is not necessarily a one-time decision. In DyCo Skills, allocation is dynamic, meaning that the roles and contributions of human and agentic skills can change as work progresses.
 
 Different subtasks within the same task may use different skill configurations. A configuration may also need to change during execution if new information becomes available, an unexpected problem occurs, or working conditions change. Dynamic allocation allows the configuration to respond to these changes rather than requiring the original arrangement to remain fixed.
 
@@ -89,7 +89,7 @@ For example, suppose an AI-generated analysis performs well on routine cases but
 
 Evaluation may also reveal new information about the suitability of the selected skills. Reallocation can therefore involve not only changing the configuration but also reconsidering how capability requirements are mapped to skills under the current context.
 
-The operational cycle of DHASIF can be summarized as follows:
+The operational cycle of DyCo Skills can be summarized as follows:
 
 Identify the unit of work → identify capability requirements → map requirements to human and agentic skills in the skills space → select a skill configuration → execute the work → evaluate the result → continue or reallocate as needed.
 
@@ -113,13 +113,13 @@ These distinctions also explain why human and agentic skills that are functional
 
 Access to AI also changes how professional capability can be understood. A professional's ability to perform work may depend not only on personal knowledge and skills but also on access to agentic skills and the ability to use them effectively.
 
-From the perspective of DHASIF, professional capability in an AI-enhanced workplace therefore includes the professional's own human skills, the agentic skills available to support the work, and the ability to coordinate these resources appropriately.
+From the perspective of DyCo Skills, professional capability in an AI-enhanced workplace therefore includes the professional's own human skills, the agentic skills available to support the work, and the ability to coordinate these resources appropriately.
 
 This coordinating capability includes knowing how to decompose work, identify capability requirements, compare and map human and agentic skills, select suitable configurations, evaluate results, and make adjustments when necessary. As AI agents develop, this coordinating role may become increasingly important in many forms of professional work.
 
 ## 1.6. The evolving boundary of work and core framework logic
 
-DHASIF assumes that the boundary between human and agentic contributions can change over time. A subtask that depends heavily on human skills today may become more suitable for agentic execution as AI capabilities improve. Conversely, a subtask that is usually handled effectively by agentic skills may require greater human involvement when an unusual situation occurs, results become uncertain, or the consequences of error increase.
+DyCo Skills assumes that the boundary between human and agentic contributions can change over time. A subtask that depends heavily on human skills today may become more suitable for agentic execution as AI capabilities improve. Conversely, a subtask that is usually handled effectively by agentic skills may require greater human involvement when an unusual situation occurs, results become uncertain, or the consequences of error increase.
 
 External changes can also shift this boundary. New laws, organizational policies, customer expectations, professional standards, technologies, or changes in available human and agentic skills may alter which skill configurations are appropriate.
 
@@ -127,7 +127,7 @@ The skills space provides a way to represent this evolving capability landscape.
 
 The framework therefore does not divide work into permanent categories of “human work” and “AI work.” Nor does it assume that functional similarity between a human skill and an agentic skill automatically makes them substitutes. Instead, it provides an adaptable process for comparing and combining available skills according to the capability requirements, context, and constraints of the work.
 
-The core logic of DHASIF can be summarized as follows:
+The core logic of DyCo Skills can be summarized as follows:
 
 Occupation → responsibilities → tasks → subtasks
 
@@ -139,4 +139,4 @@ The first sequence represents the work decomposition layer. It determines what t
 
 Within the second layer, the skills space provides the common vector representation needed to compare human and agentic skills. Functional dimensions make skills with the same or similar functions comparable, while other dimensions preserve differences that may matter in a particular context. Capability–skill mapping then uses this information to determine which skills, or combinations of skills, are suitable for the unit of work.
 
-In this way, DHASIF extends familiar workplace structures into AI-enhanced professional work without assuming that either humans or AI agents should always take priority. The appropriate configuration depends on the requirements of the work, the human and agentic skills available, the relevant similarities and differences between those skills, the context and constraints under which they are used, and the results observed during execution. The framework therefore provides a systematic basis for human-agentic skill integration while maintaining appropriate attention to professional oversight, authority, and accountability.
+In this way, DyCo Skills extends familiar workplace structures into AI-enhanced professional work without assuming that either humans or AI agents should always take priority. The appropriate configuration depends on the requirements of the work, the human and agentic skills available, the relevant similarities and differences between those skills, the context and constraints under which they are used, and the results observed during execution. The framework therefore provides a systematic basis for human-agentic skill integration while maintaining appropriate attention to professional oversight, authority, and accountability.
