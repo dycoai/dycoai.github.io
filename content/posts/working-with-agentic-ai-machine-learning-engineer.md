@@ -13,15 +13,11 @@ author = ["DyCoAI"]
 
 _How Human Skills and Agentic Skills Dynamically Combine Across Machine Learning Engineering Responsibilities_
 
-## 1.1. Theoretical Framework
-
-This article is built on a proposed theoretical framework in which **job responsibilities give rise to tasks, tasks may be decomposed into sets of subtasks, and each subtask is performed through a single skill or a combination of multiple skills**. The skills available for professional work are not treated as a fixed set of exclusively human capabilities. Instead, professional skills increasingly represent a **dynamic and evolving integration of human skills and agentic skills**. Depending on the requirements of a subtask, execution may rely primarily on human skills, primarily on agentic skills, or on a combination of both. Their relative contributions can change as the task progresses, new information becomes available, intermediate results are evaluated, or working conditions change. From this perspective, human–agentic integration is intended to dynamically and collaboratively draw on the strengths of different skill configurations, allowing human, agentic, and combined capabilities to contribute where they can provide the greatest value during task execution and optimization. This reference article is intended primarily for **college students preparing to enter the workforce, job seekers, and workplace professionals**. It provides a structured way to understand both the work of the occupation and how human and agentic skills may contribute to its tasks as professional work continues to evolve.
-
-## 1.2. Machine Learning Engineering as Professional Work
+## 1.1. Machine Learning Engineering as Professional Work
 
 A **machine learning engineer** designs, develops, evaluates, deploys, maintains, and improves machine learning systems that enable software, products, services, and other technical systems to learn from data and produce predictions, classifications, recommendations, decisions, generated outputs, or other computational results. The work spans problem formulation, data preparation, feature engineering, model selection and architecture, training, experimentation, evaluation, optimization, software development, deployment, inference, monitoring, and continuing model improvement. Machine learning engineers also build and maintain pipelines that connect data, models, software, and production infrastructure; integrate models with applications and other systems; investigate performance or reliability problems; and collaborate with data scientists, software engineers, data engineers, product teams, infrastructure specialists, and other professionals. Because the behavior of a machine learning system depends not only on its code but also on training data, model architecture, parameters, evaluation methods, production inputs, and operating environment, effective machine learning engineering requires understanding how these elements interact across the model lifecycle. The work therefore combines machine learning knowledge, software engineering, data reasoning, experimentation, analytical problem solving, systems thinking, and technical judgment to create machine learning systems that are useful, reliable, scalable, maintainable, and appropriate for their intended applications.
 
-## 1.3. Human Skills, Agentic Skills, and Their Integration
+## 1.2. Human Skills, Agentic Skills, and Their Integration
 
 **Human skills** are especially important where machine learning engineering requires problem formulation, contextual interpretation, experimental reasoning, system design, evaluation of trade-offs, or judgment about whether model behavior is appropriate for its intended use. Knowledge of machine learning, statistics, software engineering, data, algorithms, and computing systems allows a machine learning engineer to translate practical problems into machine learning objectives, determine appropriate modeling approaches, interpret experimental results, identify limitations, reason about unexpected behavior, and balance model quality with latency, scalability, reliability, maintainability, and other engineering requirements. Human judgment becomes particularly important when objectives are ambiguous, available data imperfectly represents the underlying problem, evaluation metrics provide conflicting signals, or technical improvements have consequences that cannot be understood from model performance alone.
 
@@ -29,7 +25,7 @@ A **machine learning engineer** designs, develops, evaluates, deploys, maintains
 
 Rather than separating machine learning engineering into permanently human and AI activities, **human skills and agentic skills can be dynamically combined across responsibilities, tasks, and subtasks**. An engineer may formulate the machine learning objective and establish evaluation requirements, while Agentic AI prepares experiments and compares candidate models. Experimental results may reveal behavior that requires human interpretation before another agentic cycle of training, testing, or optimization begins. In other situations, agentic analysis may identify a data-quality problem or production anomaly that changes the problem being investigated. The relative contribution of human and agentic skills can therefore shift repeatedly as evidence accumulates, models change, system constraints become clearer, and production conditions evolve.
 
-## 1.4. Dynamic Allocation of Tasks and Subtasks
+## 1.3. Dynamic Allocation of Tasks and Subtasks
 
 Machine learning engineering responsibilities consist of tasks and subtasks with substantially different capability requirements. Allocation should therefore begin with **what each part of the work requires**, rather than with a fixed assumption that model development belongs to the engineer while automation belongs to Agentic AI. Developing a production model, for example, may involve defining the target problem, identifying available data, preparing datasets, selecting features, choosing candidate approaches, implementing training code, conducting experiments, evaluating results, analyzing errors, optimizing performance, packaging the model, integrating it with an application, deploying it, monitoring its behavior, and determining whether retraining or redesign is necessary. These subtasks vary considerably in their requirements for contextual understanding, computation, experimentation, coding, pattern analysis, system reasoning, and technical judgment.
 
@@ -45,9 +41,9 @@ Machine learning development is already strongly iterative, which makes this **d
 
 {{< template-row >}}
 
-## 1.5. Machine Learning Engineering Responsibilities
+## 1.4. Machine Learning Engineering Responsibilities
 
-### 1.5.1. Machine Learning Problem Formulation and Solution Design
+### 1.4.1. Machine Learning Problem Formulation and Solution Design
 
 A machine learning project begins before a model is selected or trained. The underlying problem must be understood, the desired outcome defined, and the suitability of machine learning considered in relation to available data, system requirements, operational constraints, and alternative technical approaches. Human reasoning is especially important for determining what should be predicted or generated, how success should be measured, what constraints matter, and whether a technically feasible model would actually address the intended problem. Agentic skills can support this reasoning by synthesizing requirements and technical evidence, examining relevant data characteristics, retrieving information about candidate approaches, comparing modeling strategies, and identifying assumptions or unresolved questions. The resulting analysis can broaden the solution space, while human judgment determines which objectives and approaches should guide subsequent development.
 
@@ -55,7 +51,7 @@ A machine learning project begins before a model is selected or trained. The und
 |---|---|---|
 |Interpret practical objectives, formulate appropriate ML problems, define meaningful success criteria, recognize constraints, and judge the suitability of alternative approaches.|Synthesize requirements and technical evidence, investigate candidate methods, identify assumptions and information gaps, and compare possible solution approaches.|Human-defined objectives establish the direction of agentic exploration; candidate approaches and identified constraints then support human selection or reformulation of the ML solution before development proceeds.|
 
-### 1.5.2. Data Preparation and Feature Engineering
+### 1.4.2. Data Preparation and Feature Engineering
 
 Model behavior depends fundamentally on the information available during training and inference. Raw data may therefore need to be collected, integrated, cleaned, transformed, labeled, sampled, validated, or converted into features that appropriately represent the problem. Many of these operations involve large volumes of information and repeatable processing, allowing Agentic AI to inspect datasets, generate transformation code, detect missing or inconsistent values, compare distributions, propose features, and automate defined preparation workflows. Yet statistical regularity does not by itself establish whether data or features are meaningful, representative, or appropriate for the intended application. Machine learning engineers apply domain and modeling judgment to determine which information should be used, recognize problematic assumptions or leakage, evaluate data limitations, and decide how preparation choices may influence downstream model behavior.
 
@@ -63,7 +59,7 @@ Model behavior depends fundamentally on the information available during trainin
 |---|---|---|
 |Assess data relevance and representativeness, identify meaningful features, recognize leakage or problematic assumptions, and determine how preparation decisions affect the modeling objective.|Profile and compare datasets, detect quality problems, generate transformation procedures, explore candidate features, and execute repeatable preparation workflows.|Agentic data analysis exposes patterns, inconsistencies, and feature possibilities; human interpretation determines their relevance, after which revised preparation decisions can initiate further agentic processing and validation.|
 
-### 1.5.3. Model Development, Training, and Experimentation
+### 1.4.3. Model Development, Training, and Experimentation
 
 Model development is an iterative search through possible architectures, algorithms, parameters, training procedures, and implementation choices. Once the experimental objective and boundaries are sufficiently defined, Agentic AI can contribute extensively by generating model and training code, configuring experiments, executing training runs through authorized tools, tracking results, comparing configurations, and proposing subsequent experiments from accumulated evidence. Human skills remain important for deciding which hypotheses are worth testing, interpreting unexpected outcomes, recognizing when an apparent improvement reflects an artifact of the experimental setup, and changing the modeling direction when incremental optimization no longer addresses the underlying problem. Development can therefore alternate between broad agentic experimentation and focused human reasoning rather than following a fixed sequence of manual model construction.
 
@@ -71,7 +67,7 @@ Model development is an iterative search through possible architectures, algorit
 |---|---|---|
 |Form modeling hypotheses, select meaningful experimental directions, interpret unexpected outcomes, challenge assumptions, and determine when the modeling strategy should change.|Generate implementations, configure and execute experiments, compare model variants, track results, and explore defined architecture or parameter spaces at scale.|Human hypotheses establish meaningful experimental directions; Agentic AI expands and executes the search, while resulting evidence may confirm, challenge, or redirect the next human or agentic step.|
 
-### 1.5.4. Model Evaluation, Validation, and Performance Optimization
+### 1.4.4. Model Evaluation, Validation, and Performance Optimization
 
 A model that performs well according to one metric is not necessarily ready for use. Evaluation may need to consider predictive or generative quality, generalization, robustness, latency, memory use, computational cost, stability, error distributions, and behavior under important edge cases or changing conditions. Agentic skills can calculate and compare metrics, perform systematic error analysis, generate test cases, evaluate model variants, examine performance across data segments, and identify opportunities for optimization. Deciding what those results mean requires broader judgment. The machine learning engineer must relate technical measurements to the intended application, determine which trade-offs are acceptable, investigate failures that matter disproportionately, and decide whether limitations can be addressed through optimization or require changes to the data, model, or problem formulation.
 
@@ -79,7 +75,7 @@ A model that performs well according to one metric is not necessarily ready for 
 |---|---|---|
 |Define meaningful evaluation criteria, interpret trade-offs and failure modes, judge application relevance, and decide whether limitations require optimization or redesign.|Run systematic evaluations, compare metrics and model variants, analyze errors across cases or segments, generate tests, and identify optimization opportunities.|Agentic evaluation expands the range and depth of measurable evidence; human judgment determines its practical significance and can redirect subsequent testing, optimization, retraining, or model redesign.|
 
-### 1.5.5. Model Deployment, Serving, and System Integration
+### 1.4.5. Model Deployment, Serving, and System Integration
 
 Moving a model from experimentation into practical use introduces requirements that may not be visible during training. Models may need to operate within applications, services, batch workflows, real-time systems, cloud environments, edge devices, or other production infrastructure while satisfying requirements for latency, throughput, reliability, resource consumption, compatibility, and maintainability. Agentic skills can generate deployment artifacts, assist with model packaging and conversion, create integration code, configure defined serving workflows, execute tests, compare runtime behavior, and diagnose integration problems. Human engineering judgment becomes more consequential when deployment choices affect system architecture, user-facing behavior, infrastructure dependencies, or failure consequences. Production integration therefore combines agentic implementation and testing with human decisions about system boundaries, acceptable trade-offs, and operational readiness.
 
@@ -87,7 +83,7 @@ Moving a model from experimentation into practical use introduces requirements t
 |---|---|---|
 |Design production integration, evaluate architectural and runtime trade-offs, anticipate failure consequences, and determine whether a model is ready for operational use.|Prepare deployment and integration artifacts, generate serving code, execute compatibility and performance tests, and analyze runtime behavior across target environments.|Human-defined production requirements establish deployment boundaries; agentic implementation and testing reveal actual runtime behavior, with exceptions or performance constraints returning the workflow to human architectural judgment when necessary.|
 
-### 1.5.6. Machine Learning Pipelines, Automation, and Lifecycle Engineering
+### 1.4.6. Machine Learning Pipelines, Automation, and Lifecycle Engineering
 
 Reliable machine learning systems depend on more than individual models. Data preparation, feature generation, training, evaluation, artifact management, deployment, testing, retraining, and other lifecycle activities often need to operate as reproducible and coordinated workflows. Agentic skills can help construct pipeline code, automate defined procedures, manage repeated experimentation and validation steps, inspect dependencies, generate tests, and interact with authorized development or infrastructure tools. Automation boundaries still require careful engineering judgment because an incorrect data transformation, evaluation condition, model update, or deployment action can propagate through the lifecycle. The machine learning engineer therefore determines which processes are sufficiently defined for automation, establishes validation and rollback requirements, and evaluates whether the resulting workflows remain reproducible, maintainable, and aligned with the intended system behavior.
 
@@ -95,7 +91,7 @@ Reliable machine learning systems depend on more than individual models. Data pr
 |---|---|---|
 |Define lifecycle architecture, select appropriate automation boundaries, establish reproducibility and validation requirements, anticipate failure propagation, and design safeguards.|Develop and maintain automated ML workflows, coordinate repeatable lifecycle steps, generate tests, inspect dependencies, and execute authorized pipeline operations.|Human-defined lifecycle controls establish the conditions for automation; Agentic AI performs and refines suitable workflow steps, while validation failures or changing requirements can shift pipeline decisions back toward human engineering judgment.|
 
-### 1.5.7. Production Monitoring, Troubleshooting, and Continuous Model Improvement
+### 1.4.7. Production Monitoring, Troubleshooting, and Continuous Model Improvement
 
 Deployment begins a new stage of machine learning engineering rather than ending the development process. Input data can change, prediction distributions can shift, model quality may deteriorate, latency or resource consumption can increase, upstream dependencies can fail, and previously uncommon cases may become operationally important. Continuous streams of logs, metrics, data distributions, prediction records, and system events make this responsibility particularly suitable for agentic analysis. Agentic AI can monitor defined indicators, correlate changes across data and system behavior, identify anomalies, compare current conditions with historical baselines, and investigate possible causes. Human reasoning remains essential for determining whether an observed change is meaningful, distinguishing model problems from data or infrastructure problems, and deciding whether the appropriate response is retraining, rollback, data correction, software modification, or more fundamental model redesign.
 
@@ -103,7 +99,7 @@ Deployment begins a new stage of machine learning engineering rather than ending
 |---|---|---|
 |Interpret production changes in context, distinguish among model, data, and system problems, prioritize failures, and determine appropriate corrective or improvement strategies.|Maintain analytical coverage across model and system indicators, detect drift or anomalies, correlate operational evidence, and investigate candidate causes.|Agentic monitoring surfaces changes and developing problems; human interpretation determines their significance and response, while the resulting hypotheses or corrective decisions can initiate further agentic investigation, retraining, testing, or verification.|
 
-### 1.5.8. Machine Learning Software Engineering, Technical Coordination, and Knowledge Development
+### 1.4.8. Machine Learning Software Engineering, Technical Coordination, and Knowledge Development
 
 Machine learning systems operate within broader software and organizational environments, making software quality, technical communication, documentation, and continuing knowledge development part of the engineering responsibility. Code must be maintainable and testable; model assumptions, experiments, dependencies, interfaces, and operational procedures need to be understood by others; and changes in machine learning methods, frameworks, infrastructure, and deployment techniques may affect future technical decisions. Agentic skills can assist with code generation and review, test development, documentation, experiment summarization, technical information retrieval, comparison of emerging approaches, and preservation of context across development activities. Human skills provide the architectural understanding, communication, coordination, and critical evaluation needed to integrate these outputs into shared engineering work. Together, they can improve continuity between model development and the software, data, infrastructure, and product environments in which machine learning systems are created and maintained.
 
@@ -111,7 +107,7 @@ Machine learning systems operate within broader software and organizational envi
 |---|---|---|
 |Maintain engineering intent, communicate technical decisions, coordinate across specialties, evaluate emerging approaches, and judge how model changes affect surrounding systems.|Support code and test development, maintain technical context, summarize experiments and decisions, update documentation, and retrieve or compare relevant technical knowledge.|Agentic engineering and knowledge support extends across ongoing development activities; human technical judgment gives those outputs context and direction, while resulting decisions become new inputs for code, documentation, experimentation, and system improvement.|
 
-## 1.6. Human–Agentic Involvement Across Machine Learning Engineering
+## 1.5. Human–Agentic Involvement Across Machine Learning Engineering
 
 The relative involvement of human and agentic skills differs among responsibilities and among the tasks within each responsibility. The following matrix therefore represents common tendencies rather than fixed assignments.
 
@@ -126,7 +122,7 @@ The relative involvement of human and agentic skills differs among responsibilit
 |Production Monitoring, Troubleshooting, and Continuous Model Improvement|Very High|Very High|Continuous agentic analysis of production evidence with human diagnosis, prioritization, and improvement decisions|
 |Machine Learning Software Engineering, Technical Coordination, and Knowledge Development|Very High|High|Agentic engineering and knowledge support combined with human architectural understanding, coordination, and technical judgment|
 
-## 1.7. Why the Division of Work Changes
+## 1.6. Why the Division of Work Changes
 
 No single division of human and agentic work is appropriate across the machine learning lifecycle. Activities involving extensive data processing, repeated experimentation, systematic model comparison, code generation, automated testing, or continuous monitoring may support substantial agentic involvement. Greater human participation becomes important when work requires problem formulation, interpretation of ambiguous evidence, evaluation of competing objectives, architectural decisions, consequential model behavior, coordination across technical or organizational boundaries, or professional accountability. Because machine learning systems change through both deliberate development and changing production data, the appropriate allocation may also shift considerably over time.
 
@@ -151,7 +147,7 @@ No single division of human and agentic work is appropriate across the machine l
 
 Several of these factors often interact within a single workflow. Agentic AI might conduct a large experimental comparison and identify a model configuration that improves an aggregate performance metric. Further analysis may reveal that the improvement is concentrated in common cases while performance deteriorates for an operationally important subset of inputs. Determining whether that trade-off is acceptable requires human understanding of the application and its priorities. Once the decision is made, Agentic AI may conduct additional experiments, modify the training procedure, test the revised model, and compare the resulting behavior. Allocation therefore changes not only according to the original task but also according to what is learned while the task is being performed.
 
-## 1.8. Developing Machine Learning Engineering Capability with Agentic AI
+## 1.7. Developing Machine Learning Engineering Capability with Agentic AI
 
 Greater access to agentic skills does not eliminate the importance of machine learning engineering expertise. Understanding machine learning methods, data, statistics, algorithms, software systems, experimentation, evaluation, deployment, and production behavior enables an engineer to formulate appropriate problems, interpret why a model behaves as it does, recognize flawed experimental conclusions, evaluate competing technical approaches, and determine whether an apparently successful model is appropriate for practical use.
 
@@ -163,7 +159,7 @@ This creates a broader model of professional capability:
 
 The relative contribution of these components will vary across machine learning responsibilities, projects, and production environments. It will also continue to evolve as foundation models, machine learning methods, agentic skills, development frameworks, computing infrastructure, deployment architectures, and engineering practices advance.
 
-## 1.9. The Evolving Boundary Between Human and Agentic Skills
+## 1.8. The Evolving Boundary Between Human and Agentic Skills
 
 A **machine learning engineer and Agentic AI are better understood through an adaptive division of work than through a permanent separation between human tasks and AI tasks**. Agentic skills may perform substantial portions of data analysis, feature exploration, code generation, experiment execution, model comparison, evaluation, testing, deployment preparation, monitoring analysis, documentation, and technical information retrieval. Human skills remain especially important where machine learning engineering involves ambiguous objectives, interpretation of data and model behavior, experimental judgment, architectural decisions, competing performance requirements, consequential production changes, coordination across technical teams, or decisions whose implications extend beyond measurable model performance.
 

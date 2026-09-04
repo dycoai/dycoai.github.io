@@ -13,15 +13,11 @@ author = ["DyCoAI"]
 
 _How Human Skills and Agentic Skills Dynamically Combine Across Robotics Motion Planning Engineering Responsibilities_
 
-## 1.1. Theoretical Framework
-
-This article is built on a proposed theoretical framework in which **job responsibilities give rise to tasks, tasks may be decomposed into sets of subtasks, and each subtask is performed through a single skill or a combination of multiple skills**. The skills available for professional work are not treated as a fixed set of exclusively human capabilities. Instead, professional skills increasingly represent a **dynamic and evolving integration of human skills and agentic skills**. Depending on the requirements of a subtask, execution may rely primarily on human skills, primarily on agentic skills, or on a combination of both. Their relative contributions can change as the task progresses, new information becomes available, intermediate results are evaluated, or working conditions change. From this perspective, human–agentic integration is intended to dynamically and collaboratively draw on the strengths of different skill configurations, allowing human, agentic, and combined capabilities to contribute where they can provide the greatest value during task execution and optimization. This reference article is intended primarily for **college students preparing to enter the workforce, job seekers, and workplace professionals**. It provides a structured way to understand both the work of the occupation and how human and agentic skills may contribute to its tasks as professional work continues to evolve.
-
-## 1.2. Robotics Motion Planning Engineering as Professional Work
+## 1.1. Robotics Motion Planning Engineering as Professional Work
 
 A **robotics motion planning engineer** designs, develops, integrates, evaluates, and improves the algorithms and software that determine how robots move from one state or location to another while satisfying geometric, kinematic, dynamic, operational, and safety constraints. The work spans path planning, trajectory generation and optimization, forward and inverse kinematics, collision checking and avoidance, planning-scene construction, motion constraints, robot-state representation, controls integration, perception-informed planning, simulation, testing, debugging, and deployment on physical robotic systems. Motion planning engineers may work with robotic manipulators, mobile robots, autonomous vehicles, multi-robot systems, or other robotic platforms whose movement must remain feasible, smooth, efficient, responsive, and safe in changing environments. Because planned motion must ultimately be executed by physical hardware, the role also requires understanding actuator limitations, joint limits, velocity and acceleration constraints, sensor information, timing requirements, control behavior, and the interaction between planning algorithms and the surrounding robotics software stack. Effective robotics motion planning therefore combines robotics theory, algorithmic reasoning, software engineering, mathematics, optimization, systems thinking, experimentation, and hardware-aware technical judgment to transform desired robot behavior into executable motion.
 
-## 1.3. Human Skills, Agentic Skills, and Their Integration
+## 1.2. Human Skills, Agentic Skills, and Their Integration
 
 **Human skills** are particularly important when motion planning requires formulation of the planning problem, interpretation of physical constraints, algorithm selection, architectural reasoning, debugging of ambiguous behavior, or evaluation of trade-offs among safety, feasibility, smoothness, speed, robustness, and computational performance. Knowledge of robotics, kinematics, dynamics, optimization, algorithms, control systems, and software engineering allows a robotics motion planning engineer to determine how a planning problem should be represented, choose appropriate planning strategies, interpret planner failures, recognize unrealistic assumptions, and understand how planning decisions affect the physical robot. Human judgment becomes especially important when environments are partially known, sensor information is uncertain, multiple feasible trajectories exist, optimization objectives conflict, or technically valid motion produces undesirable physical or operational behavior.
 
@@ -29,7 +25,7 @@ A **robotics motion planning engineer** designs, develops, integrates, evaluates
 
 Robotics motion planning engineering can consequently involve a **dynamic integration of human skills and agentic skills across responsibilities, tasks, and subtasks**. An engineer may define the desired robot behavior and physical constraints while Agentic AI generates planner configurations and evaluates candidate approaches in simulation. Unexpected collision behavior or infeasible trajectories may then require human reinterpretation of the robot model, planning assumptions, or constraints before another agentic testing cycle begins. In other cases, an agent may identify a pattern across failed planning runs that directs human attention toward a kinematic singularity, perception error, or control limitation. The balance between human and agentic capabilities can therefore change repeatedly as the robot, environment, planner, and intermediate results reveal new information.
 
-## 1.4. Dynamic Allocation of Tasks and Subtasks
+## 1.3. Dynamic Allocation of Tasks and Subtasks
 
 Robotics motion planning responsibilities contain tasks and subtasks with very different capability requirements. Allocation should therefore begin with **what a particular subtask requires**, rather than with a fixed distinction between activities assumed to belong to the engineer and those delegated to Agentic AI. Developing a motion-planning capability, for example, may involve defining the planning objective, constructing the robot model, representing the environment, selecting a planning algorithm, establishing collision and motion constraints, generating candidate paths, optimizing trajectories, evaluating kinematic and dynamic feasibility, integrating the planner with perception and controls, running simulations, testing hardware, analyzing failures, and refining planner performance. Some subtasks depend heavily on contextual and physical reasoning, while others involve systematic computation, code generation, repeated experimentation, or large-scale comparison.
 
@@ -45,9 +41,9 @@ Motion planning development is naturally iterative, making this **dynamic alloca
 
 {{< template-row >}}
 
-## 1.5. Robotics Motion Planning Engineering Responsibilities
+## 1.4. Robotics Motion Planning Engineering Responsibilities
 
-### 1.5.1. Motion Planning Problem Formulation and Planning Architecture
+### 1.4.1. Motion Planning Problem Formulation and Planning Architecture
 
 Before a robot can generate useful motion, the planning problem itself must be represented appropriately. The engineer has to determine the robot state, goals, workspace representation, obstacles, constraints, permissible motions, optimization objectives, computational requirements, and relationship between the planner and surrounding perception, control, and application systems. Human systems thinking is central because inappropriate assumptions at this stage can produce trajectories that are mathematically feasible but physically ineffective or operationally unsuitable. Agentic skills can support architectural exploration by synthesizing technical requirements, examining robot and environment models, comparing planning formulations, retrieving relevant algorithmic approaches, and identifying assumptions or unresolved constraints. Candidate planning architectures can then be evaluated through human technical judgment and refined through additional agentic analysis.
 
@@ -55,7 +51,7 @@ Before a robot can generate useful motion, the planning problem itself must be r
 |---|---|---|
 |Formulate planning objectives, define state and constraint representations, interpret robot and environment requirements, and make architectural trade-offs.|Synthesize planning requirements, compare candidate formulations, inspect model assumptions, retrieve relevant methods, and identify unresolved constraints.|Human-defined objectives and physical assumptions guide agentic planning exploration; resulting alternatives and identified limitations support human architectural decisions and further refinement.|
 
-### 1.5.2. Path Planning Algorithm Development and Optimization
+### 1.4.2. Path Planning Algorithm Development and Optimization
 
 Generating a collision-free path through a constrained environment is one of the central problems of motion planning. Depending on the robot and task, suitable approaches may include sampling-based, graph-based, search-based, optimization-based, or hybrid planning methods. Agentic AI can help implement planners, generate experimental variants, compare algorithm behavior, tune parameters, construct benchmark scenarios, and analyze success rates or computational performance across many planning cases. Choosing an appropriate planner, however, requires more than identifying the algorithm with the highest aggregate success rate. Human reasoning connects planner behavior with workspace geometry, robot degrees of freedom, computational constraints, repeatability requirements, and the types of failures that matter operationally. Algorithm development therefore becomes an iterative interaction between large-scale agentic experimentation and human interpretation of why particular approaches succeed or fail.
 
@@ -63,7 +59,7 @@ Generating a collision-free path through a constrained environment is one of the
 |---|---|---|
 |Select meaningful planning strategies, reason about configuration-space behavior, interpret planner limitations, and judge trade-offs among robustness, speed, and solution quality.|Implement and compare planning algorithms, tune parameters, execute benchmark scenarios, analyze planner statistics, and explore candidate configurations at scale.|Human planning hypotheses define meaningful algorithmic directions; Agentic AI expands the experimental search, while observed strengths and failures redirect subsequent human or agentic refinement.|
 
-### 1.5.3. Kinematics, Constraints, and Collision-Aware Motion
+### 1.4.3. Kinematics, Constraints, and Collision-Aware Motion
 
 A planned path must respect the geometry and physical configuration of the robot rather than merely connect two abstract points. Forward and inverse kinematics, joint limits, singularities, self-collision, environmental collision, reachability, workspace restrictions, and task-specific constraints all influence whether a motion can actually be performed. Agentic skills can analyze robot models, evaluate large numbers of candidate configurations, generate collision-checking and constraint logic, identify recurring infeasible states, and compare solver behavior across planning scenarios. Human expertise is needed to recognize whether mathematical constraints accurately represent the real mechanism, whether conservative collision margins are appropriate, and how unusual configurations should be treated. As a result, constraint modeling can shift repeatedly between agentic analysis and human interpretation as planning and hardware evidence expose mismatches between the model and the physical system.
 
@@ -71,7 +67,7 @@ A planned path must respect the geometry and physical configuration of the robot
 |---|---|---|
 |Interpret robot geometry and physical limits, define meaningful kinematic and collision constraints, reason about singularities and reachability, and judge acceptable margins.|Analyze robot models and candidate states, perform systematic collision and feasibility checks, inspect solver failures, and identify problematic configuration regions.|Agentic feasibility analysis exposes recurring constraint violations or difficult configurations; human interpretation determines whether the issue lies in the robot model, planning formulation, margins, or required motion and guides subsequent refinement.|
 
-### 1.5.4. Trajectory Generation, Optimization, and Motion Quality
+### 1.4.4. Trajectory Generation, Optimization, and Motion Quality
 
 A collision-free geometric path still has to be converted into a trajectory that a physical robot can execute. Velocity, acceleration, jerk, actuator limits, timing, smoothness, dynamic feasibility, energy use, tracking performance, and task duration may all influence trajectory quality. Agentic AI can compare time-parameterization methods, run trajectory optimizations, inspect constraint violations, evaluate execution metrics, and explore parameter combinations across large numbers of candidate motions. Human judgment becomes important when optimization objectives compete—for example, when faster movement increases vibration, tracking error, wear, or operational risk. The most appropriate trajectory therefore emerges from interaction between quantitative agentic optimization and human understanding of the physical robot and its intended behavior.
 
@@ -79,7 +75,7 @@ A collision-free geometric path still has to be converted into a trajectory that
 |---|---|---|
 |Define meaningful trajectory objectives, interpret physical trade-offs, recognize undesirable motion characteristics, and judge acceptable performance boundaries.|Generate and optimize trajectories, evaluate timing and motion constraints, compare parameterizations, and analyze execution-related metrics.|Agentic optimization explores feasible motion alternatives within defined constraints; human evaluation determines whether resulting trajectories are physically and operationally appropriate and can revise objectives for another optimization cycle.|
 
-### 1.5.5. Perception-Aware and Reactive Motion Planning
+### 1.4.5. Perception-Aware and Reactive Motion Planning
 
 Robots operating in changing environments often rely on perception to determine where objects, obstacles, people, surfaces, or other relevant elements are located. Point clouds, object poses, occupancy representations, depth information, localization estimates, or other sensor-derived data may therefore become direct inputs to planning. Agentic skills can help process planning-scene information, compare perception and planner states, identify inconsistencies, generate tests for uncertain environmental conditions, and analyze how changes in sensed information affect planned motion. Human reasoning remains essential because perception is imperfect: an apparent obstacle can be spurious, an object pose may be uncertain, or delayed information may cause the planner to reason about a world state that no longer exists. Effective reactive planning consequently requires continued interaction among agentic analysis, human systems understanding, and changing environmental evidence.
 
@@ -87,7 +83,7 @@ Robots operating in changing environments often rely on perception to determine 
 |---|---|---|
 |Determine how perception uncertainty should influence planning, interpret environmental context, define acceptable reactive behavior, and judge ambiguous sensed conditions.|Analyze perception-derived planning data, compare world representations, test planner responses to environmental changes, and identify inconsistencies or failure patterns.|Agentic analysis connects sensed environmental changes with planning behavior; human interpretation determines how uncertainty or ambiguity should alter constraints, replanning, fallback behavior, or system design.|
 
-### 1.5.6. Controls, Hardware, and Robotics System Integration
+### 1.4.6. Controls, Hardware, and Robotics System Integration
 
 Motion planning becomes useful only when planned trajectories can be executed by the broader robotic system. The planner must interact appropriately with robot-state estimation, trajectory controllers, actuator interfaces, feedback systems, safety mechanisms, perception components, and other software or hardware subsystems. Agentic skills can assist by generating integration code, inspecting interfaces, analyzing traces, comparing commanded and observed motion, constructing tests, and identifying mismatches among planner, controller, and hardware states. Human systems reasoning is especially important when a failure crosses subsystem boundaries. A trajectory that appears valid in planning software may fail because of actuator saturation, controller limitations, communication timing, calibration errors, or mechanical behavior. Integration therefore requires continual movement between software-level agentic analysis and human understanding of the complete physical system.
 
@@ -95,7 +91,7 @@ Motion planning becomes useful only when planned trajectories can be executed by
 |---|---|---|
 |Reason across planning, controls, hardware, sensing, and software boundaries; interpret physical execution problems; and make system-level integration decisions.|Generate and inspect integration code, analyze command and feedback traces, compare planned and executed states, and construct subsystem interaction tests.|Agentic integration analysis identifies discrepancies across interfaces and execution states; human systems reasoning determines their underlying significance and directs changes to planning, control, hardware, or software components.|
 
-### 1.5.7. Simulation, Testing, Debugging, and Physical Validation
+### 1.4.7. Simulation, Testing, Debugging, and Physical Validation
 
 Simulation provides a scalable environment for examining planner behavior before or alongside tests on physical robots, but simulated success does not guarantee real-world reliability. Motion planners therefore need systematic testing across normal cases, edge conditions, randomized environments, sensor variations, collision scenarios, constrained configurations, and physical execution. Agentic AI can create test scenarios, automate simulation runs, analyze logs and trajectories, cluster failure cases, replay recorded conditions, compare before-and-after behavior, and identify patterns across large experimental sets. Human skills are particularly important when failures are ambiguous or when discrepancies between simulation and hardware reveal unmodeled dynamics, timing effects, mechanical limitations, or environmental conditions. Debugging consequently becomes an iterative process in which agentic evidence collection and analysis narrow the problem while human reasoning determines what the evidence means and which hypothesis should be tested next.
 
@@ -103,7 +99,7 @@ Simulation provides a scalable environment for examining planner behavior before
 |---|---|---|
 |Design meaningful validation conditions, interpret simulation-to-reality gaps, form and challenge failure hypotheses, and determine whether behavior is ready for physical operation.|Generate and execute tests, automate simulation and replay, analyze trajectories and logs, cluster failure patterns, and compare system behavior across revisions.|Agentic testing broadens experimental coverage and exposes recurring failures; human diagnosis interprets their physical and system significance, with revised hypotheses initiating additional agentic tests or implementation changes.|
 
-### 1.5.8. Robotics Software Engineering, Technical Coordination, and Continuous Improvement
+### 1.4.8. Robotics Software Engineering, Technical Coordination, and Continuous Improvement
 
 Motion planning software forms part of a larger robotics platform and must remain maintainable as hardware, sensors, planners, controls, and application requirements change. Engineers therefore contribute not only algorithms but also production-quality software, reusable planning components, testing infrastructure, documentation, performance analysis, technical reviews, and collaboration with perception, controls, mechanical, electrical, systems, and other robotics specialists. Agentic skills can assist with code generation and review, test development, documentation, technical information retrieval, performance analysis, regression investigation, and preservation of engineering context across development cycles. Human communication and technical judgment provide the broader direction needed to coordinate subsystem changes, evaluate emerging planning methods, maintain design intent, and determine which improvements provide meaningful value to the overall robotic system.
 
@@ -111,7 +107,7 @@ Motion planning software forms part of a larger robotics platform and must remai
 |---|---|---|
 |Preserve system and algorithmic intent, coordinate across robotics disciplines, evaluate architectural implications, communicate technical decisions, and prioritize meaningful improvements.|Support code and test development, analyze regressions, maintain technical context, update documentation, retrieve relevant methods, and compare implementation alternatives.|Agentic engineering support connects evidence and implementation work across development cycles; human coordination and judgment determine what should change, how subsystem effects should be managed, and which improvements should guide subsequent agentic work.|
 
-## 1.6. Human–Agentic Involvement Across Robotics Motion Planning Engineering
+## 1.5. Human–Agentic Involvement Across Robotics Motion Planning Engineering
 
 The relative involvement of human and agentic skills differs among responsibilities and among the tasks within each responsibility. The following matrix therefore represents common tendencies rather than fixed assignments.
 
@@ -126,7 +122,7 @@ The relative involvement of human and agentic skills differs among responsibilit
 |Simulation, Testing, Debugging, and Physical Validation|Very High|Very High|Large-scale agentic testing and evidence analysis combined with human hypothesis-driven debugging and physical validation|
 |Robotics Software Engineering, Technical Coordination, and Continuous Improvement|Very High|High|Agentic engineering and knowledge support combined with human architectural judgment, cross-disciplinary coordination, and technical direction|
 
-## 1.7. Why the Division of Work Changes
+## 1.6. Why the Division of Work Changes
 
 No single division of human and agentic work is appropriate across robotics motion planning. Activities involving large-scale simulation, repeated planner comparison, parameter exploration, collision checking, trajectory analysis, code generation, log inspection, or automated regression testing may support substantial agentic involvement. Greater human participation becomes important when work involves ambiguous physical behavior, planning architecture, unfamiliar failure modes, incomplete environmental information, interaction among robotic subsystems, consequential motion decisions, or professional responsibility for safe physical operation. The appropriate allocation can also change rapidly when behavior observed in simulation differs from what occurs on actual hardware.
 
@@ -153,7 +149,7 @@ No single division of human and agentic work is appropriate across robotics moti
 
 Several factors can influence the same planning problem simultaneously. Agentic AI may compare thousands of simulated trajectories and identify a configuration that reduces planning time while preserving nominal collision clearance. Physical testing may then reveal undesirable vibration near a particular robot configuration. Determining whether the issue originates in trajectory timing, structural behavior, control tracking, or an inadequately represented constraint requires human robotics judgment. Once the likely cause is established, Agentic AI can modify the planning or trajectory parameters, rerun simulation and regression tests, and compare the resulting behavior. The division of work therefore evolves with both the original planning problem and the evidence generated during development and physical execution.
 
-## 1.8. Developing Robotics Motion Planning Engineering Capability with Agentic AI
+## 1.7. Developing Robotics Motion Planning Engineering Capability with Agentic AI
 
 Greater access to agentic skills does not reduce the importance of robotics motion planning expertise. Knowledge of kinematics, dynamics, motion planning algorithms, optimization, collision checking, robotics software, control systems, sensing, simulation, and physical hardware enables an engineer to understand why a planner behaves as it does, recognize unrealistic computational assumptions, distinguish planning failures from perception or control failures, and judge whether mathematically feasible trajectories are appropriate for physical execution.
 
@@ -165,7 +161,7 @@ This creates a broader model of professional capability:
 
 The relative contribution of these components will differ across robotic platforms, planning problems, applications, and operational environments. It will also continue to evolve as robotics algorithms, foundation models, agentic skills, simulation technologies, sensors, computing hardware, control systems, and autonomous capabilities advance.
 
-## 1.9. The Evolving Boundary Between Human and Agentic Skills
+## 1.8. The Evolving Boundary Between Human and Agentic Skills
 
 A **robotics motion planning engineer and Agentic AI are better understood through an adaptive division of work than through a permanent separation between human tasks and AI tasks**. Agentic skills may perform substantial portions of planning-code generation, algorithm comparison, parameter exploration, simulation, trajectory analysis, collision testing, regression testing, log analysis, documentation, and technical information retrieval. Human skills remain especially important when work involves formulation of the planning problem, unfamiliar robot behavior, physical constraints, incomplete environmental information, cross-subsystem failures, competing optimization objectives, safety-sensitive motion, or decisions whose consequences extend beyond measurable planner performance.
 

@@ -13,15 +13,11 @@ author = ["DyCoAI"]
 
 _How Human Skills and Agentic Skills Dynamically Combine Across Generative AI Software Engineering Responsibilities_
 
-## 1.1. Theoretical Framework
-
-This article is built on a proposed theoretical framework in which **job responsibilities give rise to tasks, tasks may be decomposed into sets of subtasks, and each subtask is performed through a single skill or a combination of multiple skills**. The skills available for professional work are not treated as a fixed set of exclusively human capabilities. Instead, professional skills increasingly represent a **dynamic and evolving integration of human skills and agentic skills**. Depending on the requirements of a subtask, execution may rely primarily on human skills, primarily on agentic skills, or on a combination of both. Their relative contributions can change as the task progresses, new information becomes available, intermediate results are evaluated, or working conditions change. From this perspective, human–agentic integration is intended to dynamically and collaboratively draw on the strengths of different skill configurations, allowing human, agentic, and combined capabilities to contribute where they can provide the greatest value during task execution and optimization. This reference article is intended primarily for **college students preparing to enter the workforce, job seekers, and workplace professionals**. It provides a structured way to understand both the work of the occupation and how human and agentic skills may contribute to its tasks as professional work continues to evolve.
-
-## 1.2. Generative AI Software Engineering as Professional Work
+## 1.1. Generative AI Software Engineering as Professional Work
 
 A **generative AI software engineer** designs, develops, evaluates, deploys, maintains, and improves software systems that use generative AI models to produce, transform, retrieve, reason over, or interact with information. The work can include building applications around large language models and other generative models, developing retrieval-augmented generation systems, constructing agentic workflows, designing prompts and model interactions, integrating external data and tools, implementing application logic, evaluating generated outputs, and operating generative AI capabilities in production. Generative AI software engineers also build the software infrastructure surrounding models, connect AI components with applications and services, establish testing and observability, investigate failures, optimize quality, latency, reliability, and computational cost, and adapt systems as models and application requirements change. Because application behavior emerges from interactions among models, instructions, retrieved context, tools, software components, data, and users, effective generative AI engineering requires understanding the complete system rather than treating the underlying model as an isolated component. The work consequently combines software engineering, AI and machine learning knowledge, experimentation, systems thinking, data reasoning, evaluation, problem solving, and technical judgment to create generative AI applications that are useful, reliable, scalable, maintainable, and appropriate for their intended purposes.
 
-## 1.3. Human Skills, Agentic Skills, and Their Integration
+## 1.2. Human Skills, Agentic Skills, and Their Integration
 
 **Human skills** are particularly important when generative AI software engineering requires problem formulation, architecture, interpretation of application requirements, experimental judgment, evaluation of open-ended behavior, or decisions about acceptable system performance and risk. Software engineering knowledge, understanding of generative models, systems thinking, data reasoning, analytical problem solving, and technical judgment allow an engineer to translate practical needs into application designs, select suitable model and system approaches, interpret unexpected outputs, identify weaknesses in retrieval or orchestration, and balance quality with latency, reliability, maintainability, security, and cost. These capabilities become especially important because generative AI behavior is probabilistic and context-dependent: an output can appear plausible while being incomplete, unsupported, inappropriate, or inconsistent with the application's intended behavior.
 
@@ -29,7 +25,7 @@ At the same time, **agentic skills** can participate extensively in the engineer
 
 Generative AI software engineering can therefore involve a particularly close **integration of human skills and agentic skills across responsibilities, tasks, and subtasks**. An engineer might define an application's intended behavior and architectural constraints while Agentic AI develops a candidate implementation and evaluation suite. Test results may reveal a retrieval problem that requires human reinterpretation of the system design, after which an agent modifies the pipeline and performs another evaluation cycle. In another workflow, agentic analysis may identify an unexpected interaction among prompts, context, tools, and application logic that changes what needs to be investigated. Human and agentic contributions can consequently shift as requirements, evidence, system behavior, and operational conditions develop.
 
-## 1.4. Dynamic Allocation of Tasks and Subtasks
+## 1.3. Dynamic Allocation of Tasks and Subtasks
 
 Generative AI software engineering responsibilities contain tasks and subtasks with markedly different capability requirements. Allocation should therefore begin with **what a particular subtask requires**, rather than with a fixed assumption that software design is human work while implementation or automation is agentic work. Building a generative AI application, for example, may involve defining the use case, selecting models, designing application architecture, preparing knowledge sources, constructing retrieval, developing prompts, implementing orchestration, integrating tools and APIs, generating application code, creating evaluation datasets, testing outputs, analyzing failures, deploying services, monitoring production behavior, and improving the system. Each subtask may call for a different combination of contextual interpretation, coding, experimentation, information processing, tool use, evaluation, and engineering judgment.
 
@@ -45,9 +41,9 @@ Generative AI development is inherently iterative, and the availability of agent
 
 {{< template-row >}}
 
-## 1.5. Generative AI Software Engineering Responsibilities
+## 1.4. Generative AI Software Engineering Responsibilities
 
-### 1.5.1. Generative AI Problem Formulation and Solution Architecture
+### 1.4.1. Generative AI Problem Formulation and Solution Architecture
 
 A successful generative AI application begins with determining what problem the system should address and whether generative AI provides an appropriate solution. User needs, expected outputs, available information, software dependencies, model capabilities, performance requirements, operational constraints, and acceptable failure conditions all influence the resulting architecture. Human skills are central to interpreting these factors and deciding how generative capabilities should fit within a broader software system. Agentic analysis can support this reasoning by synthesizing requirements, investigating relevant technical approaches, comparing model and architectural alternatives, identifying dependencies, and exposing assumptions or unresolved questions. Candidate architectures can then become inputs to human engineering judgment, with revised decisions initiating further agentic exploration when necessary.
 
@@ -55,7 +51,7 @@ A successful generative AI application begins with determining what problem the 
 |---|---|---|
 |Interpret application needs, formulate appropriate generative AI problems, define intended behavior and constraints, and make architectural trade-offs.|Synthesize technical requirements, investigate candidate approaches, compare architectural alternatives, identify dependencies, and expose unresolved assumptions.|Human-defined objectives establish the direction of agentic architectural exploration; resulting alternatives and constraints support human design decisions and can initiate further analysis or refinement.|
 
-### 1.5.2. Model Selection, Prompting, and Generative Behavior Design
+### 1.4.2. Model Selection, Prompting, and Generative Behavior Design
 
 Generative behavior depends on more than choosing a capable model. Model characteristics, system instructions, prompts, context construction, sampling or inference settings, structured outputs, conversation state, and surrounding application logic can all influence what the system produces. Agentic skills can systematically compare models, generate and revise prompt alternatives, execute defined experiments, analyze output patterns, and explore configuration combinations at a scale that would be difficult to examine manually. Human judgment determines what constitutes useful or appropriate behavior, which differences matter for the application, and when prompt-level adjustments are insufficient to solve a deeper architectural or data problem. Model and interaction design can therefore proceed as an iterative process in which agentic experimentation expands the evidence available for human technical decisions.
 
@@ -63,7 +59,7 @@ Generative behavior depends on more than choosing a capable model. Model charact
 |---|---|---|
 |Define intended model behavior, interpret qualitative differences, judge application relevance, and determine when problems require changes beyond prompting or configuration.|Compare candidate models and configurations, generate prompt variants, execute behavioral experiments, and analyze recurring output characteristics.|Agentic experimentation explores the model-behavior space within human-defined objectives; human evaluation interprets the resulting differences and redirects subsequent model, prompt, or architectural refinement.|
 
-### 1.5.3. Retrieval, Context, and Knowledge Integration
+### 1.4.3. Retrieval, Context, and Knowledge Integration
 
 Generative AI applications often need information beyond what a model contains internally. Retrieval-augmented generation and related approaches can connect models with documents, databases, search systems, knowledge stores, or other authorized information sources, but the quality of the resulting output depends on how information is prepared, retrieved, ranked, assembled, and supplied as context. Agentic skills can analyze source material, assist with data preparation, generate retrieval logic, compare chunking or indexing strategies, test queries, evaluate retrieved evidence, and identify cases in which relevant information is missing or poorly ranked. Human understanding remains important for determining which sources are authoritative, what information the application should be permitted to use, how retrieval quality relates to actual user needs, and whether observed failures originate in retrieval, context construction, generation, or the underlying knowledge itself.
 
@@ -71,7 +67,7 @@ Generative AI applications often need information beyond what a model contains i
 |---|---|---|
 |Determine appropriate knowledge sources, interpret information requirements, establish relevance and access boundaries, and diagnose context-related limitations.|Prepare and analyze retrieval content, develop retrieval procedures, compare retrieval strategies, evaluate returned evidence, and identify missing or weak context.|Agentic retrieval analysis reveals how information reaches the model; human interpretation determines whether that information is appropriate and sufficient, with revised retrieval decisions directing further agentic testing and optimization.|
 
-### 1.5.4. Agentic Workflow, Tool Use, and Orchestration Engineering
+### 1.4.4. Agentic Workflow, Tool Use, and Orchestration Engineering
 
 Some generative AI applications extend beyond producing a single response and instead coordinate multiple reasoning steps, tools, APIs, retrieval operations, software functions, or specialized agents. Designing these workflows requires decisions about task decomposition, state, sequencing, tool selection, permissions, recovery, fallback behavior, and termination conditions. Agentic AI can help generate orchestration logic, implement tool interfaces, simulate workflow paths, test alternative decompositions, inspect traces, and identify recurring failure patterns. Yet greater autonomy also creates more possible interactions and failure modes. Human systems thinking is therefore particularly important for determining which actions should be available, establishing operational boundaries, anticipating unintended behavior, and deciding when the system should continue autonomously, request clarification, fall back to another procedure, or transfer control to a person.
 
@@ -79,7 +75,7 @@ Some generative AI applications extend beyond producing a single response and in
 |---|---|---|
 |Design workflow boundaries, determine appropriate autonomy, define tool permissions and recovery behavior, anticipate failure modes, and judge consequential actions.|Develop orchestration logic and tool integrations, test workflow paths, analyze execution traces, explore task decompositions, and refine defined agent behaviors.|Human-defined goals, permissions, and safeguards establish the operating space; agentic implementation and testing expose actual workflow behavior, with failures or unexpected interactions triggering human reassessment or further agentic refinement.|
 
-### 1.5.5. Generative AI Application and Software Development
+### 1.4.5. Generative AI Application and Software Development
 
 A generative AI capability must ultimately operate as part of a functioning software system. Application services, APIs, user interfaces, backend logic, data flows, authentication, persistence, model interfaces, asynchronous processes, error handling, and surrounding software components may all need to be developed and integrated. Agentic skills can contribute extensively through code generation, refactoring, test creation, dependency analysis, debugging, documentation, and interaction with authorized development tools. Software engineering judgment remains necessary for architecture, maintainability, interface design, security boundaries, failure handling, and decisions whose consequences extend across the system. Development can consequently move rapidly between agentic implementation and human review, with test results and integration behavior determining where the next engineering effort is required.
 
@@ -87,7 +83,7 @@ A generative AI capability must ultimately operate as part of a functioning soft
 |---|---|---|
 |Define software architecture, maintain design intent, evaluate system-wide trade-offs, establish interfaces and boundaries, and judge consequential implementation decisions.|Generate and revise code, develop tests, inspect dependencies, diagnose implementation problems, refactor components, and support software documentation.|Human architectural intent provides constraints for agentic software development; implementation and test results reveal new issues or alternatives that may be resolved agentically or returned to human engineering judgment.|
 
-### 1.5.6. Evaluation, Testing, Safety, and Quality Engineering
+### 1.4.6. Evaluation, Testing, Safety, and Quality Engineering
 
 Open-ended generative outputs make evaluation fundamentally different from checking whether a deterministic software function returned one predefined answer. Quality may involve factuality, groundedness, relevance, completeness, instruction following, safety, robustness, latency, cost, or other application-specific criteria, and improvements in one dimension can affect another. Human skills are important for defining what quality means, constructing representative evaluation cases, interpreting ambiguous outcomes, and determining which failures are consequential. Agentic skills can scale this process by generating tests, executing evaluation suites, applying automated or model-based evaluators, comparing system variants, clustering failure patterns, and tracing problems across system components. Evaluation therefore becomes both an engineering activity and a continuing feedback mechanism through which evidence can redirect retrieval, prompts, orchestration, software, model selection, or application requirements.
 
@@ -95,7 +91,7 @@ Open-ended generative outputs make evaluation fundamentally different from check
 |---|---|---|
 |Define meaningful quality and safety criteria, establish representative evaluation conditions, interpret ambiguous results, and determine the significance of failures and trade-offs.|Generate and execute evaluation cases, apply scalable evaluators, compare variants, analyze failure patterns, and trace quality problems across system components.|Agentic evaluation expands the breadth and frequency of testing; human judgment establishes the meaning of the evidence and redirects subsequent system changes, which can then be evaluated through another agentic cycle.|
 
-### 1.5.7. Deployment, Observability, Reliability, and Lifecycle Optimization
+### 1.4.7. Deployment, Observability, Reliability, and Lifecycle Optimization
 
 Production generative AI systems must continue to perform under changing users, inputs, models, knowledge sources, dependencies, workloads, and infrastructure conditions. Quality, latency, availability, token or computational usage, cost, retrieval behavior, tool execution, errors, and end-to-end traces may therefore need continuous observation. Agentic skills can analyze large volumes of operational evidence, detect behavioral changes, correlate failures across components, investigate traces, identify recurring problems, and assist with optimization or remediation. Human judgment becomes especially important when an operational signal has several plausible causes or when a proposed change affects user experience, reliability, security, cost, or system architecture. Production operation thus forms a continuing feedback loop in which monitoring evidence drives diagnosis, corrective action, re-evaluation, and further system improvement.
 
@@ -103,7 +99,7 @@ Production generative AI systems must continue to perform under changing users, 
 |---|---|---|
 |Define operational requirements, interpret production behavior, prioritize reliability and cost trade-offs, diagnose ambiguous failures, and determine appropriate corrective actions.|Monitor quality and system indicators, analyze traces and usage patterns, correlate operational evidence, detect anomalies, and investigate candidate causes or optimizations.|Continuous agentic analysis surfaces changing conditions and failures; human interpretation determines their operational significance, after which remediation, testing, or optimization may again proceed through agentic workflows.|
 
-### 1.5.8. Technical Collaboration, Reusable Engineering, and Generative AI Knowledge Development
+### 1.4.8. Technical Collaboration, Reusable Engineering, and Generative AI Knowledge Development
 
 Generative AI software engineering develops rapidly and rarely occurs in isolation. Engineers collaborate with software, machine learning, data, infrastructure, security, product, design, domain, and other specialists while also maintaining reusable code, evaluation tools, development patterns, documentation, and technical knowledge. Agentic skills can preserve context across engineering work, summarize experiments and decisions, generate documentation, support code and test review, identify reusable patterns, retrieve technical information, and compare emerging models, frameworks, and engineering approaches. Human communication and technical judgment determine how this information should influence shared architecture, development standards, product decisions, and future technical direction. Knowledge generated through individual projects can consequently feed back into reusable engineering practices rather than remaining confined to isolated implementations.
 
@@ -111,7 +107,7 @@ Generative AI software engineering develops rapidly and rarely occurs in isolati
 |---|---|---|
 |Coordinate across specialties, communicate technical meaning, preserve engineering intent, evaluate emerging approaches, mentor others, and determine which patterns should become reusable practices.|Maintain technical context, summarize experiments and decisions, support code and documentation development, identify recurring patterns, and retrieve or compare relevant technical knowledge.|Agentic knowledge and engineering support connects information across projects and development cycles; human judgment determines what should be generalized, communicated, adopted, or revised, creating new context for subsequent agentic work.|
 
-## 1.6. Human–Agentic Involvement Across Generative AI Software Engineering
+## 1.5. Human–Agentic Involvement Across Generative AI Software Engineering
 
 The relative involvement of human and agentic skills differs among responsibilities and among the tasks within each responsibility. The following matrix therefore represents common tendencies rather than fixed assignments.
 
@@ -126,7 +122,7 @@ The relative involvement of human and agentic skills differs among responsibilit
 |Deployment, Observability, Reliability, and Lifecycle Optimization|High|Very High|Continuous agentic operational analysis with human diagnosis, prioritization, and consequential production decisions|
 |Technical Collaboration, Reusable Engineering, and Generative AI Knowledge Development|Very High|High|Agentic engineering and knowledge support combined with human communication, coordination, technical leadership, and judgment|
 
-## 1.7. Why the Division of Work Changes
+## 1.6. Why the Division of Work Changes
 
 No single division of human and agentic work is appropriate across generative AI software engineering. Activities involving extensive code generation, systematic experimentation, information processing, repeated evaluation, trace analysis, or continuous monitoring may support substantial agentic involvement. Greater human participation becomes important when work requires ambiguous problem formulation, architecture, interpretation of open-ended behavior, consequential system changes, security or safety judgment, coordination among stakeholders, or professional accountability. The appropriate allocation can also change rapidly because generative AI applications combine probabilistic models with deterministic software, external information, tools, and changing operational conditions.
 
@@ -152,7 +148,7 @@ No single division of human and agentic work is appropriate across generative AI
 
 Several factors may influence the same task simultaneously. Agentic AI might execute a large evaluation suite and identify that a generative application produces high-quality responses in most cases but becomes unreliable when retrieval returns conflicting evidence. Automated analysis can further isolate the affected patterns, yet determining the acceptable behavior under such ambiguity may depend on the application's purpose and consequences. Human judgment can establish a revised requirement or fallback policy, after which Agentic AI can modify the implementation, rerun the evaluation suite, and analyze the resulting behavior. The division of work therefore changes with both the original engineering problem and the evidence produced while solving it.
 
-## 1.8. Developing Generative AI Software Engineering Capability with Agentic AI
+## 1.7. Developing Generative AI Software Engineering Capability with Agentic AI
 
 Greater access to agentic skills does not reduce the importance of generative AI software engineering expertise. Software engineering, understanding of generative models, data and retrieval knowledge, systems thinking, experimentation, evaluation, debugging, security awareness, and technical judgment allow an engineer to understand why a generative AI system behaves as it does, distinguish model limitations from software or context problems, evaluate competing architectures, and recognize when an apparently successful output conceals a deeper system weakness.
 
@@ -164,7 +160,7 @@ This creates a broader model of professional capability:
 
 The relative contribution of these components will differ across applications, engineering responsibilities, and production environments. It will also continue to change as generative models, reasoning capabilities, agentic skills, software frameworks, evaluation methods, retrieval technologies, tool interfaces, and infrastructure evolve.
 
-## 1.9. The Evolving Boundary Between Human and Agentic Skills
+## 1.8. The Evolving Boundary Between Human and Agentic Skills
 
 A **generative AI software engineer and Agentic AI are better understood through an adaptive division of work than through a permanent separation between human tasks and AI tasks**. Agentic skills may perform substantial portions of code generation, testing, retrieval development, prompt experimentation, model comparison, evaluation, debugging, trace analysis, documentation, deployment preparation, monitoring, and technical information retrieval. Human skills remain especially important when engineering requires ambiguous problem formulation, architectural judgment, interpretation of open-ended model behavior, definition of acceptable quality, autonomy decisions, security or safety evaluation, cross-functional coordination, or decisions whose consequences cannot be determined from technical metrics alone.
 
