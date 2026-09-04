@@ -1,6 +1,6 @@
 +++
 title = "test"
-date = 2026-08-29
+date = 2026-09-03
 occupationTitle = "Annuity and Securities Operations Specialist"
 alternativeTitles = ["Investment Operations Specialist", "Fund Operations Analyst", "Transfer Agency Specialist"]
 shortDescription = "Processes annuity and securities transactions, accounts, reporting, and controls accurately and in compliance with regulatory requirements."
@@ -12,6 +12,8 @@ author = ["DyCoAI"]
 # 1. Working with Agentic AI: Annuity and Securities Operations Specialist
 
 *How Human Skills and Agentic Skills Dynamically Combine Across Annuity and Securities Operations Responsibilities*
+
+fkfkfk
 
 ## 1.1. Annuity and Securities Operations as Professional Work
 
