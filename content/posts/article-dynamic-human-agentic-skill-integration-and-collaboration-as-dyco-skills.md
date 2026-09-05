@@ -1,6 +1,7 @@
 +++
 title = "Dynamic Human-Agentic Skill Integration and Collaboration (DyCo Skills)"
-date = 2026-09-05
+date = 2026-08-30
+pinned = true
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Theoretical Framework", "DyCo Skills"]
 author = ["Mengyao Zhu"]
