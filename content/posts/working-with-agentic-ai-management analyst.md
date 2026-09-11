@@ -22,17 +22,11 @@ Management analysis extends beyond identifying inefficiencies or preparing recom
 Typical responsibilities of management analysts include:
 
 - organizational studies and current-state assessment;
-    
 - business, financial, and organizational performance analysis;
-    
 - process, system, and organizational improvement design;
-    
 - management recommendations and strategic advisory support;
-    
 - implementation, change coordination, and effectiveness evaluation; and
-    
 - procedures, documentation, records, and knowledge transfer.
-    
 
 These responsibilities are fulfilled through different tasks and subtasks, and each task may require multiple actions with different skill requirements. Human skills and agentic skills can both contribute to performing these responsibilities, but their levels and forms of involvement may differ according to the nature of the organizational problem, task ambiguity, information quality, stakeholder involvement, analytical complexity, organizational consequences, and expected outcome.
 
@@ -119,6 +113,8 @@ The resulting process is adaptive:
 **occupational responsibility → task and subtask → actions → skill requirements → candidate human and agentic skills → skill configuration → task execution → task performance evaluation → skill refinement, reconfiguration, or construction → optimized and expanded skill space**
 
 This cycle allows human and agentic capabilities to evolve together with the requirements of management analysis.
+
+{{< template-row >}}   
 
 ## 1.4. Essential Responsibilities of Management Analysts
 

@@ -22,19 +22,12 @@ Strategic business analysis extends beyond documenting requirements for individu
 Typical responsibilities of a strategic business analyst include:
 
 - strategic needs, opportunities, and current-state analysis;
-    
 - stakeholder engagement and requirements analysis;
-    
 - business process analysis, architecture, and improvement;
-    
 - business data, performance, and decision-support analysis;
-    
 - business case development and solution evaluation;
-    
 - solution validation, implementation readiness, and change support; and
-    
 - executive communication, documentation, and strategic advisory support.
-    
 
 These responsibilities are fulfilled through different tasks and subtasks, and each task may require multiple actions with different skill requirements. Human skills and agentic skills can both contribute to performing these responsibilities, but their levels and forms of involvement may differ according to the strategic importance of the issue, task ambiguity, stakeholder diversity, information quality, analytical complexity, organizational consequences, and expected outcome.
 
@@ -121,6 +114,8 @@ The resulting process is adaptive:
 **occupational responsibility → task and subtask → actions → skill requirements → candidate human and agentic skills → skill configuration → task execution → task performance evaluation → skill refinement, reconfiguration, or construction → optimized and expanded skill space**
 
 This cycle allows human and agentic capabilities to evolve together with the requirements of strategic business analysis.
+
+{{< template-row >}}   
 
 ## 1.4. Essential Responsibilities of Strategic Business Analyst
 
