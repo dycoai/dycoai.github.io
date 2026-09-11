@@ -45,7 +45,7 @@ The purpose of integrating agentic skills is therefore not to eliminate traditio
 
 {{< template-row >}}
 
-## 1.5. business analysis Responsibilities
+## 1.5. Business Analysis Responsibilities
 
 ### 1.5.1. Business Needs and Problem Discovery
 

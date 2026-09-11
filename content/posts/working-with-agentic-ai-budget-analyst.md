@@ -22,21 +22,13 @@ Budget analysis extends beyond preparing numerical budgets. A budget analyst mus
 Typical responsibilities of a budget analyst include:
 
 - budget planning, preparation, and forecasting;
-    
 - budget and financial analysis;
-    
 - budget review, accuracy verification, and compliance;
-    
 - expenditure monitoring and budgetary control;
-    
 - resource allocation and funding recommendations;
-    
 - budget adjustments and financial coordination;
-    
 - cost-benefit analysis and operational efficiency; and
-    
 - budget reporting, communication, and advisory support.
-    
 
 These responsibilities are fulfilled through different tasks and subtasks, and each task may require multiple actions with different skill requirements. Human skills and agentic skills can both contribute to performing these responsibilities, but their levels and forms of involvement may differ according to the characteristics of the responsibility, financial information, organizational context, applicable requirements, consequences of decisions, and expected outcome.
 
@@ -123,6 +115,8 @@ The resulting process is adaptive:
 **occupational responsibility → task and subtask → actions → skill requirements → candidate human and agentic skills → skill configuration → task execution → task performance evaluation → skill refinement, reconfiguration, or construction → optimized and expanded skill space**
 
 This cycle allows human and agentic capabilities to evolve together with the requirements of budget analysis.
+
+{{< template-row >}}
 
 ## 1.4. Essential Responsibilities of Budget Analyst
 

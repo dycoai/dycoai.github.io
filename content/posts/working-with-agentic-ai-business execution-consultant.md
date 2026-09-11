@@ -122,6 +122,8 @@ The resulting process is adaptive:
 
 This cycle allows human and agentic capabilities to evolve together with the requirements of business execution consulting.
 
+{{< template-row >}}
+
 ## 1.4. Essential Responsibilities of Business Execution Consultant
 
 ### 1.4.1. Strategic Planning and Business Initiative Execution

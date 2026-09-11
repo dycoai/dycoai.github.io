@@ -22,19 +22,12 @@ Card access work extends beyond printing identification cards. A card access spe
 Typical responsibilities of a card access specialist include:
 
 - access request review and identity and authorization validation;
-    
 - credential production and personalization;
-    
 - physical access provisioning and credential lifecycle administration;
-    
 - credential quality control, security compliance, and information protection;
-    
 - credential distribution and access-service operations;
-    
 - access records, inventory, and operational documentation; and
-    
 - access issue resolution, escalation, and stakeholder coordination.
-    
 
 These responsibilities are fulfilled through different tasks and subtasks, and each task may require multiple actions with different skill requirements. Human skills and agentic skills can both contribute to performing these responsibilities, but their levels and forms of involvement may differ according to security requirements, request complexity, data quality, access consequences, procedural clarity, available systems, workload volume, and expected outcome.
 
@@ -121,6 +114,8 @@ The resulting process is adaptive:
 **occupational responsibility → task and subtask → actions → skill requirements → candidate human and agentic skills → skill configuration → task execution → task performance evaluation → skill refinement, reconfiguration, or construction → optimized and expanded skill space**
 
 This cycle allows human and agentic capabilities to evolve together with the requirements of card access operations.
+
+{{< template-row >}}   
 
 ## 1.4. Essential Responsibilities of Card Access Specialist
 
