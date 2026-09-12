@@ -51,12 +51,6 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
-{{< textual-promotion
-title="Create a Resume That Gets You Noticed"
-subtitle="Polished, customizable templates for job seekers."
-buttonText="Explore Resume Templates"
-buttonLink="https://www.resumetemplates.nl/" >}}
-
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Business Intelligence Analysis
 
 Business intelligence analysis functions as an occupation where responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.
