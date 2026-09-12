@@ -27,8 +27,26 @@
     transition: transform 0.15s ease;
 }
 
+/* A parent with no page of its own renders as .menu-label instead of an
+   anchor: not clickable, but focusable so the submenu stays reachable. */
+.menu-label {
+    display: inline-flex;
+    align-items: center;
+    cursor: default;
+    font-size: 16px;
+    color: var(--primary);
+}
+
+.menu-label:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+    border-radius: var(--radius);
+}
+
 .menu > li.has-submenu:hover > a .menu-caret,
-.menu > li.has-submenu:focus-within > a .menu-caret {
+.menu > li.has-submenu:focus-within > a .menu-caret,
+.menu > li.has-submenu:hover > .menu-label .menu-caret,
+.menu > li.has-submenu:focus-within > .menu-label .menu-caret {
     transform: rotate(180deg);
 }
 
@@ -54,7 +72,6 @@
 .menu > li.has-submenu:focus-within > .submenu {
     display: block;
 }
-
 .menu .submenu li {
     margin: 0;
 }
@@ -89,5 +106,9 @@
 
     .menu-caret {
         display: none;
+    }
+
+    .menu-label {
+        cursor: default;
     }
 }
