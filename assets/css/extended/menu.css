@@ -9,7 +9,6 @@
 .menu .active {
     font-weight: 400;
     text-decoration-thickness: 1px;
-    text-underline-offset: 0.2rem;
 }
 
 /* Right-arrow glyph for submenu rows, matching together.ai's arrow:
