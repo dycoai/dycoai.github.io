@@ -3,6 +3,13 @@
     font-weight: 400;
 }
 
+/* Right-arrow glyph for submenu rows, matching together.ai's arrow:
+   a horizontal shaft with a two-segment head, stroked rather than filled.
+   Used as a mask so the arrow takes the row's text colour. */
+:root {
+    --menu-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M4.96875 12.0547H18.9688M18.9688 12.0547L11.9688 5.05469M18.9688 12.0547L11.9688 19.05469' stroke='%23000' stroke-width='1.5'/%3E%3C/svg%3E");
+}
+
 /* === Submenu dropdown ===
 
    The theme sets overflow-x: auto on .menu. An overflow container clips
@@ -72,18 +79,45 @@
 .menu > li.has-submenu:focus-within > .submenu {
     display: block;
 }
+
 .menu .submenu li {
     margin: 0;
 }
 
+/* Flex row so the arrow can be pinned to the right edge of the row. */
 .menu .submenu a {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 0.25rem 1.1rem;
     font-size: 15px;
 }
 
 .menu .submenu a:hover {
     background: var(--tertiary);
+}
+
+/* Right arrow on each submenu row: signals that the row is clickable.
+   Drawn as a ::after so it stays out of the accessibility tree, and its
+   space is always reserved so revealing it does not shift the label. */
+.menu .submenu a::after {
+    content: "";
+    flex: 0 0 auto;
+    width: 1em;
+    height: 1em;
+    margin-inline-start: 0.75em;
+    background-color: currentColor;
+    -webkit-mask: var(--menu-arrow) center / contain no-repeat;
+    mask: var(--menu-arrow) center / contain no-repeat;
+    opacity: 0;
+    transform: translateX(-0.25em);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.menu .submenu a:hover::after,
+.menu .submenu a:focus-visible::after {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 /* === Narrow screens ===
@@ -105,6 +139,11 @@
     }
 
     .menu-caret {
+        display: none;
+    }
+
+    /* Children render as a static list here, so the row arrow is redundant. */
+    .menu .submenu a::after {
         display: none;
     }
 
