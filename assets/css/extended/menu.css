@@ -3,26 +3,12 @@
     font-weight: 400;
 }
 
-/* Current page. The theme marks it with a weight bump and an underline; use a
-   tint on the whole item instead, so both menu levels mark it the same way. */
+/* The theme marks the current page with a weight bump and a 2px underline,
+   which reads as heavy. Keep the underline as the cue but soften it, at both
+   menu levels, so the active item is findable without shouting. */
 .menu .active {
     font-weight: 400;
-    text-decoration: none;
-}
-
-/* Top-level items reserve the tint's padding so the active item does not
-   shift the row when the tint appears. */
-.menu > li > a,
-.menu > li > .menu-label {
-    padding: 0.2rem 0.6rem;
-}
-
-/* Top-level item: tint the link, shaped like a pill so it does not sit as a
-   hard rectangle in the horizontal row. */
-.menu > li > a:has(> .active),
-.menu > li > .menu-label:has(> .active) {
-    background: var(--tertiary);
-    border-radius: var(--radius);
+    text-decoration-thickness: 1px;
 }
 
 /* Right-arrow glyph for submenu rows, matching together.ai's arrow:
@@ -116,11 +102,6 @@
 }
 
 .menu .submenu a:hover {
-    background: var(--tertiary);
-}
-
-/* Current submenu row, marked the same way as the top level. */
-.menu .submenu a.submenu-active {
     background: var(--tertiary);
 }
 
