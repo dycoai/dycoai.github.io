@@ -11,28 +11,26 @@
     {{< textual-promotion
          title="Build what's next|on the AI Native Cloud"
          subtitle="Full-stack AI platform, powered by cutting-edge research."
-         primaryText="START BUILDING" primaryLink="https://example.com/"
-         secondaryText="CONTACT SALES" secondaryLink="https://example.com/contact/" >}}
+         buttonText="START BUILDING"
+         buttonLink="https://example.com/" >}}
 
   Parameters
     title          Headline. Use "|" to split into multiple lines.
     subtitle       Smaller supporting line below the headline.
-    primaryText    First button label.
-    primaryLink    First button URL.
-    secondaryText  Second button label (omit to hide the second button).
-    secondaryLink  Second button URL.
+    buttonText     Button label.
+    buttonLink     Button URL.
     align          "left" (default) or "center".
     rel            rel attribute for links (default "noopener").
+    target         Link target (default "_blank").
 */ -}}
 
 {{- $title := .Get "title" | default "Build what's next|on the AI Native Cloud" -}}
 {{- $subtitle := .Get "subtitle" | default "Full-stack AI platform, powered by cutting-edge research." -}}
-{{- $primaryText := .Get "primaryText" | default "START BUILDING" -}}
-{{- $primaryLink := .Get "primaryLink" | default "https://www.resumetemplates.nl/" -}}
-{{- $secondaryText := .Get "secondaryText" | default "CONTACT SALES" -}}
-{{- $secondaryLink := .Get "secondaryLink" | default "https://www.resumetemplates.nl/" -}}
+{{- $buttonText := .Get "buttonText" | default "START BUILDING" -}}
+{{- $buttonLink := .Get "buttonLink" | default "https://www.resumetemplates.nl/" -}}
 {{- $align := .Get "align" | default "left" -}}
 {{- $rel := .Get "rel" | default "noopener" -}}
+{{- $target := .Get "target" | default "_blank" -}}
 
 <div class="textual-promotion textual-promotion--{{ $align }}">
   <div class="textual-promotion-title">
@@ -45,11 +43,8 @@
   <p class="textual-promotion-subtitle">{{ . }}</p>
   {{- end }}
   <div class="textual-promotion-actions">
-    {{- with $primaryText }}
-    <a class="textual-promotion-button" href="{{ $primaryLink }}" rel="{{ $rel }}">{{ . }}</a>
-    {{- end }}
-    {{- with $secondaryText }}
-    <a class="textual-promotion-button" href="{{ $secondaryLink }}" rel="{{ $rel }}">{{ . }}</a>
+    {{- with $buttonText }}
+    <a class="textual-promotion-button" href="{{ $buttonLink }}" target="{{ $target }}" rel="{{ $rel }}">{{ . }}</a>
     {{- end }}
   </div>
 </div>
