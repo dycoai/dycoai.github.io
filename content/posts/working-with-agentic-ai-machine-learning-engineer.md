@@ -65,7 +65,7 @@ The candidate skills are considered relative to the requirements of the action a
 {{< textual-promotion
      title="Create a Resume That Gets You Noticed"
      subtitle="Polished, customizable templates for job seekers."
-     buttonText="Explore ResumeTemplates.nl"
+     buttonText="Explore Resume Templates"
      buttonLink="https://www.resumetemplates.nl/" >}}
 
 ### 1.3.1. Skills Competition and Skills Collaboration
