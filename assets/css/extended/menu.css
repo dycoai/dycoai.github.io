@@ -43,7 +43,10 @@
 }
 
 /* A parent with no page of its own renders as .menu-label instead of an
-   anchor: not clickable, but focusable so the submenu stays reachable. */
+   anchor: not clickable, but focusable so the submenu stays reachable.
+   It is not an anchor, so it misses the theme's `.menu a` rule and would
+   otherwise inherit the 18px body size; pin it to the same 16px the
+   anchors use so a label and a link sit at one optical weight. */
 .menu-label {
     display: inline-flex;
     align-items: center;
@@ -161,7 +164,9 @@
 
    Hover does not exist on touch devices. Below the theme's mobile nav
    breakpoint, render children as an indented static list instead of a
-   dropdown so they stay reachable by tap.
+   dropdown so they stay reachable by tap. The menu's move to its own
+   full-width row is handled with the other header layout rules in
+   width.css.
 */
 @media (max-width: 768px) {
     .menu .submenu {
