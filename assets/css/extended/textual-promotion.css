@@ -32,7 +32,7 @@
 
 .textual-promotion-button {
     display: inline-block;
-    background: #000;
+    background: #3a3f45;
     color: #fff !important;
     border-radius: 999px;
     padding: 0.75em 1.9em;
@@ -42,11 +42,11 @@
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1;
-    transition: opacity 0.15s ease, transform 0.15s ease;
+    transition: background 0.15s ease, transform 0.15s ease;
 }
 
 .textual-promotion-button:hover {
-    opacity: 0.82;
+    background: #24282c;
     transform: translateY(-1px);
 }
 
