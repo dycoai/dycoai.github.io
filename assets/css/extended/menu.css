@@ -2,3 +2,32 @@
 .menu a {
     font-weight: 400;
 }
+
+/* Submenu: parent item with children stacked underneath, indented.
+   The header menu is a horizontal flex row, so the parent <li> becomes a
+   column so its children sit below the parent label rather than beside it. */
+.menu > li.menu-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 2px;
+}
+
+.menu .menu-children {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 0.75rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+}
+
+.menu .menu-children a {
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.75;
+}
+
+.menu .menu-children a:hover {
+    opacity: 1;
+}
