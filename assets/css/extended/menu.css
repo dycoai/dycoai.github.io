@@ -1,6 +1,6 @@
-/* Bold header menu items */
+/* Bold header menu items, top level and submenu alike. */
 .menu a {
-    font-weight: 400;
+    font-weight: 600;
 }
 
 /* Right-arrow glyph for submenu rows, matching together.ai's arrow:
@@ -97,6 +97,22 @@
     background: var(--tertiary);
 }
 
+/* Label and its note stack, so the note reads as a caption for the label. */
+.submenu-label {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25;
+}
+
+/* Explanatory note under a submenu label. Weight is pinned so it stays
+   regular against the bold anchor it sits inside. */
+.submenu-note {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--secondary);
+    white-space: normal;
+}
+
 /* Right arrow on each submenu row: signals that the row is clickable.
    Drawn as a ::after so it stays out of the accessibility tree, and its
    space is always reserved so revealing it does not shift the label. */
@@ -145,6 +161,10 @@
     /* Children render as a static list here, so the row arrow is redundant. */
     .menu .submenu a::after {
         display: none;
+    }
+
+    .submenu-note {
+        font-size: 12px;
     }
 
     .menu-label {
