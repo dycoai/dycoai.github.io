@@ -9,6 +9,6 @@ Each entry lists the occupation title, alternative titles used in the job market
 description of what the role does, and a link to the full article on how human skills and
 agentic skills combine in that occupation.
 
-To find occupations by field, visit [Occupation Categories](/occupation-categories/).
+To see which occupations belong to the same field, visit [Occupation Categories](/occupation-categories/).
 
 {{< occupation-map >}}
