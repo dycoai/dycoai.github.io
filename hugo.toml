@@ -33,11 +33,11 @@ theme = "hugo-PaperMod"
 #   url = "https://linkedin.com/in/yourusername"
 
 [menu]
-  [[menu.main]]
-    identifier = "resume-templates"
-    name = "Resume Templates"
-    url = "/resume-templates/"
-    weight = 40
+# [[menu.main]]
+#   identifier = "resume-templates"
+#   name = "Resume Templates"
+#   url = "/resume-templates/"
+#   weight = 40
   [[menu.main]]
     identifier = "occupation-navigation"
     name = "Occupation Navigation"
