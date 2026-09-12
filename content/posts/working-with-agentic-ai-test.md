@@ -34,7 +34,7 @@ These responsibilities are fulfilled through different tasks and subtasks, and e
 
 {{< textual-promotion
      title="Create a Resume That Gets You Noticed"
-     subtitle="Professional, customizable templates designed to help you make a strong first impression."
+     subtitle="Polished, customizable templates for job seekers."
      buttonText="EXPLORE RESUME TEMPLATES"
      buttonLink="https://www.resumetemplates.nl/" >}}
 
