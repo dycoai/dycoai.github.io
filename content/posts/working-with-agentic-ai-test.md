@@ -35,7 +35,7 @@ These responsibilities are fulfilled through different tasks and subtasks, and e
 {{< textual-promotion
      title="Create a Resume That Gets You Noticed"
      subtitle="Polished, customizable templates for job seekers."
-     buttonText="EXPLORE RESUME TEMPLATES"
+     buttonText="Explore Resume Templates"
      buttonLink="https://www.resumetemplates.nl/" >}}
 
 ## 1.2. Human Skills and Agentic Skills in Machine Learning Engineering
