@@ -62,6 +62,12 @@ The skills available for machine learning engineering reside in a **skill space*
 
 The candidate skills are considered relative to the requirements of the action and the occupational and task context. Appropriate skills are then selected and organized into a **skill configuration** for execution. A configuration may rely mainly on human skills, mainly on agentic skills, or on an integrated arrangement of both.
 
+{{< textual-promotion
+     title="Create a Resume That Gets You Noticed"
+     subtitle="Polished, customizable templates for job seekers."
+     buttonText="Explore ResumeTemplates.nl"
+     buttonLink="https://www.resumetemplates.nl/" >}}
+
 ### 1.3.1. Skills Competition and Skills Collaboration
 
 Two important relationships may occur between human skills and agentic skills when a skill configuration is constructed: **skills competition** and **skills collaboration**.
