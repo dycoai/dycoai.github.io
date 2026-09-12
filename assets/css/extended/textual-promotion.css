@@ -1,0 +1,79 @@
+/* Textual promotion box: light card with bold headline, subtitle, dark pill buttons */
+
+.textual-promotion {
+    background: #f3f9fd;
+    border-radius: var(--radius);
+    padding: 2.2em 2.4em;
+    margin: 1.6em 0;
+    color: #000;
+}
+
+.textual-promotion-title {
+    font-size: 2.4rem;
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    color: #000;
+}
+
+.textual-promotion-subtitle {
+    margin: 0.9em 0 1.6em;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #484a4c;
+    max-width: 46em;
+}
+
+.textual-promotion-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.textual-promotion-button {
+    display: inline-block;
+    background: #000;
+    color: #fff !important;
+    border-radius: 999px;
+    padding: 0.75em 1.9em;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.textual-promotion-button:hover {
+    opacity: 0.82;
+    transform: translateY(-1px);
+}
+
+.textual-promotion--center {
+    text-align: center;
+}
+
+.textual-promotion--center .textual-promotion-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textual-promotion--center .textual-promotion-actions {
+    justify-content: center;
+}
+
+@media (max-width: 680px) {
+    .textual-promotion {
+        padding: 1.6em 1.4em;
+    }
+
+    .textual-promotion-title {
+        font-size: 1.7rem;
+    }
+
+    .textual-promotion-button {
+        width: 100%;
+        text-align: center;
+    }
+}

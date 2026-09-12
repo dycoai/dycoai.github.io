@@ -1,0 +1,55 @@
+{{- /*
+  Textual promotion box.
+
+  Renders a light card with a bold headline, an optional subtitle, and one or
+  two dark pill buttons. All content is text/CSS, so it stays crisp, selectable,
+  translatable, and responsive (no image asset required).
+
+  Usage (all parameters optional; defaults produce the standard box):
+    {{< textual-promotion >}}
+
+    {{< textual-promotion
+         title="Build what's next|on the AI Native Cloud"
+         subtitle="Full-stack AI platform, powered by cutting-edge research."
+         primaryText="START BUILDING" primaryLink="https://example.com/"
+         secondaryText="CONTACT SALES" secondaryLink="https://example.com/contact/" >}}
+
+  Parameters
+    title          Headline. Use "|" to split into multiple lines.
+    subtitle       Smaller supporting line below the headline.
+    primaryText    First button label.
+    primaryLink    First button URL.
+    secondaryText  Second button label (omit to hide the second button).
+    secondaryLink  Second button URL.
+    align          "left" (default) or "center".
+    rel            rel attribute for links (default "noopener").
+*/ -}}
+
+{{- $title := .Get "title" | default "Build what's next|on the AI Native Cloud" -}}
+{{- $subtitle := .Get "subtitle" | default "Full-stack AI platform, powered by cutting-edge research." -}}
+{{- $primaryText := .Get "primaryText" | default "START BUILDING" -}}
+{{- $primaryLink := .Get "primaryLink" | default "https://www.resumetemplates.nl/" -}}
+{{- $secondaryText := .Get "secondaryText" | default "CONTACT SALES" -}}
+{{- $secondaryLink := .Get "secondaryLink" | default "https://www.resumetemplates.nl/" -}}
+{{- $align := .Get "align" | default "left" -}}
+{{- $rel := .Get "rel" | default "noopener" -}}
+
+<div class="textual-promotion textual-promotion--{{ $align }}">
+  <div class="textual-promotion-title">
+    {{- range $i, $line := split $title "|" -}}
+      {{- if $i }}<br>{{ end -}}
+      {{- $line -}}
+    {{- end -}}
+  </div>
+  {{- with $subtitle }}
+  <p class="textual-promotion-subtitle">{{ . }}</p>
+  {{- end }}
+  <div class="textual-promotion-actions">
+    {{- with $primaryText }}
+    <a class="textual-promotion-button" href="{{ $primaryLink }}" rel="{{ $rel }}">{{ . }}</a>
+    {{- end }}
+    {{- with $secondaryText }}
+    <a class="textual-promotion-button" href="{{ $secondaryLink }}" rel="{{ $rel }}">{{ . }}</a>
+    {{- end }}
+  </div>
+</div>
