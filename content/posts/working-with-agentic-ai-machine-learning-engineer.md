@@ -116,6 +116,8 @@ The resulting process is adaptive:
 
 This cycle allows human and agentic capabilities to evolve together with the requirements of machine learning engineering work.
 
+{{< template-row >}}   
+
 ## 1.4. Essential Responsibilities of Machine Learning Engineer
 
 ### 1.4.1. Machine Learning Problem Formulation and Solution Design
