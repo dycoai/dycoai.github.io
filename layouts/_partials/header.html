@@ -144,10 +144,15 @@
                     {{- $sub_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
                     <li>
                         <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}">
-                            <span {{- if eq $sub_url $page_url }} class="active" {{- end }}>
-                                {{- .Pre }}
-                                {{- .Name -}}
-                                {{ .Post -}}
+                            <span class="submenu-label">
+                                <span {{- if eq $sub_url $page_url }} class="active" {{- end }}>
+                                    {{- .Pre }}
+                                    {{- .Name -}}
+                                    {{ .Post -}}
+                                </span>
+                                {{- with .Params.note }}
+                                <span class="submenu-note">{{ . }}</span>
+                                {{- end }}
                             </span>
                         </a>
                     </li>

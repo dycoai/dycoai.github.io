@@ -48,12 +48,16 @@ theme = "hugo-PaperMod"
     parent = "occupation-navigation"
     url = "/occupation-categories/"
     weight = 21
+    [menu.main.params]
+      note = "Browse by professional field"
   [[menu.main]]
     identifier = "occupation-map"
     name = "Occupation Map"
     parent = "occupation-navigation"
     url = "/occupation-map/"
     weight = 22
+    [menu.main.params]
+      note = "Look up by job title"
   [[menu.main]]
     identifier = "working-with-agentic-ai"
     name = "Agentic Jobs"
