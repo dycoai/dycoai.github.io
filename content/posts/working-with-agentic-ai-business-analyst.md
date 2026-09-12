@@ -24,6 +24,12 @@ A **business analyst** works at the intersection of business needs, organization
 
 Within business analysis, these capabilities can be applied to activities such as processing stakeholder information, extracting and organizing requirements, analyzing business processes, examining data and process flows, comparing current and future states, identifying gaps and dependencies, generating preliminary process models, evaluating solution alternatives, preparing business cases, analyzing risks and impacts, maintaining requirements traceability, supporting testing, preparing stakeholder communications, and consolidating information across organizational functions. Their practical value does not depend on transferring an entire professional responsibility to AI. Instead, agentic skills can participate selectively at the level of individual tasks and subtasks, allowing work to be distributed according to the capabilities, information, reliability, authority, and judgment required at a particular moment.
 
+{{< textual-promotion
+     title="Create a Resume That Gets You Noticed"
+     subtitle="Polished, customizable templates for job seekers."
+     buttonText="Explore Resume Templates"
+     buttonLink="https://www.resumetemplates.nl/" >}}
+
 ## 1.3. Human Skills and Agentic Skills
 
 **Human skills** refer to the professional capabilities that a business analyst can apply when performing work, including business knowledge, analytical reasoning, experiential judgment, contextual interpretation, stakeholder communication, facilitation, negotiation, organizational understanding, situational awareness, problem formulation, responsibility for recommendations, and the ability to evaluate consequences within a specific business and organizational context. Human skills also include many information-processing capabilities that AI can perform, such as analysis, comparison, classification, explanation, and problem solving. Human and agentic skills should therefore not be treated as completely separate capability categories.

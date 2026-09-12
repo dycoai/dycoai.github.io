@@ -31,6 +31,12 @@ Typical responsibilities of management analysts include:
 
 These responsibilities are fulfilled through different tasks and subtasks, and each task may require multiple actions with different skill requirements. Human skills and agentic skills can both contribute to performing these responsibilities, but their levels and forms of involvement may differ according to the nature of the organizational problem, task ambiguity, information quality, stakeholder involvement, analytical complexity, organizational consequences, and expected outcome.
 
+{{< textual-promotion
+     title="Create a Resume That Gets You Noticed"
+     subtitle="Polished, customizable templates for job seekers."
+     buttonText="Explore Resume Templates"
+     buttonLink="https://www.resumetemplates.nl/" >}}
+
 ## 1.2. Human Skills and Agentic Skills in Management Analysis
 
 Management analysis increasingly involves both **human skills** and **agentic skills**.
@@ -42,6 +48,12 @@ Agentic skills are reusable capabilities available to AI agents through their un
 Both skill types can contribute to the same occupational responsibilities, but their involvement levels vary. Organizational diagnosis may rely heavily on human interaction, observation, and contextual interpretation while using agentic skills to organize and compare evidence. Large-scale analysis of operational or financial information may involve high agentic participation while requiring human judgment to determine what identified patterns mean. Process redesign may combine agentic generation and comparison of alternatives with human understanding of organizational feasibility and stakeholder consequences.
 
 The useful relationship is therefore not a fixed division in which certain responsibilities permanently belong to humans and others belong to AI. Human and agentic involvement can change from one task to another and even between different actions within the same task.
+
+{{< textual-promotion
+     title="Create a Resume That Gets You Noticed"
+     subtitle="Polished, customizable templates for job seekers."
+     buttonText="Explore Resume Templates"
+     buttonLink="https://www.resumetemplates.nl/" >}}
 
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Management Analysis
 

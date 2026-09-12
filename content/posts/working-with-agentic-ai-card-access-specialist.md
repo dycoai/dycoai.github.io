@@ -44,6 +44,12 @@ Both skill types can contribute to the same occupational responsibilities, but t
 
 The useful relationship is therefore not a fixed division in which certain responsibilities permanently belong to humans and others belong to AI. Human and agentic involvement can change from one task to another and even between different actions within the same task.
 
+{{< textual-promotion
+     title="Create a Resume That Gets You Noticed"
+     subtitle="Polished, customizable templates for job seekers."
+     buttonText="Explore Resume Templates"
+     buttonLink="https://www.resumetemplates.nl/" >}}
+
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Card Access Operations
 
 Card access operations can be understood as an occupation in which responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.
