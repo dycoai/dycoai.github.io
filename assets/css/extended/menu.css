@@ -3,6 +3,15 @@
     font-weight: 400;
 }
 
+/* The theme marks the current page with a weight bump and a 2px underline,
+   which reads as heavy. Keep the underline as the cue but soften it, at both
+   menu levels, so the active item is findable without shouting. */
+.menu .active {
+    font-weight: 400;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2rem;
+}
+
 /* Right-arrow glyph for submenu rows, matching together.ai's arrow:
    a horizontal shaft with a two-segment head, stroked rather than filled.
    Used as a mask so the arrow takes the row's text colour. */
