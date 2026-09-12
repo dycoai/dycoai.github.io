@@ -78,11 +78,11 @@ theme = "hugo-PaperMod"
 #   name = "Tags"
 #   url = "/tags/"
 #   weight = 50
-# [[menu.main]]
-#   identifier = "about"
-#   name = "About"
-#   url = "/about/"
-#   weight = 30
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 50
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

@@ -1,28 +1,24 @@
 +++
 title = "About"
-# date = 2026-08-27
 math = false
 ShowToc = false
-ShowReadingTime = false 
-searchHidden = true 
+ShowReadingTime = false
+searchHidden = true
 +++
 
 ## About This Site
 
-Welcome to **AI & Me** (dycoai)!
+DyCoAI stands for **Dynamic, Collaboration-based AI Applications for common people**. The site exists to show how AI can be put to practical use in everyday professional work — not as a replacement for human capability, but as something that combines with it.
 
-This site is dedicated to exploring the intersection of artificial intelligence and my own learning journey — understanding AI concepts, building agentic systems, and documenting what I discover along the way.
+Its first series of reference articles is **"Working with Agentic AI: [Occupation Title]"**. Each article takes a single occupation and examines how human skills and agentic skills can be dynamically integrated for collaboration across that role's actual work. For each occupation, the series interprets:
 
-### Topics Covered
+- the responsibilities, tasks, and subtasks involved
+- the actions each task requires, and the skills those actions demand
+- the corresponding human skills and agentic skills
+- how task performance is evaluated, and how that evaluation feeds back into iterative skill refinement and the construction of new skills — for human and agent alike
 
-- Agentic AI
-- AI tools and workflows
-- Notes and reflections on building with AI
+The aim is a concrete, reusable picture of collaboration: what a person does, what the agent does, and how the two improve together over time.
 
-### About the Author
+## About the Author
 
-[Your name and bio here]
-
-### Contact
-
-[Your contact information here]
+**Mengyao Zhu** holds a PhD in systems engineering. His doctoral research focused on the practical applications of Large Language Models to learning, working, and exploration, treating these as distinct downstream task clusters.
