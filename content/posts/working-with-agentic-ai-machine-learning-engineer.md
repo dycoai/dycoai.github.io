@@ -33,6 +33,12 @@ Typical responsibilities of a machine learning engineer include:
 
 These responsibilities are fulfilled through different tasks and subtasks, and each task may require multiple actions with different skill requirements. Human skills and agentic skills can both contribute to performing these responsibilities, but their levels and forms of involvement may differ according to the characteristics of the responsibility, task, action, data, technical environment, and expected outcome.
 
+{{< textual-promotion
+     title="Create a Resume That Gets You Noticed"
+     subtitle="Polished, customizable templates for job seekers."
+     buttonText="Explore Resume Templates"
+     buttonLink="https://www.resumetemplates.nl/" >}}
+
 ## 1.2. Human Skills and Agentic Skills in Machine Learning Engineering
 
 Machine learning engineering increasingly involves both **human skills** and **agentic skills**.
@@ -62,12 +68,6 @@ Each action has **skill requirements**. These requirements describe the capabili
 The skills available for machine learning engineering reside in a **skill space** containing both human skills and agentic skills. Some skills in this space become candidate skills for executing the actions required by a particular task. A human skill in statistical interpretation, for example, may be a candidate for evaluating model behavior, while an agentic skill in metric analysis may be another candidate for related analytical actions.
 
 The candidate skills are considered relative to the requirements of the action and the occupational and task context. Appropriate skills are then selected and organized into a **skill configuration** for execution. A configuration may rely mainly on human skills, mainly on agentic skills, or on an integrated arrangement of both.
-
-{{< textual-promotion
-     title="Create a Resume That Gets You Noticed"
-     subtitle="Polished, customizable templates for job seekers."
-     buttonText="Explore Resume Templates"
-     buttonLink="https://www.resumetemplates.nl/" >}}
 
 ### 1.3.1. Skills Competition and Skills Collaboration
 
