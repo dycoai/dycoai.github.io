@@ -105,6 +105,17 @@
     background: var(--tertiary);
 }
 
+/* Current submenu row. The theme underlines just the label, which lands in
+   the gap between the label and its note in a two-line row, so mark the whole
+   row with a tint instead. */
+.menu .submenu .active {
+    text-decoration: none;
+}
+
+.menu .submenu a.submenu-active {
+    background: var(--tertiary);
+}
+
 /* Label and note stack, so the note reads as a caption for the label. */
 .submenu-label {
     display: flex;
