@@ -10,9 +10,9 @@
 }
 
 .textual-promotion-title {
-    font-size: 2.4rem;
-    font-weight: 800;
-    line-height: 1.08;
+    font-size: 1.9em;
+    font-weight: 700;
+    line-height: 1.02;
     letter-spacing: -0.01em;
     color: var(--primary);
 }
@@ -69,7 +69,7 @@
     }
 
     .textual-promotion-title {
-        font-size: 1.7rem;
+        font-size: 1.5em;
     }
 
     .textual-promotion-button {
