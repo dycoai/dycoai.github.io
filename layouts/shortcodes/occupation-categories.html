@@ -5,14 +5,23 @@
   .occupation-* styles, but groups occupations by the occupationCategory
   front matter field instead of alphabetically by first letter.
 
-  Category order is fixed below (deliberate, not alphabetical). Any
-  occupation whose occupationCategory does not match one of these values
-  is still rendered, under a trailing "Other" section, rather than being
-  silently dropped.
+  Category order is alphabetical, derived from the occupationCategory values
+  actually present in the posts, so a new category appears automatically in
+  the right place with no edit here. Occupations with a missing or blank
+  category are still rendered, under a trailing "Uncategorised" section,
+  rather than being silently dropped.
 */ -}}
 
 {{- $occ := where (where site.RegularPages "Section" "posts") ".Params.occupationTitle" "!=" nil -}}
-{{- $categories := slice "Software & Systems Engineering" "Data & AI" "Security" "Business & Analysis" "Sales" "Financial Operations" -}}
+{{- $occs := slice -}}
+{{- range $occ -}}
+  {{- if ne (printf "%v" .Params.occupationCategory) "" -}}
+    {{- $occs = $occs | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $cats := slice -}}
+{{- range $occs -}}{{- $cats = $cats | append .Params.occupationCategory -}}{{- end -}}
+{{- $categories := sort (uniq $cats) -}}
 
 <div class="occupation-count"><strong>{{ len $occ }} Occupations Covered</strong></div>
 
@@ -46,12 +55,15 @@
   {{- end -}}
 {{- end -}}
 
-{{- /* Safety net: anything with a missing or unrecognised category. */ -}}
-{{- $known := slice -}}
-{{- range $categories -}}{{- $known = $known | append (where $occ ".Params.occupationCategory" .) -}}{{- end -}}
-{{- $unknown := complement $known $occ -}}
-{{- with $unknown -}}
-  <h2 class="occupation-letter" id="other">Other</h2>
+{{- /* Safety net: anything with a missing or blank category. */ -}}
+{{- $uncategorised := where $occ ".Params.occupationCategory" nil -}}
+{{- range $occ -}}
+  {{- if eq (printf "%v" .Params.occupationCategory) "" -}}
+    {{- $uncategorised = $uncategorised | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- with $uncategorised -}}
+  <h2 class="occupation-letter" id="uncategorised">Uncategorised</h2>
   {{- range sort . ".Params.occupationTitle" "asc" -}}
   <div class="occupation-entry">
     <a class="occupation-title" href="{{ .RelPermalink }}">{{ .Params.occupationTitle }}</a>
