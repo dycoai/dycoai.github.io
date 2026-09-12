@@ -23,7 +23,7 @@
 {{- range $occs -}}{{- $cats = $cats | append .Params.occupationCategory -}}{{- end -}}
 {{- $categories := sort (uniq $cats) -}}
 
-<div class="occupation-count"><strong>{{ len $occ }} Occupations Covered</strong></div>
+<div class="occupation-count"><strong>{{ len $occ }} Occupations Covered in {{ len $categories }} Categories</strong></div>
 
 <div class="occupation-alphabet">
 {{- range $categories -}}
