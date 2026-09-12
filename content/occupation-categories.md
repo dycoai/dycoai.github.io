@@ -10,6 +10,6 @@ each entry gives the occupation title, alternative titles used in the job market
 description, and a link to the full article on how human skills and agentic skills combine
 in that occupation.
 
-To look up an occupation by name, visit [Occupation Map](/occupation-map/).
+To look up an occupation by its job title, visit [Occupation Map](/occupation-map/).
 
 {{< occupation-categories >}}
