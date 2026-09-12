@@ -105,6 +105,19 @@
     background: var(--tertiary);
 }
 
+/* Current submenu row. Underlining the label alone drops the line into the
+   gap above the note, so move the underline onto the label+note block and
+   let it sit under the note instead. */
+.menu .submenu .active {
+    text-decoration: none;
+}
+
+.menu .submenu a.submenu-active .submenu-label {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.3rem;
+}
+
 /* Label and note stack, so the note reads as a caption for the label. */
 .submenu-label {
     display: flex;

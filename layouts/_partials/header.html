@@ -143,7 +143,7 @@
                     {{- range .Children }}
                     {{- $sub_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
                     <li>
-                        <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}">
+                        <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}"{{- if eq $sub_url $page_url }} class="submenu-active"{{- end }}>
                             <span class="submenu-label">
                                 <span {{- if eq $sub_url $page_url }} class="active" {{- end }}>
                                     {{- .Pre }}
