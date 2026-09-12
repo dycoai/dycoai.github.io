@@ -33,9 +33,9 @@ Typical responsibilities of a machine learning engineer include:
 These responsibilities are fulfilled through different tasks and subtasks, and each task may require multiple actions with different skill requirements. Human skills and agentic skills can both contribute to performing these responsibilities, but their levels and forms of involvement may differ according to the characteristics of the responsibility, task, action, data, technical environment, and expected outcome.
 
 {{< textual-promotion
-     title="Professional Resume Templates for Job Seekers"
-     subtitle="Customizable and Professional."
-     buttonText="START BUILDING"
+     title="Create a Resume That Gets You Noticed"
+     subtitle="Professional, customizable templates designed to help you make a strong first impression."
+     buttonText="EXPLORE RESUME TEMPLATES"
      buttonLink="https://www.resumetemplates.nl/" >}}
 
 ## 1.2. Human Skills and Agentic Skills in Machine Learning Engineering
