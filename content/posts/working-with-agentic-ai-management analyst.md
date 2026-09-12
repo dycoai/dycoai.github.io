@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Management Analyst"
 date = 2026-09-11
 occupationTitle = "Management Analyst"
+occupationCategory = "Business & Analysis"
 alternativeTitles = ["Operations Analyst", "Organizational Analyst", "Process Improvement Analyst"]
 shortDescription = "Studies organizational problems, processes, structures, information, and performance to identify opportunities for improvement and recommend changes that can help organizations operate more effectively and efficiently."
 math = true

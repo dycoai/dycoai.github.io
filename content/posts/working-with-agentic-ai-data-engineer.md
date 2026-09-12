@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Data Engineer"
 date = 2026-08-29
 occupationTitle = "Data Engineer"
+occupationCategory = "Data & AI"
 alternativeTitles = ["Big Data Engineer", "Data Pipeline Engineer", "Analytics Engineer"]
 shortDescription = "Designs, builds, and operates the pipelines, platforms, and quality controls that make data reliable, available, and usable."
 math = true

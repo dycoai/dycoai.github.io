@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Business Execution Consultant"
 date = 2026-09-11
 occupationTitle = "Business Execution Consultant"
+occupationCategory = "Business & Analysis"
 alternativeTitles = ["Operations Consultant", "Implementation Consultant", "Business Transformation Consultant"]
 shortDescription = "Translates strategic objectives into operational reality by designing, implementing, and optimizing business processes, workflows, and organizational capabilities."
 math = true

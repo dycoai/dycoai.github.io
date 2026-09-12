@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Strategic Business Analyst"
 date = 2026-09-11 
 occupationTitle = "Strategic Business Analyst"
+occupationCategory = "Business & Analysis"
 alternativeTitles = ["Business Strategy Analyst", "Strategic Analyst", "Business Transformation Analyst"]
 shortDescription = "Analyzes organizational needs, business performance, processes, capabilities, stakeholder requirements, and potential solutions to support strategic decisions and organizational change."
 math = true

@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Network Engineer"
 date = 2026-08-29
 occupationTitle = "Network Engineer"
+occupationCategory = "Software & Systems Engineering"
 alternativeTitles = ["Network Administrator", "Infrastructure Engineer (Network)", "Network Architect"]
 shortDescription = "Designs, configures, and maintains the connectivity, security, and performance of enterprise networks and network services."
 math = true

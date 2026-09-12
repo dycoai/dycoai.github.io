@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Card Access Specialist"
 date = 2026-09-11
 occupationTitle = "Card Access Specialist"
+occupationCategory = "Security"
 alternativeTitles = ["Access Control Specialist", "Physical Security Credential Specialist", "Badge Access Administrator"]
 shortDescription = "Administers physical access credentials and related access-control processes to help ensure that authorized individuals receive appropriate, accurate, and secure access to organizational facilities and controlled areas."
 math = true

@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: DevOps Engineer"
 date = 2026-08-29
 occupationTitle = "DevOps Engineer"
+occupationCategory = "Software & Systems Engineering"
 alternativeTitles = ["Platform Engineer", "Site Reliability Engineer", "Release Engineer"]
 shortDescription = "Supports the reliable, automated, and secure development, deployment, and operation of software applications and their infrastructure."
 math = true

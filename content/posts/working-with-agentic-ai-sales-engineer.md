@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Sales Engineer"
 date = 2026-08-28
 occupationTitle = "Sales Engineer"
+occupationCategory = "Sales"
 alternativeTitles = ["Pre-Sales Engineer", "Solutions Engineer", "Solutions Consultant"]
 shortDescription = "Bridges sales and engineering by demonstrating technical solutions, shaping customer requirements, and supporting deals with deep product knowledge."
 math = true

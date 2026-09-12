@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Cyber Threat Hunter"
 date = 2026-08-29
 occupationTitle = "Cyber Threat Hunter"
+occupationCategory = "Security"
 alternativeTitles = ["Threat Hunter", "Cyber Defense Analyst", "Security Analyst (Proactive Detection)"]
 shortDescription = "Proactively hunts systems, networks, and telemetry for malicious activity that automated security controls have not detected."
 math = true

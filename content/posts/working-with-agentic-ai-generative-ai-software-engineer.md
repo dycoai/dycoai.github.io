@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Generative AI Software Engineer"  
 date = 2026-08-31  
 occupationTitle = "Generative AI Software Engineer"  
+occupationCategory = "Software & Systems Engineering"
 alternativeTitles = ["Generative AI Engineer", "LLM Engineer", "AI Application Engineer"]  
 shortDescription = "Designs, develops, integrates, and maintains software systems and applications that use generative AI models and related AI technologies."  
 math = true  

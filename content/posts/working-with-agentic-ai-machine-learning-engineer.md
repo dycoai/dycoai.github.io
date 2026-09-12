@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Machine Learning Engineer"
 date = 2026-09-06
 occupationTitle = "Machine Learning Engineer"
+occupationCategory = "Data & AI"
 alternativeTitles = ["ML Engineer", "Applied Machine Learning Engineer", "Machine Learning Systems Engineer"]
 shortDescription = "Designs, develops, evaluates, deploys, maintains, and improves machine learning systems that use data to produce predictions, classifications, recommendations, decisions, generated outputs, or other computational results."
 math = true

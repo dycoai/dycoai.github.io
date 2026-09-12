@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Business Analyst"
 date = 2026-08-29
 occupationTitle = "Business Analyst"
+occupationCategory = "Business & Analysis"
 alternativeTitles = ["Systems Analyst", "Requirements Analyst", "Business Systems Analyst"]
 shortDescription = "Translates business needs, processes, and stakeholder requirements into actionable solutions and coordinated organizational change."
 math = true

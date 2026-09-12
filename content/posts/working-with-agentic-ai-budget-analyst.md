@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Budget Analyst"
 date = 2026-09-11
 occupationTitle = "Budget Analyst"
+occupationCategory = "Business & Analysis"
 alternativeTitles = ["Budget and Financial Analyst", "Management and Budget Analyst", "Financial Planning Analyst"]
 shortDescription = "Develops, analyzes, reviews, monitors, and communicates budgets to support the effective allocation and control of financial resources."
 math = true

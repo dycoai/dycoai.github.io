@@ -2,6 +2,7 @@
 title = "Working with Agentic AI: Python Software Engineer"  
 date = 2026-08-31  
 occupationTitle = "Python Software Engineer"  
+occupationCategory = "Software & Systems Engineering"
 alternativeTitles = ["Python Developer", "Backend Python Engineer", "Python Application Engineer"]  
 shortDescription = "Designs, develops, tests, integrates, deploys, maintains, and improves software systems and applications primarily using Python."  
 math = true  
