@@ -1,11 +1,12 @@
-/* Textual promotion box: light card with bold headline, subtitle, dark pill buttons */
+/* Textual promotion box: tinted card with bold headline, subtitle, dark pill button */
 
 .textual-promotion {
-    background: #f3f9fd;
+    background: var(--code-bg);
+    border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 2.2em 2.4em;
     margin: 1.6em 0;
-    color: #000;
+    color: var(--primary);
 }
 
 .textual-promotion-title {
@@ -13,14 +14,14 @@
     font-weight: 800;
     line-height: 1.08;
     letter-spacing: -0.01em;
-    color: #000;
+    color: var(--primary);
 }
 
 .textual-promotion-subtitle {
     margin: 0.9em 0 1.6em;
     font-size: 1rem;
     line-height: 1.4;
-    color: #484a4c;
+    color: var(--secondary);
     max-width: 46em;
 }
 
