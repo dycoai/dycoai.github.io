@@ -7,3 +7,13 @@
 
   gtag('config', 'G-MTJC6NWHQF');
 </script>
+
+{{- /* Header submenu tap-to-toggle. The theme only bundles the scripts it
+       lists itself, so this must be wired here; assets/js is unioned with
+       the theme's, so resources.Get resolves the site's file. */}}
+{{- $menuToggle := resources.Get "js/menu-toggle.js" | js.Build | resources.Minify }}
+{{- if not site.Params.assets.disableFingerprinting }}
+{{- $menuToggle = $menuToggle | fingerprint }}
+{{- end }}
+<script defer src="{{ $menuToggle.RelPermalink }}"{{ with $menuToggle.Data.Integrity }} crossorigin="anonymous"
+    integrity="{{ . }}"{{ end }}></script>

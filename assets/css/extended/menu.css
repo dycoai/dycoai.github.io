@@ -43,14 +43,14 @@
 }
 
 /* A parent with no page of its own renders as .menu-label instead of an
-   anchor: not clickable, but focusable so the submenu stays reachable.
-   It is not an anchor, so it misses the theme's `.menu a` rule and would
-   otherwise inherit the 18px body size; pin it to the same 16px the
-   anchors use so a label and a link sit at one optical weight. */
+   anchor: menu-toggle.js makes tapping or pressing Enter on it toggle the
+   submenu. It is not an anchor, so it misses the theme's `.menu a` rule
+   and would otherwise inherit the 18px body size; pin it to the same 16px
+   the anchors use so a label and a link sit at one optical weight. */
 .menu-label {
     display: inline-flex;
     align-items: center;
-    cursor: default;
+    cursor: pointer;
     font-size: 16px;
     color: var(--primary);
 }
@@ -160,40 +160,20 @@
     transform: translateX(0);
 }
 
-/* === Narrow screens ===
+/* === Touch and narrow screens ===
 
-   Hover does not exist on touch devices. Below the theme's mobile nav
-   breakpoint, render children as an indented static list instead of a
-   dropdown so they stay reachable by tap. The menu's move to its own
-   full-width row is handled with the other header layout rules in
-   width.css.
-*/
-@media (max-width: 768px) {
-    .menu .submenu {
-        display: block;
-        position: static;
-        min-width: 0;
-        padding: 0 0 0 1rem;
-        background: none;
-        border: 0;
-        border-radius: 0;
-        box-shadow: none;
-    }
+   Hover does not exist on touch devices, and iOS Safari does not reliably
+   set :focus when a non-interactive <span> is tapped, so the
+   :hover/:focus-within rules above cannot open the dropdown there.
+   assets/js/menu-toggle.js toggles .open on the parent <li> on tap,
+   Enter, and Space; .open shows the dropdown at every width, so phones
+   behave like tablets and desktops instead of carrying an always-visible
+   static copy of the children. */
+.menu > li.has-submenu.open > .submenu {
+    display: block;
+}
 
-    .menu-caret {
-        display: none;
-    }
-
-    /* Children render as a static list here, so the row arrow is redundant. */
-    .menu .submenu a::after {
-        display: none;
-    }
-
-    .submenu-note {
-        font-size: 12px;
-    }
-
-    .menu-label {
-        cursor: default;
-    }
+.menu > li.has-submenu.open > a .menu-caret,
+.menu > li.has-submenu.open > .menu-label .menu-caret {
+    transform: rotate(180deg);
 }
