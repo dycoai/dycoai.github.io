@@ -90,12 +90,19 @@
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
             {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
+            {{- /* A parent with no page of its own cannot match the current page
+                   directly, so treat it as current when one of its children does. */}}
+            {{- $in_section := false }}
+            {{- range .Children }}
+            {{- $child_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+            {{- if eq $child_url $page_url }}{{ $in_section = true }}{{ end }}
+            {{- end }}
             <li{{- if .HasChildren }} class="has-submenu"{{- end }}>
                 {{- if .URL }}
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}
                 {{- if .HasChildren }} aria-haspopup="true" aria-expanded="false"{{- end }}>
-                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                    <span {{- if or (eq $menu_item_url $page_url) $in_section }} class="active" {{- end }}>
                         {{- .Pre }}
                         {{- .Name -}}
                         {{ .Post -}}
@@ -122,7 +129,7 @@
                 {{- /* Grouping label with no page of its own: not a link, but
                        still focusable so the submenu is reachable by keyboard. */}}
                 <span class="menu-label" tabindex="0"{{- if .HasChildren }} role="button" aria-haspopup="true" aria-expanded="false"{{- end }}>
-                    <span>
+                    <span {{- if $in_section }} class="active" {{- end }}>
                         {{- .Pre }}
                         {{- .Name -}}
                         {{ .Post -}}
