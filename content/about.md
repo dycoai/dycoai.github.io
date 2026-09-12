@@ -21,4 +21,4 @@ The aim is a concrete, reusable picture of collaboration: what a person does, wh
 
 ## About the Author
 
-**Mengyao Zhu** holds a PhD in systems engineering. His doctoral research focused on the practical applications of Large Language Models to learning, working, and exploration, treating these as distinct downstream task clusters.
+**Dr Mengyao Zhu** holds a PhD in systems engineering. His doctoral research focused on the practical applications of Large Language Models to learning, working, and exploration, treating these as distinct downstream task clusters.
