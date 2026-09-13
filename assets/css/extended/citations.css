@@ -5,6 +5,16 @@ sup.citation a {
     padding-inline: 1px;
 }
 
+/* Anchor jumps land the target flush at the viewport top; leave the
+   cited sentence breathing room below the top edge instead. */
+sup.citation {
+    scroll-margin-top: 3rem;
+}
+
+.references li {
+    scroll-margin-top: 1.5rem;
+}
+
 .references {
     margin-block-start: 1.5rem;
     font-size: 0.9em;
