@@ -48,7 +48,7 @@
        are dropped. On a parse failure the raw source is shown unhidden
        instead of an empty box. */ -}}
 {{- if .Store.Get "hasAlgorithm" }}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@2.4.0/build/pseudocode.min.css" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/pseudocode@2.4.0/build/pseudocode.min.js" defer></script>
 <script defer>
@@ -62,7 +62,7 @@
           .replace(/\\begin\{(algorithm|algorithmic)\}\[[^\]]*\]/g, "\\begin{$1}")
           .replace(/\\footnotesize/g, "")
           .replace(/\\label\{[^}]*\}/g, "")
-          .replace(/\\hspace\{[^}]*\}/g, "\u2003\u2003");
+          .replace(/\\hspace\{[^}]*\}/g, "$\\hspace{1em}$");
         box.innerHTML = window.pseudocode.renderToString(src, { lineNumber: true });
       } catch (err) {
         pre.hidden = false;
