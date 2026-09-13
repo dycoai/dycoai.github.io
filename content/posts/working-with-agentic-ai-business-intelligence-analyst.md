@@ -51,7 +51,7 @@ The relationship between these skills is not a fixed division where certain resp
 
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Business Intelligence Analysis
 
-Business intelligence analysis functions as an occupation where responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.
+Business intelligence analysis functions can be understood as an occupation where responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.
 
 An **occupation** provides the overall professional context. For business intelligence analysis, this context encompasses collecting and analyzing business information, developing and maintaining business intelligence solutions, communicating analytical findings, and supporting organizational decisions.
 
@@ -87,7 +87,7 @@ This dynamic relationship allows business intelligence analysts to leverage the 
 
 ### 1.3.2. Skill Configuration and Task Execution
 
-A **skill configuration** specifies which human skills and agentic skills execute the actions associated with a task or subtask and how those skills coordinate.
+A **skill configuration** specifies which human skills and agentic skills are used to execute the actions associated with a task or subtask and how those skills are coordinated.
 
 The configuration depends on factors such as action requirements, data availability, data quality, business ambiguity, analytical complexity, expected reliability, available tools, information sensitivity, decision consequences, stakeholder expectations, and intermediate results.
 
@@ -242,7 +242,7 @@ The practical objective is to construct skill configurations that use the most s
 
 ## 1.6. Working as a Business Intelligence Analyst with Agentic AI
 
-Agentic AI is becoming an increasingly powerful component of business intelligence analysis. Business intelligence analysts should therefore accept and embrace AI agents as complementary participants in professional workflows rather than treating them only as occasional tools for generating summaries, queries, or reports.
+Agentic AI is becoming an increasingly powerful component of business intelligence analysis. Business intelligence analysts should therefore adopt and integrate AI agents as complementary participants in professional workflows rather than treating them only as occasional tools for generating summaries, queries, or reports.
 
 This shift does not reduce the importance of business intelligence expertise. Human professionals remain responsible for the occupation and its corresponding responsibilities. They understand organizational objectives, define meaningful business questions, interpret business context, determine appropriate performance measures, evaluate analytical evidence, communicate with stakeholders, control consequential decisions, evaluate task performance, and decide how human and agentic skills are configured and improved.
 
