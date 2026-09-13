@@ -1,0 +1,22 @@
+/* Pseudo-algorithm boxes (render-codeblock-pseudo-algorithm.html emits
+   .pseudo-algorithm; pseudocode.js fills it with the rendered pseudocode).
+
+   Paper-style ruled top and bottom lines, like the algorithm float in the
+   articles this mirrors. pseudocode.js does not set text colors itself, so
+   pin them to the theme variables to stay legible in dark mode. */
+.pseudo-algorithm {
+    margin: 1.5rem 0;
+    overflow-x: auto;
+}
+
+.pseudo-algorithm .ps-root {
+    border-top: 1px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
+    padding: 0.6rem 0.2rem;
+    color: var(--primary);
+}
+
+/* Wide lines scroll inside the box instead of overflowing the column. */
+.pseudo-algorithm .ps-root ol {
+    overflow-x: auto;
+}

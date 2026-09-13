@@ -39,3 +39,35 @@
   });
 </script>
 {{- end }}
+
+{{- /* Pseudo-algorithm rendering: pseudocode.js turns the LaTeX algorithmic
+       source kept by the render hook into HTML; KaTeX typesets the math
+       inside lines. Loaded only on pages the hook flagged. The sanitizer
+       adapts paper-LaTeX idioms the web renderer does not take: \(..\)
+       becomes $..$, and float-only commands ([H], \footnotesize, \label)
+       are dropped. On a parse failure the raw source is shown unhidden
+       instead of an empty box. */ -}}
+{{- if .Store.Get "hasAlgorithm" }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/pseudocode@2.4.0/build/pseudocode.min.js" defer></script>
+<script defer>
+  window.addEventListener("DOMContentLoaded", function () {
+    if (!window.pseudocode) return;
+    document.querySelectorAll("pre.algorithm-src").forEach(function (pre) {
+      var box = pre.closest(".pseudo-algorithm") || pre.parentElement;
+      try {
+        var src = pre.textContent
+          .replace(/\\\(/g, "$").replace(/\\\)/g, "$")
+          .replace(/\\begin\{(algorithm|algorithmic)\}\[[^\]]*\]/g, "\\begin{$1}")
+          .replace(/\\footnotesize/g, "")
+          .replace(/\\label\{[^}]*\}/g, "")
+          .replace(/\\hspace\{[^}]*\}/g, "\u2003\u2003");
+        box.innerHTML = window.pseudocode.renderToString(src, { lineNumber: true });
+      } catch (err) {
+        pre.hidden = false;
+      }
+    });
+  });
+</script>
+{{- end }}
