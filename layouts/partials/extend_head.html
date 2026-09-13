@@ -71,3 +71,73 @@
   });
 </script>
 {{- end }}
+
+{{- /* Citations: citation-js parses assets/bib/refs.bib; \cite{...}
+       occurrences in the article become numbered [n] links numbered by
+       first appearance, and the references shortcode container is filled
+       with APA-formatted entries in that order. Loaded only on pages the
+       references shortcode flagged. Raw sources (pre/code) are skipped so
+       examples of the syntax itself stay untouched. */ -}}
+{{- if .Store.Get "hasCitations" }}
+<script src="https://cdn.jsdelivr.net/npm/citation-js@0.6.9/build/citation.js" defer></script>
+<script defer>
+  window.addEventListener("DOMContentLoaded", function () {
+    /* The CDN bundle (0.6.9) registers its browserify require as a global
+       instead of a window.Cite global; the main module exports the class. */
+    var Cite = (typeof window.Cite !== "undefined" && window.Cite) ||
+               (typeof window.require === "function" && window.require("citation-js"));
+    var box = document.querySelector(".references");
+    var content = document.querySelector(".post-content") || document.querySelector("main");
+    if (!Cite || !box || !box.dataset.bibSrc || !content) return;
+    var order = [];
+    var walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (node) {
+        if (node.parentElement.closest("pre, code, .references")) return NodeFilter.FILTER_REJECT;
+        return node.textContent.indexOf("\\cite{") !== -1 ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
+      }
+    });
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (node) {
+      var frag = document.createDocumentFragment();
+      var text = node.textContent;
+      var re = /\\cite\{([^}]*)\}/g;
+      var match;
+      var last = 0;
+      while ((match = re.exec(text))) {
+        frag.appendChild(document.createTextNode(text.slice(last, match.index)));
+        var sup = document.createElement("sup");
+        sup.className = "citation";
+        sup.innerHTML = match[1].split(",").map(function (key) {
+          key = key.trim();
+          if (!key) return null;
+          var n = order.indexOf(key);
+          if (n === -1) { order.push(key); n = order.length - 1; }
+          return '<a href="#ref-' + key + '">[' + (n + 1) + "]</a>";
+        }).filter(Boolean).join(",");
+        frag.appendChild(sup);
+        last = match.index + match[0].length;
+      }
+      frag.appendChild(document.createTextNode(text.slice(last)));
+      node.replaceWith(frag);
+    });
+    if (!order.length) return;
+    fetch(box.dataset.bibSrc).then(function (res) { return res.text(); }).then(function (bib) {
+      var data = new Cite(bib);
+      var list = document.createElement("ol");
+      list.className = "ref-list";
+      order.forEach(function (key, i) {
+        var li = document.createElement("li");
+        li.id = "ref-" + key;
+        var entry = data.data.find(function (e) { return e.id === key; });
+        li.innerHTML = '<span class="ref-num">[' + (i + 1) + "]</span> " +
+          (entry ? new Cite([entry]).format("bibliography", { format: "html", template: "apa", lang: "en-US" })
+                 : "<em>missing reference: " + key + "</em>");
+        list.appendChild(li);
+      });
+      box.appendChild(list);
+      box.hidden = false;
+    });
+  });
+</script>
+{{- end }}

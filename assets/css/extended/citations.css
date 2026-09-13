@@ -1,0 +1,33 @@
+/* Inline citations and bibliography (references shortcode + the citation
+   loader in extend_head.html). */
+sup.citation a {
+    text-decoration: none;
+    padding-inline: 1px;
+}
+
+.references {
+    margin-block-start: 1.5rem;
+    font-size: 0.9em;
+}
+
+.references .ref-list {
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+/* Hanging indent: the [n] label hangs into the gutter. */
+.references li {
+    margin-block-end: 0.5rem;
+    padding-inline-start: 2.2rem;
+    text-indent: -2.2rem;
+}
+
+.references .ref-num {
+    margin-inline-end: 0.35rem;
+    font-weight: 600;
+}
+
+.references a {
+    color: var(--primary);
+}
