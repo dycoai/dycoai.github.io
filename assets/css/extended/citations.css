@@ -44,3 +44,20 @@ sup.citation a {
 .references a {
     color: var(--primary);
 }
+
+/* Return arrows on bibliography entries: one per citing location. */
+.references .ref-back {
+    margin-inline-start: 0.4rem;
+    font-size: 0.85em;
+    white-space: nowrap;
+}
+
+.references .ref-back a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.references .ref-back a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}

@@ -374,9 +374,11 @@ Reasoning strategy configuration \(\mathcal{C}_{\text{reason}}\)
 
 #### Citation Test (experiment)
 
-**PEARL (Planning with Executable Actions for Reasoning over Long Documents)** \cite{Sun2023-bm} is a multi-stage prompt framework specifically designed to improve how large language models reason over lengthy texts. The process begins with an action mining stage, where the model is prompted, using a few manually crafted seed actions as examples, to generate a broader set of task-specific, reusable actions from training questions. Each action is formatted like a program function with a natural language definition. Next, in the plan generation stage, the model is given a new question and, through few-shot prompt with demonstrations of good plans, formulates a sequence of these mined actions. This plan acts as a blueprint, where the output of one action can be used as an input for another. Finally, in the plan execution stage, the model executes the plan step-by-step. For each step, it is given a zero-shot prompt containing the long document, the specific action to perform, and the results from previous steps, allowing it to generate a detailed output. To ensure the quality of the few-shot demonstrations used in plan generation, the framework incorporates a self-refinement mechanism where the model corrects its own plans based on error messages or execution results before they are used as examples. The principal evidence for PEARL's effectiveness comes from experiments on a challenging subset of the QuALITY \cite{Pang2022-xi} dataset. On questions requiring long-context understanding, PEARL achieved an accuracy of \(70.9\%\), significantly outperforming the zero-shot GPT-4 \cite{OpenAI2023-mb} baseline which scored \(64.3\%\). For the most complex questions that required the full document, PEARL's performance was even stronger at \(72.4\%\) compared to the baseline's \(61.9\%\), demonstrating that its structured, multi-stage approach leads to more accurate answers.
+
 
 ## Reference
 
+
+As a second citing location for testing, PEARL remains the reference example for multi-stage planning over long documents \cite{Sun2023-bm}.
 
 {{< references >}}

@@ -90,9 +90,11 @@
     var content = document.querySelector(".post-content") || document.querySelector("main");
     if (!Cite || !box || !box.dataset.bibSrc || !content) return;
     var order = [];
+    var backTargets = {};
+    var backCount = 0;
     var walker = document.createTreeWalker(content, NodeFilter.SHOW_TEXT, {
       acceptNode: function (node) {
-        if (node.parentElement.closest("pre, code, .references")) return NodeFilter.FILTER_REJECT;
+        if (node.parentElement.closest("pre, code, script, style, .references")) return NodeFilter.FILTER_REJECT;
         return node.textContent.indexOf("\\cite{") !== -1 ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
       }
     });
@@ -108,11 +110,14 @@
         frag.appendChild(document.createTextNode(text.slice(last, match.index)));
         var sup = document.createElement("sup");
         sup.className = "citation";
+        // Anchor target for the back-links listed on the bibliography entry.
+        sup.id = "cite-back-" + backCount++;
         sup.innerHTML = match[1].split(",").map(function (key) {
           key = key.trim();
           if (!key) return null;
           var n = order.indexOf(key);
           if (n === -1) { order.push(key); n = order.length - 1; }
+          (backTargets[key] = backTargets[key] || []).push(sup.id);
           return '<a href="#ref-' + key + '">[' + (n + 1) + "]</a>";
         }).filter(Boolean).join(",");
         frag.appendChild(sup);
@@ -133,6 +138,13 @@
         li.innerHTML = '<span class="ref-num">[' + (i + 1) + "]</span> " +
           (entry ? new Cite([entry]).format("bibliography", { format: "html", template: "vancouver", lang: "en-US" })
                  : "<em>missing reference: " + key + "</em>");
+        // One back-arrow per citing location (Wikipedia footnote pattern).
+        var back = document.createElement("span");
+        back.className = "ref-back";
+        back.innerHTML = (backTargets[key] || []).map(function (id, n) {
+          return '<a href="#' + id + '" title="Back to citation ' + (n + 1) + '">\u21A9</a>';
+        }).join(" ");
+        li.appendChild(back);
         list.appendChild(li);
       });
       box.appendChild(list);
