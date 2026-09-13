@@ -60,7 +60,7 @@
                 
                 {{- if (not site.Params.disableLangToggle) }}
                     {{- $lang := .Lang}}
-                    {{- with .Translations }}
+                    {{- with site.Home.Translations }}
                     {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
                     {{- if $separator }}<span class="nav-sep">|</span>{{ end }}
                     <ul class="lang-menu">
@@ -73,7 +73,7 @@
                                 {{- .Language.LanguageName | emojify -}}
                                 {{- else }}
                                 {{- .Lang | title -}}
-                                {{- end -}}
+                                {{- end }}
                             </a>
                         </li>
                         {{- end -}}
@@ -90,14 +90,32 @@
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
             {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
-            <li>
+            {{- /* A parent with no page of its own cannot match the current page
+                   directly, so treat it as current when one of its children does. */}}
+            {{- $in_section := false }}
+            {{- range .Children }}
+            {{- $child_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+            {{- if eq $child_url $page_url }}{{ $in_section = true }}{{ end }}
+            {{- end }}
+            <li{{- if .HasChildren }} class="has-submenu"{{- end }}>
+                {{- if .URL }}
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
-                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
-                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}
+                {{- if .HasChildren }} aria-haspopup="true" aria-expanded="false"{{- end }}>
+                    <span {{- if or (eq $menu_item_url $page_url) $in_section }} class="active" {{- end }}>
                         {{- .Pre }}
                         {{- .Name -}}
                         {{ .Post -}}
                     </span>
+                    {{- if .HasChildren }}
+                    <span class="menu-caret" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="11" height="11"
+                            fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </span>
+                    {{- end }}
                     {{- if (findRE "://" .URL) }}&nbsp;
                     <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
                         stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
@@ -107,6 +125,47 @@
                     </svg>
                     {{- end }}
                 </a>
+                {{- else }}
+                {{- /* Grouping label with no page of its own: not a link, but
+                       still focusable so the submenu is reachable by keyboard. */}}
+                <span class="menu-label" tabindex="0"{{- if .HasChildren }} role="button" aria-haspopup="true" aria-expanded="false"{{- end }}>
+                    <span {{- if $in_section }} class="active" {{- end }}>
+                        {{- .Pre }}
+                        {{- .Name -}}
+                        {{ .Post -}}
+                    </span>
+                    {{- if .HasChildren }}
+                    <span class="menu-caret" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="11" height="11"
+                            fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </span>
+                    {{- end }}
+                </span>
+                {{- end }}
+                {{- if .HasChildren }}
+                <ul class="submenu">
+                    {{- range .Children }}
+                    {{- $sub_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+                    <li>
+                        <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}"{{- if eq $sub_url $page_url }} class="submenu-active"{{- end }}>
+                            <span class="submenu-label">
+                                <span {{- if eq $sub_url $page_url }} class="active" {{- end }}>
+                                    {{- .Pre }}
+                                    {{- .Name -}}
+                                    {{ .Post -}}
+                                </span>
+                                {{- with .Params.note }}
+                                <span class="submenu-note">{{ . }}</span>
+                                {{- end }}
+                            </span>
+                        </a>
+                    </li>
+                    {{- end }}
+                </ul>
+                {{- end }}
             </li>
             {{- end }}
         </ul>
