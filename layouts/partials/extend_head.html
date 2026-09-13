@@ -17,3 +17,25 @@
 {{- end }}
 <script defer src="{{ $menuToggle.RelPermalink }}"{{ with $menuToggle.Data.Integrity }} crossorigin="anonymous"
     integrity="{{ . }}"{{ end }}></script>
+
+{{- /* Mermaid diagrams: loaded only on pages that contain a ```mermaid
+       block (the render hook sets the hasMermaid page store flag). Pinned
+       major on the same CDN as MathJax; theme "neutral" stays legible in
+       both light and dark modes. */ -}}
+{{- if .Store.Get "hasMermaid" }}
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({
+    startOnLoad: true,
+    securityLevel: "strict",
+    theme: "neutral",
+    {{- /* Natural-size SVGs so pre.mermaid's overflow-x scrolls wide
+           charts on phones instead of shrinking them unreadable. */ -}}
+    flowchart: { useMaxWidth: false },
+    sequence: { useMaxWidth: false },
+    class: { useMaxWidth: false },
+    er: { useMaxWidth: false },
+    gantt: { useMaxWidth: false },
+  });
+</script>
+{{- end }}
