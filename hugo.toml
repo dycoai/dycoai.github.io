@@ -4,6 +4,15 @@ baseURL = "https://dycoai.github.io/"
 title = "DyCoAI | AI and Me"
 theme = "hugo-PaperMod"
 
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.zh]
+    languageName = "CN"
+    languageCode = "zh"
+    weight = 2
+
 [pagination]
   pagerSize = 6
 

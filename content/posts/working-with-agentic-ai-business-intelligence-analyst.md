@@ -1,5 +1,6 @@
 +++
 title = "Working with Agentic AI: Business Intelligence Analyst"
+translationKey = "business-intelligence-analyst"
 date = 2026-09-13
 occupationTitle = "Business Intelligence Analyst"
 occupationCategory = "Data & AI"

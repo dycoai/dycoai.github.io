@@ -1,5 +1,6 @@
 +++
 title = "与自主智能体协同工作：商业智能分析师"
+translationKey = "business-intelligence-analyst"
 date = 2026-09-13
 occupationTitle = "Business Intelligence Analyst"
 occupationCategory = "Data & AI"
