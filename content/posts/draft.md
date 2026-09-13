@@ -293,7 +293,7 @@ Task performance evaluation then determines whether selected skills and configur
 For a business intelligence analyst, working effectively with agentic AI means treating AI as a powerful complementary capability integrated into everyday professional routines while maintaining human control of occupational responsibilities. Through appropriate skill selection, competition, collaboration, evaluation, and continuous improvement, human professionals and agentic AI work together to achieve business intelligence analysis that is more efficient, scalable, adaptable, timely, and reliable.
 ## Mermaid Test (experiment)
 
-A flowchart:
+#### Flowchart
 
 ```mermaid
 flowchart TD
@@ -304,7 +304,7 @@ flowchart TD
     D --> E
 ```
 
-A sequence diagram:
+#### Sequence Diagram
 
 ```mermaid
 sequenceDiagram
@@ -315,16 +315,10 @@ sequenceDiagram
     S-->>U: Rendered SVG
 ```
 
-A deliberately wide chart (horizontal scroll test):
+#### Wide Chart (horizontal scroll test)
 
 ```mermaid
 flowchart LR
     A[Alpha] --> B[Bravo] --> C[Charlie] --> D[Delta] --> E[Echo] --> F[Foxtrot] --> G[Golf] --> H[Hotel] --> I[India] --> J[Juliett] --> K[Kilo] --> L[Lima] --> M[Mike] --> N[November]
 ```
 
-A normal code fence that must stay untouched:
-
-```python
-def hello():
-    print("not a diagram")
-```
