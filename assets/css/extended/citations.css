@@ -23,6 +23,19 @@ sup.citation a {
     text-indent: -2.2rem;
 }
 
+/* citation-js emits block divs (.csl-bib-body > .csl-entry >
+   .csl-left-margin + .csl-right-inline), which would push the entry text
+   below the [n] label; flatten them onto the label's line. The Vancouver
+   template also prints its own "1." number in .csl-left-margin, which
+   would duplicate ours — hide it. */
+.references li div {
+    display: inline;
+}
+
+.references .csl-left-margin {
+    display: none;
+}
+
 .references .ref-num {
     margin-inline-end: 0.35rem;
     font-weight: 600;
