@@ -59,68 +59,6 @@ A **responsibility** represents an expected area of professional work or an outc
 
 A **task** is a **context-dependent unit of work** used to fulfill part or all of a responsibility. When a task is too broad or complex for reliable execution, it is decomposed into smaller **subtasks**.
 
-```mermaid
-flowchart TD
-    Context(["EXECUTION CONTEXT"])
-    Resp(["RESPONSIBILITY"])
-
-    Task["TASK<br/>Context-dependent unit of work"]
-
-    Test{"EXECUTABILITY TEST<br/>Can it be executed reliably<br/>with current Human/AI skills?"}
-
-    Subtasks["SUBTASKS<br/>Decompose & re-evaluate"]
-    RelExec["RELIABLE EXECUTION"]
-    SkillConfig["SKILL CONFIGURATION<br/>Assign Human, AI, or both"]
-    Fulfills(["FULFILLS RESPONSIBILITY"])
-
-    Context -. provides context .-> Task
-    Resp -. fulfilled through .-> Task
-
-    Task --> Test
-    Test -- YES --> RelExec
-    Test -- NO --> Subtasks
-
-    Subtasks -. each subtask re-evaluated .-> Task
-
-    RelExec --> SkillConfig
-    SkillConfig --> Fulfills
-```
-
-```text
-
-[ EXECUTION CONTEXT ] ──────┐
-                            ▼
-[ RESPONSIBILITY ] ──> ╔══════════════════════════════╗
-                       ║            TASK              ║
-                       ║ (Context-dependent unit of   ║
-                       ║          work)               ║
-                       ╚══════════════════════════════╝
-                                   │
-                                   ▼
-                      ┌────────────────────────┐
-                      │   EXECUTABILITY TEST   │
-                      │ (Predefined Metrics:   │
-                      │  Can it be executed    │
-                      │  reliably with current │
-                      │  Human/AI skills?)     │
-                      └────────────────────────┘
-                         │ YES            │ NO
-                         ▼                ▼
-        ╔══════════════════════════╗   ╔════════════════════════╗
-        ║      SUBTASKS            ║   ║   RELIABLE EXECUTION   ║
-        ║ (Decompose & Re-evaluate)║   ╚════════════════════════╝
-        ╚══════════════════════════╝            │
-                         │                      ▼
-                         │           [ SKILL CONFIGURATION ]
-                         │           (Assign Human, AI, or Both)
-                         │                      │
-                         └──────────────────────┘
-                                                │
-                                                ▼
-                                  [ Fulfills Responsibility ]
-
-```
-
 Tasks and subtasks are executed through one or more **actions**. Actions represent **reusable and configurable operations** such as retrieving information, querying a data repository, calculating a performance measure, comparing business segments, detecting a trend, generating a visualization, validating a report, or summarizing analytical findings.
 
 Each action has **skill requirements**. These requirements describe the capabilities needed for effective and reliable execution. Depending on the action and its context, human skills, agentic skills, or an integration of both can satisfy these requirements.
