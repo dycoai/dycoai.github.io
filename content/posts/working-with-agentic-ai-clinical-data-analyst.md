@@ -1,6 +1,6 @@
 +++
 title = "Working with Agentic AI: Clinical Data Analyst"
-date = 2026-09-14
+date = 2026-09-13
 occupationTitle = "Clinical Data Analyst"
 occupationCategory = "Data & AI"
 alternativeTitles = ["Healthcare Data Analyst", "Clinical Research Data Specialist", "Medical Data Scientist", "Health Informatics Analyst"]
