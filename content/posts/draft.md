@@ -140,6 +140,11 @@ The configuration is therefore dynamic rather than permanent. It may change when
 
 Throughout this process, the business intelligence analyst remains the professional responsible for promoting and controlling the work associated with the occupation and its responsibilities. Agentic AI provides powerful complementary capabilities that expand what the professional can retrieve, query, calculate, compare, analyze, visualize, summarize, and communicate.
 
+
+As a second citing location for testing, PEARL remains the reference example for multi-stage planning over long documents \cite{Sun2023-bm}.
+
+
+
 ### 1.3.3. Task Performance Evaluation and Skill Space Adaptation
 
 The performance produced through a selected skill configuration is evaluated against **predefined evaluation metrics**. These metrics determine whether the human skills, agentic skills, or their integrated configuration are sufficiently capable of performing the relevant task and its required actions.
@@ -379,6 +384,5 @@ Reasoning strategy configuration \(\mathcal{C}_{\text{reason}}\)
 ## Reference
 
 
-As a second citing location for testing, PEARL remains the reference example for multi-stage planning over long documents \cite{Sun2023-bm}.
 
 {{< references >}}
