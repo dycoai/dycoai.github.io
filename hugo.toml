@@ -67,9 +67,9 @@ theme = "hugo-PaperMod"
     [menu.main.params]
       note = "Look up by job title"
   [[menu.main]]
-    identifier = "learning-with-agentic-ai"
-    name = "Learning with AI"
-    url = "/tags/learning-with-agentic-ai"
+    identifier = "thoughts-on-ai"
+    name = "Thoughts on AI"
+    url = "/notes/"
     weight = 10
 # [[menu.main]]
 #   identifier = "posts"
