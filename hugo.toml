@@ -66,11 +66,12 @@ theme = "hugo-PaperMod"
     weight = 22
     [menu.main.params]
       note = "Look up by job title"
-  [[menu.main]]
-    identifier = "thoughts-on-ai"
-    name = "Thoughts on AI"
-    url = "/notes/"
-    weight = 10
+# Temporarily hidden: the notes feed is still demo content / work in progress.
+# [[menu.main]]
+#   identifier = "thoughts-on-ai"
+#   name = "Thoughts on AI"
+#   url = "/notes/"
+#   weight = 10
 # [[menu.main]]
 #   identifier = "posts"
 #   name = "Posts"
