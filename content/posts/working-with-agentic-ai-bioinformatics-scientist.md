@@ -1,6 +1,6 @@
 +++  
 title = "Working with Agentic AI: Bioinformatics Scientist"  
-date = 2026-09-15  
+date = 2026-09-14  
 occupationTitle = "Bioinformatics Scientist"  
 occupationCategory = "Agriculture & Biotechnology"  
 alternativeTitles = ["Computational Biologist", "Bioinformatics Analyst", "Genomics Data Scientist", "Computational Life Sciences Scientist"]  
