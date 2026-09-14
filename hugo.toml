@@ -63,6 +63,11 @@ theme = "hugo-PaperMod"
     name = "Working with AI"
     url = "/tags/working-with-agentic-ai/"
     weight = 10
+  [[menu.main]]
+    identifier = "learning-with-agentic-ai"
+    name = "Learning with AI"
+    url = "/tags/learning-with-agentic-ai"
+    weight = 10
 # [[menu.main]]
 #   identifier = "posts"
 #   name = "Posts"
