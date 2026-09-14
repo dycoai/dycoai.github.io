@@ -39,13 +39,21 @@ theme = "hugo-PaperMod"
 #   url = "/resume-templates/"
 #   weight = 40
   [[menu.main]]
-    identifier = "occupation-navigation"
-    name = "Occupation Navigation"
+    identifier = "working-with-ai"
+    name = "Working with AI"
     weight = 20
+  [[menu.main]]
+    identifier = "working-with-agentic-ai"
+    name = "Working with Agentic AI"
+    parent = "working-with-ai"
+    url = "/tags/working-with-agentic-ai/"
+    weight = 20
+    [menu.main.params]
+      note = "Agentic AI in practice"
   [[menu.main]]
     identifier = "occupation-categories"
     name = "Occupation Categories"
-    parent = "occupation-navigation"
+    parent = "working-with-ai"
     url = "/occupation-categories/"
     weight = 21
     [menu.main.params]
@@ -53,16 +61,11 @@ theme = "hugo-PaperMod"
   [[menu.main]]
     identifier = "occupation-map"
     name = "Occupation Map"
-    parent = "occupation-navigation"
+    parent = "working-with-ai"
     url = "/occupation-map/"
     weight = 22
     [menu.main.params]
       note = "Look up by job title"
-  [[menu.main]]
-    identifier = "working-with-agentic-ai"
-    name = "Working with AI"
-    url = "/tags/working-with-agentic-ai/"
-    weight = 10
   [[menu.main]]
     identifier = "learning-with-agentic-ai"
     name = "Learning with AI"

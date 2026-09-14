@@ -68,12 +68,15 @@
     transform: rotate(180deg);
 }
 
-/* The dropdown panel, hidden until the parent is hovered or focused */
+/* The parent sits at the right end of the menu, so anchor the panel's
+   right edge to the parent's: growing leftward can never run past the
+   viewport edge, at any width. */
 .menu .submenu {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: auto;
+    right: 0;
     z-index: 100;
     min-width: max-content;
     margin: 0;
