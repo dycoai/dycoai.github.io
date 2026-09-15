@@ -20,11 +20,11 @@
 
 {{- /* Mermaid diagrams: loaded only on pages that contain a ```mermaid
        block (the render hook sets the hasMermaid page store flag), plus
-       the thoughts feed: the feed renders many notes' full content in its
+       the notes feed: the feed renders many notes' full content in its
        body, but <head> is emitted before any of it, so the per-page flags
        are never set there. Pinned major on the same CDN as MathJax; theme
        "neutral" stays legible in both light and dark modes. */ -}}
-{{- if or (.Store.Get "hasMermaid") (eq .Section "thoughts") }}
+{{- if or (.Store.Get "hasMermaid") (eq .Section "notes") }}
 <script type="module">
   import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
   mermaid.initialize({
@@ -50,7 +50,7 @@
        are dropped. On a parse failure the raw source is shown unhidden
        instead of an empty box. Same notes-feed exception as Mermaid above:
        the feed's head cannot see the render hooks' flags. */ -}}
-{{- if or (.Store.Get "hasAlgorithm") (eq .Section "thoughts") }}
+{{- if or (.Store.Get "hasAlgorithm") (eq .Section "notes") }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@2.4.0/build/pseudocode.min.css" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/pseudocode@2.4.0/build/pseudocode.min.js" defer></script>
