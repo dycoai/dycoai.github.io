@@ -9,6 +9,8 @@ theme = "hugo-PaperMod"
 
 [params]
   math = true
+  # Homepage switch: true = Twitter-style notes feed, false = conventional post-card flow
+  homeNotesFeed = true
   ShowShareButtons = true
   ShowReadingTime = true 
   ShowToc = true 
@@ -66,22 +68,21 @@ theme = "hugo-PaperMod"
     weight = 22
     [menu.main.params]
       note = "Look up by job title"
-# Temporarily hidden: the notes feed is still demo content / work in progress.
   [[menu.main]]
     identifier = "thoughts-on-ai"
     name = "Thoughts on AI"
     url = "/notes/"
     weight = 10
-# [[menu.main]]
-#   identifier = "posts"
-#   name = "Posts"
-#   url = "/posts/"
-#   weight = 30
   [[menu.main]]
-    identifier = "search"
-    name = "Search"
-    url = "/search/"
-    weight = 40
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 30
+# [[menu.main]]
+#   identifier = "search"
+#   name = "Search"
+#   url = "/search/"
+#   weight = 40
 # [[menu.main]]
 #   identifier = "tags"
 #   name = "Tags"
