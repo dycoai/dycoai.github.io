@@ -73,11 +73,6 @@ theme = "hugo-PaperMod"
 #    name = "Thoughts on AI"
 #    url = "/notes/"
 #    weight = 10
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 30
 # [[menu.main]]
 #   identifier = "search"
 #   name = "Search"
