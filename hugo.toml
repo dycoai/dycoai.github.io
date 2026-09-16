@@ -10,7 +10,7 @@ theme = "hugo-PaperMod"
 [params]
   math = true
   # Homepage switch: true = Twitter-style notes feed, false = conventional post-card flow
-  homeNotesFeed = true
+  homeNotesFeed = false
   ShowShareButtons = true
   ShowReadingTime = true 
   ShowToc = true 
