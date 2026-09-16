@@ -75,7 +75,7 @@ theme = "hugo-PaperMod"
     weight = 10
   [[menu.main]]
     identifier = "posts"
-    name = "Articles"
+    name = "Posts"
     url = "/posts/"
     weight = 30
 # [[menu.main]]
