@@ -6,7 +6,7 @@ notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Translation and Language Transformation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
-As an agentic skill, Translation and Language Transformation is the capability of an artificial intelligence system to accurately convert content across different languages, registers, formats, and notations while strictly preserving the original meaning and intent.
+As an agentic skill, **Translation and Language Transformation** is the capability of an artificial intelligence system to accurately convert content across different languages, registers, formats, and notations while strictly preserving the original meaning and intent.
 
 This process involves parsing source inputs and systematically mapping them to target linguistic or structural conventions to ensure seamless semantic interoperability.
 

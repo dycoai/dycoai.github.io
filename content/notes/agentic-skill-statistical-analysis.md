@@ -6,7 +6,7 @@ notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Statistical Analysis", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
-Statistical Analysis, as an agentic skill, is the capability of an AI agent to apply descriptive and inferential statistical methods to data in order to summarize patterns, estimate quantities, test relationships, and quantify uncertainty.
+**Statistical Analysis**, as an agentic skill, is the capability of an AI agent to apply descriptive and inferential statistical methods to data in order to summarize patterns, estimate quantities, test relationships, and quantify uncertainty.
 
 When a task or subtask requires quantitative description, comparison, inference, or uncertainty assessment, this skill can be selected to prepare data, execute appropriate statistical operations, and produce outputs such as distributions, correlations, significance tests, confidence intervals, or model-based summaries.
 

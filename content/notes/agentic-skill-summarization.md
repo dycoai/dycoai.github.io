@@ -6,7 +6,7 @@ notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Summarization", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
-As an agentic capability within the domain of information processing, summarization is the systematic condensation of extensive, complex, or numerous data sources into concise, faithful, and decision-ready syntheses tailored to specific levels of granularity.
+As an agentic capability within the domain of information processing, **Summarization** is the systematic condensation of extensive, complex, or numerous data sources into concise, faithful, and decision-ready syntheses tailored to specific levels of granularity.
 
 This computational skill operates by extracting the most critical themes, facts, and relationships from previously parsed content, reorganizing them into a highly accessible format that enables rapid comprehension and strategic action without requiring the user to process the original voluminous material.
 

@@ -6,7 +6,7 @@ notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Pattern Recognition and Anomaly Detection", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
-As an agentic skill, pattern recognition and anomaly detection involves the computational identification of regularities, underlying trends, outliers, and unexpected deviations within diverse datasets, unstructured text, and signals.
+As an agentic skill, **Pattern Recognition and Anomaly Detection** involves the computational identification of regularities, underlying trends, outliers, and unexpected deviations within diverse datasets, unstructured text, and signals.
 
 By applying algorithmic and statistical methods to existing information, this capability enables artificial systems to systematically surface hidden structures and flag data points that significantly diverge from established baselines.
 

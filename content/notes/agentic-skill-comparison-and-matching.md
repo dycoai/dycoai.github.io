@@ -6,7 +6,7 @@ notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Comparison & Matching", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
-Comparison & Matching, as an agentic skill, is the capability of an AI agent to examine two or more items—such as documents, records, data fields, images, product entries, case files, software versions, or candidate options—and determine how they align, differ, correspond, or duplicate one another.
+**Comparison & Matching**, as an agentic skill, is the capability of an AI agent to examine two or more items—such as documents, records, data fields, images, product entries, case files, software versions, or candidate options—and determine how they align, differ, correspond, or duplicate one another.
 
 It typically involves matching equivalent entities across sources, identifying added, removed, or changed elements, detecting near-duplicates, reconciling inconsistent formats, and checking whether versions of the same information remain consistent over time.
 

@@ -6,7 +6,7 @@ notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Simulation & Modeling", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
-When a task requires understanding how a system, design, or scenario may behave before committing resources or decisions, Simulation & Modeling equips an AI agent to construct, configure, and execute computational representations of that system.
+When a task requires understanding how a system, design, or scenario may behave before committing resources or decisions, **Simulation & Modeling** equips an AI agent to construct, configure, and execute computational representations of that system.
 
 The skill involves defining assumptions, variables, relationships, and constraints; running model-based experiments; and generating outputs such as projected states, performance metrics, sensitivity results, or comparative scenario behavior.
 

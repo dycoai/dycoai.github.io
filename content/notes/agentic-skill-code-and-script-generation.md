@@ -6,7 +6,7 @@ notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Code & Script Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
-When an AI agent must translate task instructions into executable logic, Code & Script Generation is the agentic skill that produces, refactors, and explains program code, scripts, queries, and code snippets.
+When an AI agent must translate task instructions into executable logic, **Code & Script Generation** is the **agentic skill** that produces, refactors, and explains program code, scripts, queries, and code snippets.
 
 It can be used to create new routines, modify existing implementations, generate database queries or command snippets, and clarify how code works, usually from natural-language requirements, existing code, or technical constraints.
 

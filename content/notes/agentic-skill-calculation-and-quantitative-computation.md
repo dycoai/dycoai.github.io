@@ -6,7 +6,7 @@ notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Calculation & Quantitative Computation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
-Calculation & Quantitative Computation, as an agentic skill, is the capability of an AI agent to perform mathematical operations, statistical aggregations, formula evaluations, numerical simulations, and algorithmic processing on structured data or defined parameters. It operates by parsing mathematical expressions, applying deterministic algorithms, executing code-based computations, and processing large datasets to produce precise numerical outputs, ratios, projections, or statistical metrics. 
+**Calculation & Quantitative Computation**, as an agentic skill, is the capability of an AI agent to perform mathematical operations, statistical aggregations, formula evaluations, numerical simulations, and algorithmic processing on structured data or defined parameters. It operates by parsing mathematical expressions, applying deterministic algorithms, executing code-based computations, and processing large datasets to produce precise numerical outputs, ratios, projections, or statistical metrics. 
 
 This skill is highly valuable for tasks requiring rapid, high-volume, or complex numerical processing, such as financial modeling, engineering calculations, risk scoring, and data analysis, where it eliminates manual arithmetic errors and drastically reduces processing time. However, quantitative computation is strictly bounded to executing defined mathematical logic; it does not inherently understand the real-world context of the numbers, validate the underlying business assumptions, or interpret the strategic significance of the results. 
 

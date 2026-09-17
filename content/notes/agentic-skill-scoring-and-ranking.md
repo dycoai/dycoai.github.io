@@ -6,7 +6,7 @@ notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Scoring & Ranking", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
-When an AI agent must compare multiple candidates against explicit criteria, Scoring & Ranking operates as an agentic skill that assigns numerical or ordinal values and orders the candidates accordingly.
+When an AI agent must compare multiple candidates against explicit criteria, **Scoring & Ranking** operates as an agentic skill that assigns numerical or ordinal values and orders the candidates accordingly.
 
 It can be applied to risks, applications, products, tasks, search results, or other option sets by evaluating each item against defined metrics, weights, thresholds, or rules.
 
