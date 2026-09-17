@@ -6,11 +6,27 @@
 }
 
 .note-card {
-    background: var(--code-bg);
+    background: var(--theme);
     border: 1px solid var(--border);
     border-radius: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
     padding: 1rem 1.2rem;
     margin-bottom: 1rem;
+}
+
+/* Dark mode: --theme equals the page background there, so cards use the
+   slightly lighter code background to stay distinct (as in light mode).
+   Two entry paths like table.css above: .dark for the manual toggle,
+   media query for the auto/system-preference path. */
+.dark .note-card,
+[data-theme="dark"] .note-card {
+    background: var(--code-bg);
+}
+
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .note-card {
+        background: var(--code-bg);
+    }
 }
 
 .note-head {

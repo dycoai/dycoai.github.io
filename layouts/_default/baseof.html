@@ -21,7 +21,11 @@
 {{- else }}
 <body id="top">
 {{- end }}
-    {{ partialCached "header.html" . .Page -}}
+    {{- /* Not partialCached: a cached header goes stale when the menu
+           config changes while the dev server runs (each page keeps the
+           menu from whenever it was first rendered). The site is small,
+           so rendering it per page costs nothing. */ -}}
+    {{ partial "header.html" . -}}
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>

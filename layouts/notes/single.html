@@ -1,14 +1,18 @@
 {{- define "main" }}
+{{- /* Per-note identity with site defaults: a note's front matter can
+       override either value; absent keys fall back to hugo.toml. */}}
+{{- $institute := .Params.notesInstitute | default site.Params.notesInstitute }}
+{{- $author := .Params.notesAuthor | default site.Params.notesAuthor }}
 <article class="note-card note-single">
     <header class="note-head">
         <span class="note-avatar" aria-hidden="true">D</span>
         <span class="note-names">
-            <span class="note-author">{{ site.Title }}</span>
-            <span class="note-handle">@dycoai</span>
+            <span class="note-author">{{ $institute }}</span>
+            <span class="note-handle">@{{ $author }}</span>
         </span>
         <span class="note-time">{{ .Date.Format "Jan 2, 2006 · 15:04" }}</span>
     </header>
-    <div class="note-body">
+    <div class="note-body md-content">
         {{ .Content }}
     </div>
     {{- with .Params.tags }}

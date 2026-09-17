@@ -10,7 +10,11 @@ theme = "hugo-PaperMod"
 [params]
   math = true
   # Homepage switch: true = Twitter-style notes feed, false = conventional post-card flow
-  homeNotesFeed = false
+  homeNotesFeed = true
+  # Notes card identity defaults (each note's front matter can override
+  # with its own notesInstitute / notesAuthor)
+  notesInstitute = "DyCoAI.com"
+  notesAuthor = "mengyaozhu"
   ShowShareButtons = true
   ShowReadingTime = true 
   ShowToc = true 
@@ -68,11 +72,11 @@ theme = "hugo-PaperMod"
     weight = 22
     [menu.main.params]
       note = "Look up by job title"
-#  [[menu.main]]
-#    identifier = "thoughts-on-ai"
-#    name = "Thoughts on AI"
-#    url = "/notes/"
-#    weight = 10
+  [[menu.main]]
+    identifier = "human-agentic-skills"
+    name = "Human-Agentic Skills"
+    url = "/notes/"
+    weight = 10
 # [[menu.main]]
 #   identifier = "search"
 #   name = "Search"

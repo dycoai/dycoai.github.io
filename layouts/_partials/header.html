@@ -84,11 +84,19 @@
             </div>
             {{- end }}
         </div>
-        {{- $currentPage := . }}
+            {{- $currentPage := . }}
+            {{- /* When the homepage is the notes feed (homeNotesFeed), the
+                   home page IS the /notes/ content: treat "/" as "/notes/"
+                   so the "Thoughts on AI" menu item shows its active
+                   underline there too. */}}
+            {{- $page_url := $currentPage.Permalink | absLangURL }}
+            {{- if and $currentPage.IsHome site.Params.homeNotesFeed }}
+            {{- $notesSection := site.GetPage "/notes" }}
+            {{- with $notesSection }}{{ $page_url = (cond (strings.HasSuffix .RelPermalink "/") .RelPermalink (printf "%s/" .RelPermalink)) | absLangURL }}{{ end }}
+            {{- end }}
         <ul id="menu" class="menu">
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
-            {{- $page_url:= $currentPage.Permalink | absLangURL }}
             {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
             {{- /* A parent with no page of its own cannot match the current page
                    directly, so treat it as current when one of its children does. */}}
