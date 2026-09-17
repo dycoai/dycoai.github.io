@@ -17,7 +17,9 @@
 
 {{- /* ---- Mode 1: notes information flow ---- */}}
 {{- $notes := site.GetPage "/notes" }}
-{{- $paginator := $notes.Paginate $notes.Pages 20 }}
+{{- /* Only notes with concrete content; blank placeholder files are hidden. */}}
+{{- $realNotes := where $notes.Pages "Content" "!=" "" }}
+{{- $paginator := $notes.Paginate $realNotes 6 }}
 <div class="notes-feed">
     {{- range $paginator.Pages }}
     {{- /* Per-note identity with site defaults: a note's front matter can

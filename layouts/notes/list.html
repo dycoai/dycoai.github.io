@@ -1,6 +1,8 @@
 {{- define "main" }}
 <div class="notes-feed">
-    {{- $paginator := .Paginate .Pages 20 }}
+    {{- /* Only notes with concrete content; blank placeholder files are hidden. */}}
+    {{- $realNotes := where .Pages "Content" "!=" "" }}
+    {{- $paginator := .Paginate $realNotes 6 }}
     {{- range $paginator.Pages }}
     {{- /* Per-note identity with site defaults: a note's front matter can
            override either value; absent keys fall back to hugo.toml. */}}
