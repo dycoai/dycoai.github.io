@@ -6,7 +6,7 @@ notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Structured Data Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
-When an AI agent must transform information into organized, machine-readable forms, Structured Data Generation is the agentic skill that produces tables, records, schemas, and datasets according to specified formats.
+When an AI agent must transform information into organized, machine-readable forms, **Structured Data Generation** is the agentic skill that produces tables, records, schemas, and datasets according to specified formats.
 
 It can create new structured outputs, convert unstructured or semi-structured inputs into standardized fields, and generate data suitable for storage, analysis, validation, or downstream processing.
 

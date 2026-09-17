@@ -6,7 +6,7 @@ notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Image & Media Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
-When an AI agent must create visual or audiovisual material, Image & Media Generation is the agentic skill that produces and edits images, illustrations, audio, and video assets from prompts, references, specifications, or existing media.
+When an AI agent must create visual or audiovisual material, **Image & Media Generation** is the **agentic skill** that produces and edits images, illustrations, audio, and video assets from prompts, references, specifications, or existing media.
 
 It can be used to generate concept variants, marketing visuals, illustrations, sound elements, or short video sequences, and to modify style, composition, format, or other attributes while following task constraints.
 

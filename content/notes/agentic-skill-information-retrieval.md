@@ -6,7 +6,7 @@ notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Information Retrieval", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
-**Information Retrieval**, as an agentic skill, is the capability of an AI agent to search, locate, and gather relevant information from documents, databases, web sources, and other digital repositories in response to a task-defined need.
+**Information Retrieval**, as an **agentic skill**, is the capability of an AI agent to search, locate, and gather relevant information from documents, databases, web sources, and other digital repositories in response to a task-defined need.
 
 It involves formulating queries, navigating source collections, identifying candidate materials, and returning evidence that can support later processing such as summarization, extraction, comparison, or reasoning. It is similar to a research assistant that can look through many sources quickly, but it remains a technical AI capability because the agent uses model-based understanding, retrieval mechanisms, filters, and tool access to find information.
 
