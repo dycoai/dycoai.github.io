@@ -1,0 +1,9 @@
+/* Post main content font size. */
+.post-content {
+    font-size: 18px;
+}
+
+/* Notes main content font size (homepage feed and /notes/ list). */
+.note-body {
+    font-size: 18px;
+}
