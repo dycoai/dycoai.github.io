@@ -1,7 +1,7 @@
 /* Twitter/X-style short posts (content type "note"). */
 
 .notes-feed {
-    max-width: 700px;
+    max-width: 720px;
     margin: 0 auto;
 }
 
@@ -99,7 +99,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 700px;
+    max-width: 720px;
     margin: 1.2rem auto;
 }
 
@@ -108,6 +108,6 @@
 }
 
 .note-single {
-    max-width: 700px;
+    max-width: 720px;
     margin: 0 auto;
 }

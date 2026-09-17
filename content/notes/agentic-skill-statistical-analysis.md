@@ -1,9 +1,3 @@
-
-
-
-
-
-
 +++
 title = "Statistical Analysis as an Agentic Skill"
 date = 2026-09-17T10:27:00+08:00
