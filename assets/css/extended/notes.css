@@ -49,6 +49,21 @@
     font-size: 18px;
 }
 
+/* Dark mode: --tertiary is nearly identical to the card's --code-bg there,
+   which makes the avatar invisible. --secondary is a mid-grey that keeps the
+   circle distinct while the dark --theme letter stays readable on it.
+   Two entry paths matching .note-card above. */
+.dark .note-avatar,
+[data-theme="dark"] .note-avatar {
+    background: var(--secondary);
+}
+
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme="light"]) .note-avatar {
+        background: var(--secondary);
+    }
+}
+
 .note-names {
     display: flex;
     flex-direction: column;
