@@ -17,11 +17,19 @@
 
 {{- /* ---- Mode 1: notes information flow ---- */}}
 {{- $notes := site.GetPage "/notes" }}
-{{- /* Only notes with concrete content; blank placeholder files are hidden. */}}
-{{- $realNotes := where $notes.Pages "Content" "!=" "" }}
+{{- /* Only notes with concrete content; blank placeholder files are hidden.
+       promotion-*.md are excluded: they appear only via the promo slot. */}}
+{{- $realNotes := slice }}
+{{- range where $notes.Pages "Content" "!=" "" }}
+{{- if not (findRE "^promotion-" .File.LogicalName) }}{{ $realNotes = $realNotes | append . }}{{ end }}
+{{- end }}
 {{- $paginator := $notes.Paginate $realNotes 6 }}
+{{- $promo := partial "note-promo.html" (dict "paginator" $paginator) }}
 <div class="notes-feed">
-    {{- range $paginator.Pages }}
+    {{- range $index, $page := $paginator.Pages }}
+    {{- if and $promo (eq $index (sub $promo.slot 1)) }}
+    {{- partial "note-promo-card.html" $promo.page }}
+    {{- end }}
     {{- /* Per-note identity with site defaults: a note's front matter can
            override either value; absent keys fall back to hugo.toml. */}}
     {{- $institute := .Params.notesInstitute | default site.Params.notesInstitute }}

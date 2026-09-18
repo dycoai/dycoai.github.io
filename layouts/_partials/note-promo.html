@@ -1,0 +1,61 @@
+{{- /* Promotion-note selection for the notes feeds.
+
+       Candidates: content/notes/promotion-*.md with concrete content.
+       A per-build seed (fixed once via hugo.Store, so every page of one
+       deployment agrees) drives per-page hash draws:
+
+         chosen(page) = uniform hash draw over all candidates EXCEPT
+                        chosen(page - 1)
+
+       so consecutive feed pages never show the same promo (guaranteed),
+       while each page's draw is otherwise uniformly random and each
+       deployment reshuffles everything (probability 1/n per promo). With
+       n = 1 the single promo shows on every page. The chain is replayed
+       from page 1 so the result is a pure function of (seed, page).
+
+       Slot: pure-random 3rd or 4th card position, drawn from a hash of
+       the seed and the page number.
+
+       Returns dict "page" (the chosen note) and "slot" (1-based card
+       position), or "" when no promotion notes exist. */}}
+{{- $notes := site.GetPage "/notes" }}
+{{- $promos := slice }}
+{{- range where $notes.Pages "Content" "!=" "" }}
+{{- if findRE "^promotion-" .File.LogicalName }}{{ $promos = $promos | append . }}{{ end }}
+{{- end }}
+{{- if $promos }}
+{{- $promos = sort $promos "File.LogicalName" }}
+{{- if not (hugo.Store.Get "promoSeed") }}
+{{- /* UnixNano has ms granularity here (always x000), which would pin
+       the mod-2 results; scale to ms so parity actually varies. */}}
+{{- hugo.Store.Set "promoSeed" (div (now.UnixNano) 1000000) }}
+{{- end }}
+{{- $seed := hugo.Store.Get "promoSeed" }}
+{{- $n := len $promos }}
+{{- $p := .paginator.PageNumber }}
+{{- /* Replay the draw chain: chosen(0) is a plain hash draw; each page
+       then draws uniformly over the n-1 candidates other than the
+       previous page's promo (a draw landing on or after the previous
+       index is shifted up by one). */}}
+{{- /* Raw FNV bits are positionally biased (low bits track the string's
+       tail, high bits its head), so every draw is first reduced modulo a
+       large odd prime — that mixes the whole hash before the small mods. */}}
+{{- $mix := 1000003 }}
+{{- $draw0 := int (math.Mod (hash.FNV32a (printf "%d-cur-0" $seed)) $mix) }}
+{{- $chosen := int (math.Mod $draw0 $n) }}
+{{- if gt $n 1 }}
+{{- range $i := seq 1 $p }}
+{{- $draw := int (math.Mod (math.Mod (hash.FNV32a (printf "%d-cur-%d" $seed $i)) $mix) (sub $n 1)) }}
+{{- if ge $draw $chosen }}{{ $draw = add $draw 1 }}{{ end }}
+{{- $chosen = $draw }}
+{{- end }}
+{{- else }}
+{{- $chosen = 0 }}
+{{- end }}
+{{- /* Slot: pure-random 3rd or 4th per page, drawn from a hash of the
+       per-build seed and the page number (deterministic per deployment,
+       no pattern across pages). */}}
+{{- $slot := add 3 (int (math.Mod (math.Mod (hash.FNV32a (printf "%d-page-%d" $seed $p)) $mix) 2)) }}
+{{- hugo.Store.Set "promoDbg" (printf "%d" $seed) }}
+{{- return dict "page" (index $promos $chosen) "slot" $slot }}
+{{- end }}
