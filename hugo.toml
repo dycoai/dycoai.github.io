@@ -1,5 +1,6 @@
 # baseURL = "https://example.com/"
-baseURL = "https://dycoai.github.io/"
+baseURL = "https://www.dycoai.com/"
+enableRobotsTXT = true
 # languageCode = "en-us"
 title = "DyCoAI | AI and Me"
 theme = "hugo-PaperMod"
