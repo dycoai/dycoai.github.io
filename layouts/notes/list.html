@@ -29,12 +29,6 @@
         {{- end }}
     </article>
     {{- end }}
-    {{- if gt $paginator.TotalPages 1 }}
-    <nav class="pagination notes-pagination">
-        {{- if $paginator.HasPrev }}<a class="button" href="{{ $paginator.Prev.URL }}">« Newer</a>{{ end }}
-        <span class="notes-page-num">{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
-        {{- if $paginator.HasNext }}<a class="button" href="{{ $paginator.Next.URL }}">Older »</a>{{ end }}
-    </nav>
-    {{- end }}
+    {{- partial "pagination.html" $paginator }}
 </div>
 {{- end }}

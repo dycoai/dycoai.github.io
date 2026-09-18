@@ -110,18 +110,6 @@
     font-size: 0.85rem;
 }
 
-.notes-pagination {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 720px;
-    margin: 1.2rem auto;
-}
-
-.notes-page-num {
-    color: var(--secondary);
-}
-
 .note-single {
     max-width: 720px;
     margin: 0 auto;
