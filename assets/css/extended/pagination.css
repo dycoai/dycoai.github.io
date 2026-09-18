@@ -46,3 +46,9 @@
 .page-gap {
     color: var(--secondary);
 }
+
+/* Space between the note PREV/NEXT boxes and the "Back to feed" button. */
+.note-single + .paginav {
+    margin: 1.2rem auto;
+    max-width: 720px;
+}

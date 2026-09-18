@@ -8,6 +8,7 @@ theme = "hugo-PaperMod"
   pagerSize = 6
 
 [params]
+  mainSections = ["posts"]
   math = true
   # Homepage switch: true = Twitter-style notes feed, false = conventional post-card flow
   homeNotesFeed = true
