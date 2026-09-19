@@ -76,7 +76,7 @@ theme = "hugo-PaperMod"
       note = "Look up by job title"
   [[menu.main]]
     identifier = "human-agentic-skills"
-    name = "Human-Agentic Skills"
+    name = "Evolving with AI"
     url = "/notes/"
     weight = 10
 # [[menu.main]]
