@@ -3,7 +3,7 @@ title = "Context Memory & Personalization as an Agentic Skill"
 date = 2026-09-18T12:05:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
-tags = ["Agentic Skill", "Context Memory & Personalization", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+tags = ["Agentic Skill", "Context Memory and Personalization", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
 Across repeated interactions with the same user or workflow, **Context Memory & Personalization** operates as the agentic skill that enables an AI agent to retain, recall, and apply prior context, stated preferences, and accumulated interaction history so that subsequent responses and actions remain coherent, relevant, and tailored to the individual or task trajectory.

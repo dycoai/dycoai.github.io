@@ -3,7 +3,7 @@ title = "Data Visualization & Chart Generation as an Agentic Skill"
 date = 2026-09-18T14:22:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
-tags = ["Agentic Skill", "Data Visualization & Chart Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+tags = ["Agentic Skill", "Data Visualization and Chart Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
 To make quantitative patterns accessible through visual form, Data Visualization & Chart Generation is the agentic skill that enables an AI agent to transform data into charts, dashboards, and other visual encodings.

@@ -3,7 +3,7 @@ title = "Data Preparation & Feature Transformation as an Agentic Skill"
 date = 2026-09-18T14:09:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
-tags = ["Agentic Skill", "Data Preparation & Feature Transformation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+tags = ["Agentic Skill", "Data Preparation and Feature Transformation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
 Before data can be analyzed, modeled, or reported reliably, it often must be made consistent and usable, and Data Preparation & Feature Transformation is the agentic skill that performs this work.

@@ -3,7 +3,7 @@ title = "Configuration & Infrastructure-as-Code Generation as an Agentic Skill"
 date = 2026-09-18T15:02:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
-tags = ["Agentic Skill", "Configuration & Infrastructure-as-Code Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+tags = ["Agentic Skill", "Configuration and Infrastructure-as-Code Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
 The reliable operation of modern software systems often depends on repeatable and well-defined environments. **Configuration & Infrastructure-as-Code Generation** is the agentic skill of creating and modifying configuration files, infrastructure-as-code (IaC) definitions, environment specifications, and deployment artifacts.

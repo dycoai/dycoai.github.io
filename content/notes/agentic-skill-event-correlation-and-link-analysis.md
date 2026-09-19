@@ -3,7 +3,7 @@ title = "Event Correlation & Link Analysis as an Agentic Skill"
 date = 2026-09-18T13:37:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
-tags = ["Agentic Skill", "Event Correlation & Link Analysis", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+tags = ["Agentic Skill", "Event Correlation and Link Analysis", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
 As a vital agentic capability, event correlation and link analysis involves the systematic synthesis of disparate events, entities, and signals across multiple independent sources to uncover hidden relationships, coordinated activities, or underlying causal chains.

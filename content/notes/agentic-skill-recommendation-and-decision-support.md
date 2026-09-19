@@ -3,7 +3,7 @@ title = "Recommendation & Decision Support as an Agentic Skill"
 date = 2026-09-18T08:07:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
-tags = ["Agentic Skill", "Recommendation & Decision Support", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+tags = ["Agentic Skill", "Recommendation and Decision Support", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
 For choices that require comparing alternatives, Recommendation & Decision Support functions as an agentic skill that converts evidence, criteria, and constraints into ranked or comparative options with reasons that help a human decision-maker choose among alternatives.

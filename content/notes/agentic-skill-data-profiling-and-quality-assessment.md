@@ -3,7 +3,7 @@ title = "Data Profiling & Quality Assessment as an Agentic Skill"
 date = 2026-09-18T13:53:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
-tags = ["Agentic Skill", "Data Profiling & Quality Assessment", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+tags = ["Agentic Skill", "Data Profiling and Quality Assessment", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
 Operating as a diagnostic agentic skill, Data Profiling & Quality Assessment systematically audits datasets for completeness, statistical distributions, validity constraints, and structural anomalies prior to downstream utilization.

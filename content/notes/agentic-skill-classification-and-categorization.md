@@ -3,7 +3,7 @@ title = "Classification & Categorization as an Agentic Skill"
 date = 2026-09-17T09:43:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
-tags = ["Agentic Skill", "Classification & Categorization", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+tags = ["Agentic Skill", "Classification and Categorization", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
 **Classification & Categorization**, as an agentic skill, is the capability of an AI agent to assign items such as documents, records, messages, images, transactions, products, incidents, or data points to predefined or discovered categories, labels, codes, classes, or taxonomies.

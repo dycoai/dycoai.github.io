@@ -3,7 +3,7 @@ title = "Prediction & Forecasting as an Agentic Skill"
 date = 2026-09-17T12:38:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
-tags = ["Agentic Skill", "Prediction & Forecasting", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+tags = ["Agentic Skill", "Prediction and Forecasting", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
 **Prediction & Forecasting**, as an agentic skill, is the capability of an AI agent to estimate future values, probabilities, trends, or likely outcomes from historical data, current signals, and contextual assumptions.

@@ -3,7 +3,7 @@ title = "Ideation & Brainstorming Support as an Agentic Skill"
 date = 2026-09-18T07:40:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
-tags = ["Agentic Skill", "Ideation & Brainstorming Support", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+tags = ["Agentic Skill", "Ideation and Brainstorming Support", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
 When a task calls for generating possibilities rather than evaluating them, Ideation & Brainstorming Support is the agentic skill through which an AI agent produces options, alternatives, variations, and creative prompts to broaden the solution space.

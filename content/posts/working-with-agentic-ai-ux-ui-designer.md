@@ -6,7 +6,7 @@ occupationCategory = "Design & Creative"
 alternativeTitles = ["User Experience Designer", "User Interface Designer", "Interaction Designer", "Product Designer"]
 shortDescription = "Designs and optimizes digital interfaces and user experiences by conducting user research, creating wireframes and prototypes, designing visual elements, and conducting usability testing to ensure products are intuitive, accessible, and engaging."
 math = true
-tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "UX/UI Designer"]
+tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "UX and UI Designer"]
 author = ["DyCoAI"]
 +++
 

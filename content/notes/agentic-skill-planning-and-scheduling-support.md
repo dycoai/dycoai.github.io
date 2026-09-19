@@ -3,7 +3,7 @@ title = "Planning & Scheduling Support as an Agentic Skill"
 date = 2026-09-18T07:52:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
-tags = ["Agentic Skill", "Planning & Scheduling Support", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+tags = ["Agentic Skill", "Planning and Scheduling Support", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
 For work that must be organized before it is executed, Planning & Scheduling Support functions as an agentic skill that gives an AI agent the ability to propose sequences, timelines, dependencies, milestones, and resource allocations that turn objectives into a workable plan.

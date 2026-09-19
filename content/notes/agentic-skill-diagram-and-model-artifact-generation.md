@@ -3,7 +3,7 @@ title = "Diagram & Model Artifact Generation as an Agentic Skill"
 date = 2026-09-18T14:25:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
-tags = ["Agentic Skill", "Diagram & Model Artifact Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+tags = ["Agentic Skill", "Diagram and Model Artifact Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 +++
 
 Making abstract structures, workflows, and system relationships visible is the role of **Diagram & Model Artifact Generation**, an agentic skill that enables an AI agent to produce diagrams, process models, wireframes, and architectural views from textual descriptions, structured inputs, or design requirements.
