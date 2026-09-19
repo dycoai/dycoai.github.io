@@ -4,8 +4,8 @@ date = 2026-09-18T15:08:00+08:00
 notesInstitute =  "DyCoAI.com "
 notesAuthor =  "mengyaozhu "
 tags = [ "Agentic Skill ",  "Layout and Media Asset Processing ",  "Human-Agentic Skill Competition and Collaboration ",  "Dynamic Human-Agentic Skill Integration "]
-
 +++
+
 Functioning as the mechanical backbone of digital content pipelines, **Layout and Media Asset Processing** is the agentic skill of applying predefined templates and systematically resizing, cropping, formatting, transforming, and converting existing visual or multimedia assets at scale.
 
 This skill focuses primarily on the structural handling, optimization, and technical preparation of existing assets rather than their original creative generation or design. It can process large batches of media according to predefined specifications, ensuring appropriate dimensions, formats, resolutions, compression settings, metadata, and layout variants while maintaining established branding and presentation requirements.
