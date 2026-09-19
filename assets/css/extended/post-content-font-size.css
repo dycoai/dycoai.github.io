@@ -7,3 +7,8 @@
 .note-body {
     font-size: 18px;
 }
+
+/* Table of contents: auxiliary navigation, 2px smaller than main content. */
+details.toc {
+    font-size: 16px;
+}
