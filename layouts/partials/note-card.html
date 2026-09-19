@@ -9,9 +9,11 @@
             <span class="note-author">{{ $institute }}</span>
             <span class="note-handle">@{{ $author }}</span>
         </span>
+        {{- if not .Params.promotion }}
         <a class="note-time" href="{{ .RelPermalink }}" title="{{ .Date.Format "Jan 2, 2006 15:04" }}">
             {{ .Date.Format "Jan 2, 2006" }}
         </a>
+        {{- end }}
     </header>
     <div class="note-body md-content">
         {{ .Content }}
