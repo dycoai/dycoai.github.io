@@ -1,11 +1,11 @@
 /* Post main content font size. */
 .post-content {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Notes main content font size (homepage feed and /notes/ list). */
 .note-body {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Table of contents: auxiliary navigation, 2px smaller than main content. */
