@@ -12,4 +12,4 @@ in that occupation.
 
 To look up an occupation by its job title, visit [Occupation Map](/occupation-map/).
 
-{{< occupation-categories >}}
+{{< entry-categories set="occupations" >}}

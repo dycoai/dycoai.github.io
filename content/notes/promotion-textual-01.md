@@ -7,10 +7,10 @@ promotion = true
 tags = ["Promotion"]
 +++
 
-{{< textual-promotion
+{{< promotion-textual
+     sponsored="true"
      title="Create a Resume That Gets You Noticed"
      subtitle="Polished, customizable templates for job seekers."
      buttonText="Explore Resume Templates"
      buttonLink="https://www.resumetemplates.nl/" >}}
-
 

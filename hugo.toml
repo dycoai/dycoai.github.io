@@ -3,28 +3,69 @@ baseURL = "https://www.dycoai.com/"
 enableRobotsTXT = true
 # languageCode = "en-us"
 title = "DyCoAI | AI and Me"
-theme = "hugo-PaperMod"
+theme = "scidraft"
+
+
+
+# Required for the search page: Hugo does not inherit [outputs] from a theme.
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Required for math in note bodies: preserve the \( \) and $$ $$ delimiters
+# through Markdown for KaTeX auto-render. Hugo does not merge [markup] from a theme.
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['$$', '$$'], ['\[', '\]']]
+        inline = [['\(', '\)'], ['$', '$']]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+  [markup.highlight]
+    noClasses = false
+
+[taxonomies]
+  tag = "tags"
+
 
 [pagination]
-  pagerSize = 6
+  pagerSize = 8
 
 [params]
-  mainSections = ["posts"]
+  mainSections = ["notes"]
   math = true
-  # Homepage switch: true = Twitter-style notes feed, false = conventional post-card flow
-  homeNotesFeed = true
-  # Notes card identity defaults (each note's front matter can override
-  # with its own notesInstitute / notesAuthor)
-  notesInstitute = "DyCoAI.com"
-  notesAuthor = "mengyaozhu"
+  recommendationCount = 3
+
+  # Identity shown on every note card unless the note sets its own.
+  institute = "DyCoAI.com"
+  author = "zhumengyao"
   ShowShareButtons = true
-  ShowReadingTime = true 
-  ShowToc = true 
-  ShowBreadCrumbs = true 
-  ShowPostnavLinks = true 
-  ShowCodeCopyButtons = true 
-  ShowRelatedPosts = true 
-  # disableThemeToggle = true
+  ShowReadingTime = true
+  ShowToc = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowRelatedPosts = true
+
+  # Entry map: theme entry-a-to-z / entry-categories shortcodes read these
+  # field names from note front matter for the occupation pages.
+  # NOTE: keep this table LAST in [params] — a sub-table header would
+  # otherwise absorb every plain setting below it.
+  [params.entrySets.occupations]
+    titleField    = "occupationTitle"
+    categoryField = "occupationCategory"
+    aliasesField  = "alternativeTitles"
+    summaryField  = "shortDescription"
+    tag           = "Working with Agentic AI"
+    countLabel    = "Occupations"
+
+
+
+
 
 # [params.homeInfoParams]
 # Title = "Dynamical · Collaborative · Agentic"
@@ -95,18 +136,6 @@ theme = "hugo-PaperMod"
 #  url = "/about/"
 #  weight = 50
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
 
-[taxonomies]
-  tag = "tags"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-    [markup.goldmark.parser]
-      [markup.goldmark.parser.attribute]
-        block = true
-  [markup.highlight]
-    noClasses = false
+

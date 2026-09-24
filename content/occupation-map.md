@@ -11,4 +11,4 @@ agentic skills combine in that occupation.
 
 To see which occupations belong to the same field, visit [Occupation Categories](/occupation-categories/).
 
-{{< occupation-map >}}
+{{< entry-a-to-z set="occupations" >}}
