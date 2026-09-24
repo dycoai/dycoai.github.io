@@ -1,0 +1,135 @@
+# SciDraft example site.
+#
+# This is a self-contained demo of the theme it sits inside. It is not a
+# template for your own site — copy the pieces you need from it. To build it:
+#
+#     cd exampleSite && hugo server
+#
+# themesDir points at the theme repository's parent so the build uses the
+# theme's working tree rather than a copy of itself.
+
+baseURL = "https://www.zhumengyao.com/scidraft/"
+title = "SciDraft | A Hugo Theme"
+theme = "SciDraft"
+themesDir = "../.."
+enableRobotsTXT = true
+
+# Required for the search page: Hugo does not inherit [outputs] from a theme.
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Required for math in note bodies: preserve the \( \) and $$ $$ delimiters
+# through Markdown for KaTeX auto-render. Hugo does not merge [markup] from a theme.
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['$$', '$$'], ['\[', '\]']]
+        inline = [['\(', '\)'], ['$', '$']]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+  [markup.highlight]
+    noClasses = false
+
+[taxonomies]
+  tag = "tags"
+
+[pagination]
+  pagerSize = 8
+
+[params]
+  mainSections = ["notes"]
+  math = true
+  recommendationCount = 3
+
+  # Identity shown on every note card unless the note sets its own.
+  institute = "Your Institute"
+  author = "yourname"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowToc = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowRelatedPosts = true
+
+  # Entry index sets: one block per series of notes, naming the front-matter
+  # fields the entry-a-to-z / entry-categories shortcodes read.
+  [params.entrySets.math]
+    titleField    = "mathTitle"
+    categoryField = "mathCategory"
+    aliasesField  = "mathAliases"
+    summaryField  = "mathSummary"
+    countLabel    = "Results"
+  [params.entrySets.rendering]
+    titleField    = "renderingTitle"
+    categoryField = "renderingCategory"
+    aliasesField  = "renderingAliases"
+    summaryField  = "renderingSummary"
+    countLabel    = "Methods"
+
+  # Feed settings. These override the theme's own defaults (8 notes, no
+  # promotion); this demo shows one promotion card in positions 3-5.
+  # Must stay LAST among the [params.*] tables: a key written after it would
+  # become a member of it rather than of [params].
+  [params.feed]
+    notesPerPage = 8
+    promotionsPerPage = 1
+    promotionPositions = "3-5"
+
+[menu]
+  [[menu.main]]
+    identifier = "working-with-ai"
+    name = "Reference"
+    weight = 20
+  [[menu.main]]
+    identifier = "math-a-to-z"
+    name = "Math A–Z"
+    parent = "working-with-ai"
+    url = "/math-a-to-z/"
+    weight = 21
+    [menu.main.params]
+      note = "Look up a result by name"
+  [[menu.main]]
+    identifier = "math-categories"
+    name = "Math Categories"
+    parent = "working-with-ai"
+    url = "/math-categories/"
+    weight = 22
+    [menu.main.params]
+      note = "Browse by result family"
+  [[menu.main]]
+    identifier = "rendering-a-to-z"
+    name = "Rendering A–Z"
+    parent = "working-with-ai"
+    url = "/rendering-a-to-z/"
+    weight = 23
+    [menu.main.params]
+      note = "Rendering methods A–Z"
+  [[menu.main]]
+    identifier = "rendering-categories"
+    name = "Rendering Categories"
+    parent = "working-with-ai"
+    url = "/rendering-categories/"
+    weight = 24
+    [menu.main.params]
+      note = "Methods by category"
+  [[menu.main]]
+    identifier = "notes"
+    name = "Evolving with AI"
+    url = "/notes/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 90
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 40
