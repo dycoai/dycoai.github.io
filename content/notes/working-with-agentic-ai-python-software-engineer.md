@@ -16,6 +16,8 @@ showTitle = true
 
 _How Human Skills and Agentic Skills Dynamically Combine Across Python Software Engineering Responsibilities_
 
+{{< preview >}}
+
 ## 1.1. Python Software Engineering as Professional Work
 
 A **Python software engineer** designs, develops, tests, integrates, deploys, maintains, and improves software systems in which Python serves as a principal implementation language. The work may involve backend services, APIs, web applications, data-processing components, automation systems, internal platforms, distributed services, cloud-native applications, developer tools, and integrations with databases, external services, infrastructure, or other software systems. Responsibilities commonly extend across software requirements, architecture, application logic, data access, interface design, testing, debugging, performance, security, deployment, observability, and continuing maintenance. Python software engineers may also develop reusable libraries and frameworks, automate operational or development processes, participate in CI/CD workflows, investigate production problems, and collaborate with frontend, platform, infrastructure, data, security, product, and other engineering specialists. Because reliable software depends not only on individual functions but also on interactions among components, dependencies, data, external services, execution environments, and users, effective Python software engineering combines programming expertise with software architecture, systems thinking, analytical problem solving, testing discipline, communication, and technical judgment.
@@ -28,6 +30,8 @@ For many implementation and analysis activities, **agentic skills** can contribu
 
 Rather than assigning entire software responsibilities permanently to either the engineer or Agentic AI, **human skills and agentic skills can be dynamically combined across responsibilities, tasks, and subtasks**. An engineer might establish an architectural boundary and define expected behavior while Agentic AI develops an implementation and corresponding tests. A failing integration test may reveal an assumption that requires human reconsideration of the interface design before the agent modifies the code. In another workflow, agentic analysis of logs and source code may identify several plausible causes of a production failure, allowing the engineer to determine which hypothesis best fits the operating context. Human and agentic contributions can consequently shift repeatedly as requirements, code, tests, execution results, and production conditions provide new information.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Allocation of Tasks and Subtasks
 
 Python software engineering responsibilities consist of tasks and subtasks whose capability requirements differ substantially. Allocation should therefore begin with **what the work requires**, rather than with a predetermined distinction between programming that belongs to the engineer and programming that can be performed by Agentic AI. Developing a backend service, for example, may involve clarifying requirements, defining interfaces, selecting architectural patterns, designing data structures, implementing application logic, integrating databases or external services, creating tests, reviewing dependencies, configuring deployment, monitoring runtime behavior, diagnosing failures, and revising the system. Some of these subtasks emphasize contextual reasoning or architectural judgment; others involve systematic coding, comparison, transformation, testing, or information retrieval.

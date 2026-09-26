@@ -16,6 +16,8 @@ showTitle = true
 
 *How human skills and agentic skills are dynamically integrated and coordinated across enterprise architecture responsibilities*
 
+{{< preview >}}
+
 ## 1.1. Enterprise Architect as an Occupation
 
 An **enterprise architect** aligns business strategy with technology infrastructure by designing comprehensive enterprise architecture frameworks, governing solution designs, managing technology portfolios, and guiding digital transformation initiatives. This occupation connects high-level organizational objectives with technical execution by structuring business capabilities, defining technology standards, and applying architectural principles to support scalability, security, and operational efficiency. To ensure these architectural frameworks achieve their intended impact, the architect must understand how business strategy, legacy systems, cloud infrastructure, integration patterns, security compliance, and industry standards collectively determine the effectiveness of the technology landscape.
@@ -45,6 +47,8 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Enterprise Architecture
 
 Enterprise architecture practice can be understood as an occupation in which responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.

@@ -16,6 +16,8 @@ showTitle = true
 
 How human skills and agentic skills are dynamically integrated and coordinated across bioinformatics operations and technical support
 
+{{< preview >}}
+
 ## 1.1. Bioinformatics Technician as an Occupation
 
 A bioinformatics technician executes, maintains, and monitors the operational infrastructure required to process, store, and manage large-scale biological data. While bioinformatics scientists focus on developing novel algorithms and interpreting complex molecular models, the bioinformatics technician serves as the operational backbone, ensuring that routine computational pipelines run reliably, sequencing data meets stringent quality standards, biological metadata is accurately tracked, and computational resources remain available for research teams. This occupation connects wet-laboratory outputs with computational analysis environments by transforming raw sequencing instrument files and sample manifests into rigorously quality-controlled, securely stored, and properly formatted datasets ready for advanced scientific inquiry. To ensure this operational flow remains uninterrupted, the technician must understand how experimental designs, laboratory information management systems (LIMS), file system architectures, and standard operating procedures (SOPs) collectively determine the integrity and usability of biological data.
@@ -49,6 +51,8 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Bioinformatics Operations
 
 Bioinformatics technical operations can be understood as an occupation where responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.

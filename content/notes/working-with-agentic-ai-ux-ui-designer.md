@@ -16,6 +16,8 @@ showTitle = true
 
 *How human skills and agentic skills are dynamically integrated and coordinated across UX/UI design responsibilities*
 
+{{< preview >}}
+
 ## 1.1. UX/UI Designer as an Occupation
 
 A **UX/UI designer** designs and optimizes digital interfaces and user experiences by conducting user research, creating wireframes and prototypes, designing visual elements, and conducting usability testing. This occupation connects user needs with technical implementation by defining interaction models, information architectures, visual languages, and usability standards that support intuitiveness, accessibility, engagement, and operational effectiveness. To ensure design decisions support long-term user and organizational objectives, the designer must understand how user psychology, business goals, technical constraints, accessibility standards, platform guidelines, and behavioral data collectively shape the digital product landscape.
@@ -45,6 +47,8 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in UX/UI Design
 
 The work of a UX/UI designer can be understood as a structured set of responsibilities fulfilled through tasks and subtasks, which are executed through actions requiring appropriate configurations of human and agentic skills.

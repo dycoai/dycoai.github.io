@@ -16,6 +16,8 @@ showTitle = true
 
 _How human skills and agentic skills can be dynamically integrated and coordinated across card access and physical credential management responsibilities_
 
+{{< preview >}}
+
 ## 1.1. Card Access Specialist as an Occupation
 
 A **card access specialist** is a professional who administers physical access credentials and related access-control processes to help ensure that authorized individuals receive appropriate, accurate, and secure access to organizational facilities and controlled areas. The occupation connects identity verification, badge and credential production, physical access provisioning, operational security procedures, record management, equipment use, and coordination with employees, contractors, security teams, facilities personnel, and other organizational functions.
@@ -46,6 +48,8 @@ Both skill types can contribute to the same occupational responsibilities, but t
 
 The useful relationship is therefore not a fixed division in which certain responsibilities permanently belong to humans and others belong to AI. Human and agentic involvement can change from one task to another and even between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Card Access Operations
 
 Card access operations can be understood as an occupation in which responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.

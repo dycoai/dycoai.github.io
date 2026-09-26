@@ -16,6 +16,8 @@ showTitle = true
 
 *How human skills and agentic skills are dynamically integrated and coordinated across logistics analysis responsibilities*
 
+{{< preview >}}
+
 ## 1.1. Logistics Analyst as an Occupation
 
 A **logistics analyst** analyzes and optimizes supply chain and logistics operations to reduce costs, improve efficiency, and ensure reliable delivery performance. This occupation supports the movement of goods across suppliers, manufacturing nodes, warehousing facilities, and end customers by analyzing transportation routes, inventory levels, distribution networks, and operational workflows that support scalability, resilience, and cost-effectiveness. To ensure logistics strategies support long-term organizational objectives, the analyst must understand how demand variability, carrier capacity, warehouse constraints, fuel costs, geopolitical factors, and service-level agreements collectively shape the supply chain landscape.
@@ -45,6 +47,8 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Logistics Analysis
 
 The work of a logistics analyst can be understood as a structured set of responsibilities fulfilled through tasks and subtasks, which are executed through actions requiring appropriate configurations of human and agentic skills.

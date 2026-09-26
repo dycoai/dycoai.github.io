@@ -16,6 +16,8 @@ showTitle = true
 
 How human skills and agentic skills are dynamically integrated and coordinated across operations research responsibilities
 
+{{< preview >}}
+
 ## 1.1. Operations Research Analyst as an Occupation
 
 An operations research analyst applies advanced mathematical and analytical methods to help organizations solve complex problems, allocate resources efficiently, and make better decisions. This occupation connects mathematical abstraction, systems engineering, and business strategy by transforming real-world operational constraints and objectives into rigorous quantitative models. Unlike purely descriptive or predictive analytical roles, operations research is fundamentally prescriptive, focusing on optimization, simulation, and decision analysis to determine the best possible course of action. To ensure these mathematical models accurately reflect operational realities and yield implementable solutions, the analyst must understand how physical constraints, system dynamics, uncertainty, organizational objectives, and computational limitations collectively determine the validity and usefulness of the modeled outcomes.
@@ -42,6 +44,8 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Operations Research
 
 Operations research functions can be understood as an occupation where responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.

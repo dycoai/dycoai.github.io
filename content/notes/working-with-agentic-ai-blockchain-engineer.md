@@ -16,7 +16,10 @@ showTitle = true
 
 How human skills and agentic skills are dynamically integrated and coordinated across blockchain engineering responsibilities
 
+{{< preview >}}
+
 ## 1.1. Blockchain Engineer as an Occupation
+
 A blockchain engineer designs, implements, and secures distributed ledger protocols, consensus mechanisms, and smart contracts to build scalable, trustless, and decentralized systems. This occupation connects cryptography, distributed systems theory, game theory, and software engineering by transforming theoretical trust models and economic incentives into robust, immutable, and executable network architectures. To ensure that these decentralized systems operate securely and efficiently without central oversight, the engineer must understand how cryptographic primitives, network latency, state machine replication, economic attack vectors, and scalability constraints collectively determine the viability and security of the blockchain ecosystem.
 
 Typical responsibilities of a blockchain engineer include:
@@ -40,6 +43,8 @@ Agentic skills are reusable capabilities available to AI agents through their un
 Both skill types contribute to the same occupational responsibilities, but their involvement varies by action. Understanding the economic implications of a novel tokenomics model or identifying a complex logical re-entrancy exploit relies primarily on human knowledge of game theory and adversarial thinking; an AI agent may then use agentic skills to generate thousands of fuzzing test cases, simulate network congestion, and scan the codebase for known vulnerability signatures. In protocol design, the engineer first determines the appropriate consensus mechanism and trust assumptions, and an AI agent subsequently scaffolds the peer-to-peer networking code and simulates message propagation latencies. Across these actions, human and agentic skills are activated sequentially or iteratively based on task requirements, with the human professional maintaining oversight and final judgment.
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
+
+{{< /preview >}}
 
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Blockchain Engineering
 

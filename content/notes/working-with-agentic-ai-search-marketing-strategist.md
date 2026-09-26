@@ -16,6 +16,8 @@ showTitle = true
 
 _How human skills and agentic skills are dynamically integrated and coordinated across search marketing responsibilities_
 
+{{< preview >}}
+
 ## 1.1. Search Marketing Strategist as an Occupation
 
 A **search marketing strategist** develops, implements, and optimizes search engine marketing (SEM) and search engine optimization (SEO) strategies to increase online visibility, drive targeted traffic, and maximize return on investment. This occupation connects organizational objectives with how people search by defining campaign structures, optimizing digital assets, and analyzing search behavior and performance across paid and organic channels. To ensure search strategies support long-term organizational objectives, the strategist must understand how search engine systems, user intent, competitive conditions, technical site infrastructure, and budget constraints collectively affect search visibility, campaign performance, and business outcomes.
@@ -45,6 +47,8 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Search Marketing
 
 The work of a search marketing strategist can be understood as a structured set of responsibilities fulfilled through tasks and subtasks, which are executed through actions requiring appropriate configurations of human and agentic skills.

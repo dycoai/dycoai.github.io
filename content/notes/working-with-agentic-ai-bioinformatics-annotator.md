@@ -16,6 +16,8 @@ showTitle = true
 
 How human skills and agentic skills are dynamically integrated and coordinated across bioinformatics annotation responsibilities
 
+{{< preview >}}
+
 ## 1.1. Bioinformatics Annotator as an Occupation
 
 A bioinformatics annotator assigns biological meaning, functional classifications, and structured metadata to raw molecular data, genomic sequences, and biological literature. This occupation connects molecular biology, biochemistry, and data science by transforming uncharacterized sequences, structural models, and unstructured scientific texts into standardized, computable biological knowledge. To ensure that these annotations accurately reflect current scientific consensus and support reliable downstream computational research, the annotator must understand how biological nomenclature, standardized ontologies, experimental evidence codes, and curation guidelines collectively determine the validity and interoperability of biological databases.
@@ -43,6 +45,8 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Bioinformatics Annotation
 
 Bioinformatics annotation functions can be understood as an occupation where responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.

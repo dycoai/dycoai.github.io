@@ -16,6 +16,8 @@ showTitle = true
 
 _How human skills and agentic skills can be dynamically integrated and coordinated across machine learning engineering responsibilities_
 
+{{< preview >}}
+
 ## 1.1. Machine Learning Engineer as an Occupation
 
 A **machine learning engineer** is a professional who designs, develops, evaluates, deploys, maintains, and improves machine learning systems that use data and computational models to produce predictions, classifications, recommendations, generated outputs, or other results. The occupation connects machine learning methods with software engineering, data systems, computing infrastructure, and production environments.
@@ -47,6 +49,8 @@ Both skill types can contribute to the same occupational responsibilities, but t
 
 The useful relationship is therefore not a fixed division in which certain responsibilities permanently belong to humans and others belong to AI. Human and agentic involvement can change from one task to another and even between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Machine Learning Engineering
 
 Machine learning engineering can be understood as an occupation in which responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.

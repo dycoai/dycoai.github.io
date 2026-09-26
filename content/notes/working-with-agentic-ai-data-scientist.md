@@ -16,6 +16,8 @@ showTitle = true
 
 How human skills and agentic skills are dynamically integrated and coordinated across data science responsibilities
 
+{{< preview >}}
+
 ## 1.1. Data Scientist as an Occupation
 
 A data scientist collects, prepares, analyzes, models, interprets, and communicates data to answer complex questions and support evidence-based decisions. This occupation connects statistical reasoning, machine learning, data engineering, domain understanding, and communication by transforming raw data into analytical findings, predictive models, experimental evidence, and decision-support outputs. To ensure that this work produces reliable value, the data scientist must understand how problem definitions, data sources, modeling methods, evaluation criteria, technical constraints, stakeholder needs, and organizational consequences collectively determine the meaning and usefulness of analytical results.
@@ -44,6 +46,8 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Data Science
 
 Data science functions can be understood as an occupation where responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.

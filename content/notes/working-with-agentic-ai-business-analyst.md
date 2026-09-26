@@ -16,6 +16,8 @@ showTitle = true
 
 *How Human Skills and Agentic Skills Dynamically Combine Across business analysis Responsibilities*
 
+{{< preview >}}
+
 ## 1.1. business analysis as Professional Work
 
 A **business analyst** works at the intersection of business needs, organizational processes, information, technology, stakeholders, and solution development. The role involves understanding what an organization or stakeholder is trying to accomplish, identifying business problems and opportunities, eliciting and analyzing requirements, examining existing processes and systems, identifying gaps between current and desired conditions, evaluating possible solutions, documenting requirements and process models, analyzing data and information flows, supporting solution design and implementation, facilitating communication among business and technical participants, and evaluating whether implemented changes satisfy intended objectives. business analysts may also contribute to business cases, risk and impact assessments, testing, change management, process improvement, technology transformation, data governance, and other initiatives in which business needs must be translated into actionable requirements and coordinated organizational changes. Their responsibilities therefore extend beyond documenting requirements: they continuously translate information among business objectives, stakeholder needs, operational processes, data, technology capabilities, organizational constraints, risks, costs, and proposed solutions while applying professional knowledge and judgment to determine what information matters, what problems should be addressed, what changes are feasible, and how organizational value can be achieved.
@@ -26,6 +28,8 @@ A **business analyst** works at the intersection of business needs, organization
 
 Within business analysis, these capabilities can be applied to activities such as processing stakeholder information, extracting and organizing requirements, analyzing business processes, examining data and process flows, comparing current and future states, identifying gaps and dependencies, generating preliminary process models, evaluating solution alternatives, preparing business cases, analyzing risks and impacts, maintaining requirements traceability, supporting testing, preparing stakeholder communications, and consolidating information across organizational functions. Their practical value does not depend on transferring an entire professional responsibility to AI. Instead, agentic skills can participate selectively at the level of individual tasks and subtasks, allowing work to be distributed according to the capabilities, information, reliability, authority, and judgment required at a particular moment.
 
+
+{{< /preview >}}
 ## 1.3. Human Skills and Agentic Skills
 
 **Human skills** refer to the professional capabilities that a business analyst can apply when performing work, including business knowledge, analytical reasoning, experiential judgment, contextual interpretation, stakeholder communication, facilitation, negotiation, organizational understanding, situational awareness, problem formulation, responsibility for recommendations, and the ability to evaluate consequences within a specific business and organizational context. Human skills also include many information-processing capabilities that AI can perform, such as analysis, comparison, classification, explanation, and problem solving. Human and agentic skills should therefore not be treated as completely separate capability categories.

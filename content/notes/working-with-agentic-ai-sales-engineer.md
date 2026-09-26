@@ -16,6 +16,8 @@ showTitle = true
 
 _How Human Skills and Agentic Skills Dynamically Combine Across Sales Engineering Responsibilities_
 
+{{< preview >}}
+
 ## 1.1. Sales Engineering as Professional Work
 
 A **Sales Engineer** works at the intersection of customer needs, technical knowledge, solution development, and the commercial sales process. The role involves understanding what a prospective customer is trying to accomplish, identifying business and technical requirements, examining existing workflows and technical environments, determining whether and how available products or services can address those requirements, explaining relevant capabilities and limitations, designing appropriate solutions, conducting demonstrations and proofs of concept, answering technical questions, addressing concerns, contributing to proposals, and supporting customers throughout technical evaluation and purchasing decisions. Sales Engineers also connect customer-facing sales activities with internal product, engineering, implementation, customer success, security, support, and other functions, helping ensure that customer requirements are accurately understood and proposed solutions are technically realistic. Their responsibilities therefore extend beyond explaining product features: they continuously translate information among customer problems, technical possibilities, business value, implementation requirements, organizational constraints, and commercial considerations while applying professional knowledge and judgment to determine what information matters, what actions should follow, and how technical confidence can be established throughout the sales process.
@@ -26,6 +28,8 @@ A **Sales Engineer** works at the intersection of customer needs, technical know
 
 Within sales engineering, these capabilities can be applied to activities such as processing customer information, extracting and organizing requirements, retrieving product knowledge, comparing alternatives, generating preliminary solution designs, preparing demonstrations, analyzing technical questions, drafting proposal content, evaluating proof-of-concept results, maintaining opportunity context, and consolidating information across teams. Their practical value does not depend on transferring an entire professional responsibility to AI. Instead, agentic skills can participate selectively at the level of individual tasks and subtasks, allowing work to be distributed according to the capabilities, information, reliability, authority, and judgment required at a particular moment.
 
+
+{{< /preview >}}
 ## 1.3. Human Skills and Agentic Skills
 
 **Human skills** refer to the professional capabilities that a Sales Engineer can apply when performing work, including technical knowledge, experiential judgment, contextual interpretation, interpersonal communication, negotiation, relationship development, situational awareness, organizational understanding, responsibility for commitments, and the ability to evaluate consequences within a specific customer and business context. Human skills also include many information-processing capabilities that AI can perform, such as analysis, comparison, explanation, and problem solving. Human and agentic skills should therefore not be treated as completely separate capability categories.

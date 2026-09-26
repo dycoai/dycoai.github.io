@@ -16,6 +16,8 @@ showTitle = true
 
 *How human skills and agentic skills are dynamically integrated and coordinated across business intelligence responsibilities*
 
+{{< preview >}}
+
 ## 1.1. Business Intelligence Analyst as an Occupation
 
 A **business intelligence analyst** collects, organizes, analyzes, interprets, and communicates business information to support organizational decision-making. This occupation connects data analysis with strategic objectives by transforming financial, market, customer, operational, and competitive data into actionable intelligence. To ensure this information drives effective decisions, the analyst must understand how business questions, data sources, analytical methods, performance measures, and stakeholder requirements collectively determine its meaning and usefulness.
@@ -45,6 +47,8 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Business Intelligence Analysis
 
 Business intelligence analysis functions can be understood as an occupation where responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.

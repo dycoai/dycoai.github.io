@@ -15,6 +15,8 @@ showTitle = true
 # 1. Working with Agentic AI: Insect Production Scientist
 How human skills and agentic skills are dynamically integrated and coordinated across insect production responsibilities
 
+{{< preview >}}
+
 ## 1.1. Insect Production Scientist as an Occupation
 An insect production scientist designs, manages, and optimizes mass-rearing systems to generate scalable biological outputs for agricultural, nutritional, and industrial applications. This occupation connects biological sciences with industrial engineering by transforming insect life cycles, nutritional requirements, and environmental constraints into efficient and sustainable production processes. To ensure these systems operate effectively, the scientist must understand how biological questions, environmental data, rearing methods, quality measures, and regulatory requirements collectively determine the viability and usefulness of the production output.
 
@@ -41,6 +43,8 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Insect Production
 Insect production functions can be understood as an occupation where responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.
 

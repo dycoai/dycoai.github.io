@@ -16,6 +16,8 @@ showTitle = true
 
 _How human skills and agentic skills can be dynamically integrated and coordinated across budget analysis responsibilities_
 
+{{< preview >}}
+
 ## 1.1. Budget Analyst as an Occupation
 
 A **budget analyst** is a professional who develops, analyzes, reviews, monitors, and communicates budgets to support the effective allocation and control of financial resources. The occupation connects financial analysis with organizational planning, resource allocation, expenditure control, program requirements, management decisions, and applicable financial policies and procedures.
@@ -47,6 +49,8 @@ Both skill types can contribute to the same occupational responsibilities, but t
 
 The useful relationship is therefore not a fixed division in which certain responsibilities permanently belong to humans and others belong to AI. Human and agentic involvement can change from one task to another and even between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Budget Analysis
 
 Budget analysis can be understood as an occupation in which responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.

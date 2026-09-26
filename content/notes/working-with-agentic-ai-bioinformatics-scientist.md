@@ -16,6 +16,8 @@ showTitle = true
 
 How human skills and agentic skills are dynamically integrated and coordinated across bioinformatics responsibilities
 
+{{< preview >}}
+
 ## 1.1. Bioinformatics Scientist as an Occupation
 
 A bioinformatics scientist develops and applies computational methods, algorithms, and software tools to analyze and interpret complex biological data. This occupation connects molecular biology, computer science, and statistics by transforming high-throughput sequence data, structural molecular information, and multi-omics datasets into biological insights, predictive models, and reproducible analytical pipelines. To ensure that this computational work accurately reflects underlying biological realities, the scientist must understand how molecular mechanisms, experimental designs, data structures, algorithmic limitations, and research objectives collectively determine the validity and usefulness of computational results.
@@ -43,6 +45,8 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Bioinformatics
 
 Bioinformatics functions can be understood as an occupation where responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.

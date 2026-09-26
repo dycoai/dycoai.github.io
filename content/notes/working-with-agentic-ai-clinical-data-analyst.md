@@ -16,6 +16,8 @@ showTitle = true
 
 How human skills and agentic skills are dynamically integrated and coordinated across clinical data responsibilities
 
+{{< preview >}}
+
 ## 1.1. Clinical Data Analyst as an Occupation
 
 A clinical data analyst designs, validates, standardizes, and analyzes patient and clinical research data to ensure scientific integrity, monitor health outcomes, and support regulatory compliance. This occupation connects clinical medicine, research protocols, and data governance by transforming raw electronic health records (EHR), electronic data capture (EDC) inputs, laboratory results, and patient-reported outcomes into rigorously validated, analyzable clinical datasets. To ensure that this data reliably supports medical decisions, research conclusions, and regulatory submissions, the analyst must understand how clinical protocols, patient safety requirements, medical terminologies, data standards, and regulatory frameworks collectively determine the meaning and acceptability of clinical information.
@@ -42,6 +44,8 @@ Both skill types contribute to the same occupational responsibilities, but their
 
 The relationship between these skills is not a fixed division where certain responsibilities permanently belong to humans and others to AI. Instead, human and agentic involvement shifts across tasks and between different actions within the same task.
 
+
+{{< /preview >}}
 ## 1.3. Dynamic Human–Agentic Skill Integration and Collaboration in Clinical Data Analysis
 
 Clinical data analysis functions can be understood as an occupation where responsibilities are fulfilled through tasks and subtasks, tasks and subtasks are executed through actions, and actions require appropriate configurations of human and agentic skills.
