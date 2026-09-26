@@ -117,7 +117,7 @@ theme = "scidraft"
       note = "Look up by job title"
   [[menu.main]]
     identifier = "human-agentic-skills"
-    name = "Evolving with AI"
+    name = "Competing and Collaborating with AI"
     url = "/notes/"
     weight = 10
 # [[menu.main]]
