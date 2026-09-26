@@ -5,6 +5,9 @@ enableRobotsTXT = true
 title = "DyCoAI | AI and Me"
 theme = "scidraft"
 
+# GA4 measurement ID: picked up by the theme's head partial (production builds only).
+googleAnalytics = "G-MTJC6NWHQF"
+
 
 
 # Required for the search page: Hugo does not inherit [outputs] from a theme.
