@@ -1,8 +1,8 @@
 +++
 title = "Context Memory & Personalization as an Agentic Skill"
 date = 2026-09-18T12:05:00+08:00
-notesInstitute = "DyCoAI.com"
-notesAuthor = "mengyaozhu"
+institute = "DyCoAI.com"
+author = "mengyaozhu"
 tags = ["Agentic Skill", "Context Memory and Personalization", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true

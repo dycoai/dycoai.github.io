@@ -1,8 +1,8 @@
 +++
 title = "Professional Resume Templates"
 date = 2026-09-16T11:30:00+09:00
-notesInstitute = "DyCoAI.com"
-notesAuthor = "DyCoAI"
+institute = "DyCoAI.com"
+author = "DyCoAI"
 promotion = true
 tags = ["Promotion"]
 +++

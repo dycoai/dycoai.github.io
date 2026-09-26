@@ -1,8 +1,8 @@
 +++
 title = "Tool & API Invocation as an Agentic Skill"
 date = 2026-09-18T08:55:00+08:00
-notesInstitute = "DyCoAI.com"
-notesAuthor = "mengyaozhu"
+institute = "DyCoAI.com"
+author = "mengyaozhu"
 tags = ["Agentic Skill", "Tool and API Invocation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true

@@ -1,8 +1,8 @@
 +++
 title = "Continuous Monitoring & Alerting as an Agentic Skill"
 date = 2026-09-19T08:22:00+08:00
-notesInstitute = "DyCoAI.com"
-notesAuthor = "mengyaozhu"
+institute = "DyCoAI.com"
+author = "mengyaozhu"
 tags = ["Agentic Skill", "Continuous Monitoring", "Alerting", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true

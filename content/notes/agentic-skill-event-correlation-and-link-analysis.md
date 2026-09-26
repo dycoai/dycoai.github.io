@@ -1,8 +1,8 @@
 +++
 title = "Event Correlation & Link Analysis as an Agentic Skill"
 date = 2026-09-18T13:37:00+08:00
-notesInstitute = "DyCoAI.com"
-notesAuthor = "mengyaozhu"
+institute = "DyCoAI.com"
+author = "mengyaozhu"
 tags = ["Agentic Skill", "Event Correlation and Link Analysis", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true

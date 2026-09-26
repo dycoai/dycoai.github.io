@@ -1,8 +1,8 @@
 +++
 title = "Data Visualization & Chart Generation as an Agentic Skill"
 date = 2026-09-18T14:22:00+08:00
-notesInstitute = "DyCoAI.com"
-notesAuthor = "mengyaozhu"
+institute = "DyCoAI.com"
+author = "mengyaozhu"
 tags = ["Agentic Skill", "Data Visualization and Chart Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true
