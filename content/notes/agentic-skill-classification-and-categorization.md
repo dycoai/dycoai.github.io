@@ -2,7 +2,7 @@
 title = "Classification & Categorization as an Agentic Skill"
 date = 2026-09-17T09:43:00+08:00
 institute = "DyCoAI.com"
-author = "mengyaozhu"
+author = "zhumengyao"
 tags = ["Agentic Skill", "Classification and Categorization", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true

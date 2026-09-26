@@ -2,7 +2,7 @@
 title = "Natural Language Comprehension as an Agentic Skill"
 date = 2026-09-18T12:40:00+08:00
 institute = "DyCoAI.com"
-author = "mengyaozhu"
+author = "zhumengyao"
 tags = ["Agentic Skill", "Natural Language Comprehension", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true

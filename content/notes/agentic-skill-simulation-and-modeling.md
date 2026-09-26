@@ -2,7 +2,7 @@
 title = "Simulation & Modeling as an Agentic Skill"
 date = 2026-09-18T06:23:00+08:00
 institute = "DyCoAI.com"
-author = "mengyaozhu"
+author = "zhumengyao"
 tags = ["Agentic Skill", "Simulation and Modeling", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true

@@ -2,7 +2,7 @@
 title = "Recommendation & Decision Support as an Agentic Skill"
 date = 2026-09-18T08:07:00+08:00
 institute = "DyCoAI.com"
-author = "mengyaozhu"
+author = "zhumengyao"
 tags = ["Agentic Skill", "Recommendation and Decision Support", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true

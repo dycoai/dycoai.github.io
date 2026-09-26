@@ -2,7 +2,7 @@
 title = "Data & Document Extraction as an Agentic Skill"
 date = 2026-09-17T09:05:00+08:00
 institute = "DyCoAI.com"
-author = "mengyaozhu"
+author = "zhumengyao"
 tags = ["Agentic Skill", "Data and Document Extraction", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true

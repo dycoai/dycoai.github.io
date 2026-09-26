@@ -2,7 +2,7 @@
 title = "Autonomous Vehicle & Fleet Operation as an Agentic Skill"
 date = 2026-09-19T10:05:00+08:00
 institute = "DyCoAI.com"
-author = "mengyaozhu"
+author = "zhumengyao"
 tags = ["Agentic Skill", "Autonomous Vehicle Operation", "Fleet Operation", "Autonomous Navigation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true

@@ -2,7 +2,7 @@
 title = "Multi-Step Reasoning as an Agentic Skill"
 date = 2026-09-18T07:46:00+08:00
 institute = "DyCoAI.com"
-author = "mengyaozhu"
+author = "zhumengyao"
 tags = ["Agentic Skill", "Multi-Step Reasoning", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true

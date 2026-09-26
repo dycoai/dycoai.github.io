@@ -2,7 +2,7 @@
 title = "Prediction & Forecasting as an Agentic Skill"
 date = 2026-09-17T12:38:00+08:00
 institute = "DyCoAI.com"
-author = "mengyaozhu"
+author = "zhumengyao"
 tags = ["Agentic Skill", "Prediction and Forecasting", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true

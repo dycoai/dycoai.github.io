@@ -2,7 +2,7 @@
 title = "Style Transfer & Personalization as an Agentic Skill"
 date = 2026-09-18T07:44:00+08:00
 institute = "DyCoAI.com"
-author = "mengyaozhu"
+author = "zhumengyao"
 tags = ["Agentic Skill", "Style Transfer and Personalization", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
 
 showTitle = true
