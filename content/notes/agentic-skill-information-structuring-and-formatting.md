@@ -4,6 +4,8 @@ date = 2026-09-17T11:08:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Information Structuring and Formatting", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 **Information Structuring & Formatting**, as an **agentic skill**, is the capability of an AI agent to organize extracted or generated content into consistent, usable structures such as schemas, tables, outlines, records, templates, and standardized formats.

@@ -8,6 +8,8 @@ shortDescription = "Processes annuity and securities transactions, accounts, rep
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Annuity and Securities Operations Specialist"]
 author = ["DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Annuity and Securities Operations Specialist

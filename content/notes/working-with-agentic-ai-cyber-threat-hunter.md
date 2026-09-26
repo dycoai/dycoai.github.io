@@ -8,6 +8,8 @@ shortDescription = "Proactively hunts systems, networks, and telemetry for malic
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Cyber Threat Hunter"]
 author = ["DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Cyber Threat Hunter

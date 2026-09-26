@@ -8,6 +8,8 @@ shortDescription = "Aligns business strategy with technology infrastructure by d
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Enterprise Architect"]
 author = ["DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Enterprise Architect

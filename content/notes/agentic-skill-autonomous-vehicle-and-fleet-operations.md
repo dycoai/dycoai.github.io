@@ -4,6 +4,9 @@ date = 2026-09-19T10:05:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Autonomous Vehicle Operation", "Fleet Operation", "Autonomous Navigation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
+
 +++
 
 In transport, delivery, and logistics responsibilities where vehicles must navigate, coordinate, and complete missions with minimal direct human intervention, **Autonomous Vehicle & Fleet Operations** functions as an agentic skill that enables AI systems to operate and coordinate autonomous vehicles or fleets for movement, routing, and mission execution.

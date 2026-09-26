@@ -8,6 +8,8 @@ shortDescription =  "Designs, manages, and optimizes insect breeding and product
 math = true
 tags = [ "AI and Jobs",  "Human Skills",  "Agentic Skills",  "Working with Agentic AI",  "Insect Production Scientist"]
 author = [ "DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Insect Production Scientist

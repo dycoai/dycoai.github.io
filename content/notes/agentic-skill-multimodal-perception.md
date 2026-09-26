@@ -4,6 +4,8 @@ date = 2026-09-18T10:59:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Multimodal Perception", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 Serving as the foundational sensory mechanism for artificial intelligence, multimodal perception allows computational agents to ingest, synthesize, and interpret diverse data streams—such as images, audio, speech, and video—as unified evidence for professional applications.

@@ -5,6 +5,8 @@ pinned = true
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Theoretical Framework", "DyCo Skills"]
 author = ["Mengyao Zhu"]
+
+showTitle = true
 +++
 
 # 1. Dynamic Human–Agentic Skill Integration and Collaboration (DyCo Skills)

@@ -8,6 +8,8 @@ shortDescription = "Integrates hardware, software, and processes into coherent s
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Systems Engineer"]
 author = ["DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Systems Engineer

@@ -8,6 +8,8 @@ shortDescription = "Administers physical access credentials and related access-c
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "card access specialist"]
 author = ["DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Card Access Specialist

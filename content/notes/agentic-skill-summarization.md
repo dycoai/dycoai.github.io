@@ -4,6 +4,8 @@ date = 2026-09-17T09:48:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Summarization", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 As an agentic capability within the domain of information processing, **Summarization** is the systematic condensation of extensive, complex, or numerous data sources into concise, faithful, and decision-ready syntheses tailored to specific levels of granularity.

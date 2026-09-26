@@ -4,6 +4,8 @@ date = 2026-09-19T10:05:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Remote Sensing", "Automated Inspection", "Spatial Analysis", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 **Remote Sensing & Automated Inspection** is an agentic skill that leverages the multimodal perception, pattern recognition, and spatial reasoning capabilities of foundation models to process and interpret remote imagery, point clouds, and environmental measurements for structural, industrial, or ecological surveying.

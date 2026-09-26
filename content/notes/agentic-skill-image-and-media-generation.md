@@ -4,6 +4,8 @@ date = 2026-09-18T07:34:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Image and Media Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 When an AI agent must create visual or audiovisual material, **Image & Media Generation** is the **agentic skill** that produces and edits images, illustrations, audio, and video assets from prompts, references, specifications, or existing media.

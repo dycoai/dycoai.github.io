@@ -4,6 +4,8 @@ date = 2026-09-19T10:05:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Provenance", "Source Attribution", "Information Traceability", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 **Provenance & Source Attribution** is an agentic skill that leverages the foundational capabilities of AI models to systematically track, document, and report the sources and origins of facts, data, and generated content through precise citations and traceability markers.

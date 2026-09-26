@@ -4,6 +4,8 @@ date = 2026-09-18T12:12:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Compliance and Guardrail Enforcement", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 Functioning as an intrinsic regulatory mechanism, **Compliance and Guardrail Enforcement** is an agentic skill that restricts an artificial system's own behaviors, generated content, and operational actions to predefined safety, ethical, and policy boundaries.

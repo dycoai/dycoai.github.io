@@ -8,6 +8,8 @@ shortDescription = "Designs, validates, standardizes, and analyzes clinical and 
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Clinical Data Analyst"]
 author = ["DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Clinical Data Analyst

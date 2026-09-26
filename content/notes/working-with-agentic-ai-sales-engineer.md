@@ -8,6 +8,8 @@ shortDescription = "Bridges sales and engineering by demonstrating technical sol
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Sales Engineer"]
 author = ["DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Sales Engineer

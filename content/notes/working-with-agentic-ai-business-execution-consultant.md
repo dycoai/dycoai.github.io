@@ -8,6 +8,8 @@ shortDescription = "Translates strategic objectives into operational reality by 
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "business execution consultant"]
 author = ["DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Business Execution Consultant

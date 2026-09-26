@@ -4,6 +4,8 @@ date = 2026-09-18T12:03:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Self-Critique and Uncertainty Reporting", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 Self-Critique & Uncertainty Reporting represents a critical agentic skill wherein an artificial intelligence system actively evaluates and communicates the reliability of its own generated outputs.

@@ -4,6 +4,8 @@ date = 2026-09-18T06:28:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Text Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 **Text Generation** is an agentic skill that enables an AI agent to compose, rewrite, and edit natural-language material such as reports, summaries, correspondence, documentation, and instructional content.

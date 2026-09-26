@@ -4,6 +4,8 @@ date = 2026-09-18T07:46:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Multi-Step Reasoning", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 When an AI agent must move beyond simple retrieval or classification to handle a problem that requires intermediate judgments, Multi-Step Reasoning is the agentic skill that decomposes the problem and chains inference steps toward a conclusion or actionable direction.

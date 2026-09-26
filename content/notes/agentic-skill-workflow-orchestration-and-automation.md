@@ -4,6 +4,8 @@ date = 2026-09-18T09:54:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Workflow Orchestration and Automation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 Where individual tool calls handle discrete operations, Workflow Orchestration & Automation addresses a higher-order challenge: coordinating multiple sequential and parallel steps into a coherent end-to-end digital process.

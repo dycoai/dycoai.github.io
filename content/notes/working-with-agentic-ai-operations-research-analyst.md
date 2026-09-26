@@ -8,6 +8,8 @@ shortDescription = "Applies advanced mathematical modeling, optimization, simula
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Operations Research Analyst"]
 author = ["DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Operations Research Analyst

@@ -4,6 +4,8 @@ date = 2026-09-17T09:05:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Data and Document Extraction", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 **Data & Document Extraction**, as an agentic skill, is the capability of an AI agent to pull structured values, named entities, dates, amounts, statuses, clauses, and other factual elements out of unstructured or semi-structured materials such as documents, forms, emails, scanned pages, images, tables, and files.

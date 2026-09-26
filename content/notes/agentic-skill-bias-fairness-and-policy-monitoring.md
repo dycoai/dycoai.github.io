@@ -4,6 +4,8 @@ date = 2026-09-19T10:05:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Bias Monitoring", "Fairness Monitoring", "Policy Monitoring", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 **Bias, Fairness & Policy Monitoring** is an agentic skill that leverages the pattern-recognition and analytical capabilities of foundation models to systematically detect potentially biased, unfair, or policy-violating trends across large-scale datasets, generated outputs, and automated decisions.

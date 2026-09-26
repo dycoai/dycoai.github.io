@@ -4,6 +4,8 @@ date = 2026-09-18T09:57:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Query and Command Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 At the interface between human intent and machine-executable operations, Query & Command Generation is the agentic skill that converts task goals into precise database queries, search expressions, or system commands.

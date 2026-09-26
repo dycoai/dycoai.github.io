@@ -4,6 +4,8 @@ date = 2026-09-18T08:51:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Constraint and Rule Checking", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 **Constraint & Rule Checking** equips an AI agent to test candidate outputs against policies, regulations, specifications, and hard constraints before they are accepted for professional use.

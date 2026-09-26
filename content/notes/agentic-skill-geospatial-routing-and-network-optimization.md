@@ -4,6 +4,8 @@ date = 2026-09-19T08:22:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Geospatial Analysis", "Route Optimization", "Network Optimization", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 Operating at the intersection of spatial analysis and logistical efficiency, **Geospatial Routing & Network Optimization** is an agentic skill that enables AI systems to process geographic data and orchestrate efficient pathways to solve complex territorial and distribution challenges.

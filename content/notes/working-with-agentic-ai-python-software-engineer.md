@@ -8,6 +8,8 @@ shortDescription = "Designs, develops, tests, integrates, deploys, maintains, an
 math = true  
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Python Software Engineer"]  
 author = ["DyCoAI"]  
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Python Software Engineer

@@ -4,6 +4,8 @@ date = 2026-09-18T10:01:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Document and File Operations", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 Managing digital records at scale is the focus of Document & File Operations, an agentic skill that enables an AI agent to create, transform, organize, store, retrieve, rename, move, archive, and otherwise handle documents and files according to defined rules.

@@ -8,6 +8,8 @@ shortDescription = "Collects, analyzes, organizes, and communicates business, fi
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Business Intelligence Analyst"]
 author = ["DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Business Intelligence Analyst

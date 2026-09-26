@@ -8,6 +8,8 @@ shortDescription = "Develops computational methods, algorithms, and data pipelin
 math = true  
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Bioinformatics Scientist"]  
 author = ["DyCoAI"]  
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Bioinformatics Scientist

@@ -8,6 +8,8 @@ shortDescription = "Designs and optimizes digital interfaces and user experience
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "UX and UI Designer"]
 author = ["DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: UX/UI Designer

@@ -8,6 +8,8 @@ shortDescription = "Analyzes and optimizes supply chain and logistics operations
 math = true
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Logistics Analyst"]
 author = ["DyCoAI"]
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Logistics Analyst

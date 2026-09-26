@@ -4,6 +4,8 @@ date = 2026-09-19T08:22:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Hypothesis Generation", "Hypothesis Testing", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 Serving as a systematic engine for investigative inquiry, **Hypothesis Generation & Testing** is an agentic skill that formulates testable propositions from incomplete evidence and designs or conducts discriminating checks to confirm or refute them.

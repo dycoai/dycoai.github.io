@@ -4,6 +4,8 @@ date = 2026-09-19T08:22:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Continuous Monitoring", "Alerting", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 Distinct from one-time analysis or periodic review, **Continuous Monitoring & Alerting** is an **agentic skill** that enables an AI agent to observe systems, data streams, processes, or environmental conditions over time and generate notifications when predefined thresholds, patterns, or anomalous states are detected.

@@ -4,6 +4,8 @@ date = 2026-09-18T14:12:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Requirement and Intent Extraction", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 Requirement & Intent Extraction gives an AI agent the ability to identify what stakeholders are asking for, what they need, and what they intend, even when those points are only partially stated.

@@ -4,6 +4,8 @@ date = 2026-09-18T06:23:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Simulation and Modeling", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 When a task requires understanding how a system, design, or scenario may behave before committing resources or decisions, **Simulation & Modeling** equips an AI agent to construct, configure, and execute computational representations of that system.

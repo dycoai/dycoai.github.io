@@ -8,6 +8,8 @@ shortDescription = "Designs, develops, integrates, and maintains software system
 math = true  
 tags = ["AI and Jobs", "Human Skills", "Agentic Skills", "Working with Agentic AI", "Generative AI Software Engineer"]  
 author = ["DyCoAI"]  
+
+showTitle = true
 +++
 
 # 1. Working with Agentic AI: Generative AI Software Engineer

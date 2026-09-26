@@ -4,6 +4,8 @@ date = 2026-09-19T10:05:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Explanation Generation", "Rationale Generation", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 Making the reasoning behind a conclusion intelligible to human reviewers, **Explanation & Rationale Generation** is the agentic skill through which an AI agent articulates, in human-understandable terms, how a particular conclusion, recommendation, or output was reached.

@@ -4,6 +4,8 @@ date = 2026-09-18T12:40:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Natural Language Comprehension", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 Before an AI agent can retrieve, extract, summarize, or act upon any textual input, it must first parse and understand what that input means, and this Natural Language Comprehension is the agentic skill that performs this foundational act of sense-making.

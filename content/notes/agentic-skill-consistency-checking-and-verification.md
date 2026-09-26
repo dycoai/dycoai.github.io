@@ -4,6 +4,8 @@ date = 2026-09-18T08:33:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Consistency Checking and Verification", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 When an AI agent must determine whether produced information is dependable, **Consistency Checking & Verification** serves as the agentic skill that systematically compares facts, figures, statements, and internal relationships against source material, prior outputs, and explicit rules.

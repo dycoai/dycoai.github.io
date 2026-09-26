@@ -4,6 +4,8 @@ date = 2026-09-17T12:44:00+08:00
 notesInstitute = "DyCoAI.com"
 notesAuthor = "mengyaozhu"
 tags = ["Agentic Skill", "Optimization", "Human-Agentic Skill Competition and Collaboration", "Dynamic Human-Agentic Skill Integration"]
+
+showTitle = true
 +++
 
 When deployed by **AI agents** to improve decisions under constraints, **Optimization** is the agentic skill of searching for best or near-best solutions among feasible alternatives according to defined objectives.
