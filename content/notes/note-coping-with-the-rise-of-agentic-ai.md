@@ -13,3 +13,25 @@ How much should we expect to remain unchanged in our work and learning as agenti
 From my perspective, coping with agentic AI therefore means adjusting the way I think about work and learning. Instead of focusing only on protecting tasks from being replaced, I think it is more useful to understand which abilities AI can perform better and which abilities still require human judgment, experience, and responsibility. In work, this may mean allowing AI to take over routine or highly structured tasks while developing skills that complement its capabilities. In learning, it means using AI to improve understanding and efficiency without depending on it so much that independent thinking becomes weaker. I do not think the goal should be to compete with AI in every area. It is more practical to accept that some forms of human work will be replaced, learn how to work alongside increasingly capable systems, and continue developing the abilities that allow us to make meaningful use of them.
 
 
+```mermaid
+graph TD
+    A([Recognize that AI systems are improving]) --> B[Accept that AI may replace some tasks]
+    B --> C[Adjust work and learning methods]
+    
+    C --> D{Which area is being adjusted?}
+    
+    D -- "Work" --> E[Let AI handle routine tasks]
+    E --> F[Keep human judgment for complex decisions]
+    
+    D -- "Learning" --> G[Use AI to learn more effectively]
+    G --> H[Continue thinking independently]
+    
+    F --> I[Develop skills that work well with AI]
+    H --> I
+    
+    I --> J([Use AI and human ability together])
+```
+
+
+
+
