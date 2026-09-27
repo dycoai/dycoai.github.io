@@ -35,30 +35,5 @@ graph TD
 ```
 
 
-```mermaid
-sequenceDiagram
-    actor Human
-    participant Agent as AI Agent
-    
-    Human->>Human: Define explicit objectives and constraints
-    Human->>Agent: Transmit the initial task instruction
-    
-    loop Iterative Refinement Cycle
-        Agent-->>Human: Generate output based on the instruction
-        Human->>Human: Evaluate the agent's interpretation
-        alt The instruction was vague or misunderstood
-            Human->>Human: Refine the terminology and structure
-            Human->>Agent: Transmit the adjusted instruction
-        else The instruction was precise and clear
-            Note over Human,Agent: Mutual understanding is achieved
-        end
-    end
-    
-    Agent->>Agent: Execute the complex task smoothly
-    Agent-->>Human: Deliver the final results
-    Note over Human,Agent: Establish reliable human-AI collaboration
-```
-
-
 
 
