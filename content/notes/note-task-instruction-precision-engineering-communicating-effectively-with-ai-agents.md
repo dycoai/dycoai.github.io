@@ -18,4 +18,47 @@ Perhaps the term **Task Instruction Precision Engineering** has already been use
 
 
 
+```mermaid
+graph TD
+    A([Define the Explicit Objective]) --> B[Draft the Task Instruction]
+    
+    B --> C{Is the Instruction Precise?}
+    
+    C -- No --> D[The AI Agent Misinterprets the Intent]
+    D --> E[Initiate Clarification and Correction]
+    E --> F[Refine Terminology, Constraints, and Structure]
+    F --> B
+    
+    C -- Yes --> G[The AI Agent Accurately Comprehends the Intent]
+    G --> H[Execute the Task Efficiently]
+    H --> I([Establish Reliable Human-AI Collaboration])
+```
+
+
+```mermaid
+sequenceDiagram
+    actor Human
+    participant Agent as AI Agent
+    
+    Human->>Human: Define explicit objectives and constraints
+    Human->>Agent: Transmit the initial task instruction
+    
+    loop Iterative Refinement Cycle
+        Agent-->>Human: Generate output based on the instruction
+        Human->>Human: Evaluate the agent's interpretation
+        alt The instruction was vague or misunderstood
+            Human->>Human: Refine the terminology and structure
+            Human->>Agent: Transmit the adjusted instruction
+        else The instruction was precise and clear
+            Note over Human,Agent: Mutual understanding is achieved
+        end
+    end
+    
+    Agent->>Agent: Execute the complex task smoothly
+    Agent-->>Human: Deliver the final results
+    Note over Human,Agent: Establish reliable human-AI collaboration
+```
+
+
+
 
